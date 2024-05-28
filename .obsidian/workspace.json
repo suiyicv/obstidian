@@ -11,8 +11,12 @@
             "id": "031faedaf776c315",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "云计算/Linux/text.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -100,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/Linux/text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/Linux/text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/Linux/text.md"
+              }
             }
           }
         ],
@@ -159,6 +167,7 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
+    "云计算/Linux/text.md",
     "云计算/Git/Git 版本控制器.md",
     "README.md",
     "云计算/Git/Git Branch.md",
