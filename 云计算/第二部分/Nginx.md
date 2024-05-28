@@ -262,7 +262,8 @@ vim /usr/local/nginx/conf/nginx.conf
 ![[Pasted image 20240528150820.png]]
 /usr/local/nginx/sbin/nginx -s reload 
 让配置生效
-然后还是未生效
+客户端访问，客户端在hosts文件，添加dns地址解析
+但是访问失败！
 ![[Pasted image 20240528161432.png|275]]
 
 经过排查是因为客户端开了vpn，把vpn关掉即可正常访问
@@ -272,3 +273,20 @@ vim /usr/local/nginx/conf/nginx.conf
 
 
 (2)基于IP地址的虚拟机配置
+
+添加一个网卡，配置好ip地址
+![[Pasted image 20240528164947.png]]
+
+添加一个测试界面
+/vedio/index.html
+vim   /usr/local/nginx/conf.d/vedio.cnf
+![[Pasted image 20240528170905.png]]
+
+加载到 
+vim /usr/local/nginx/conf/nginx.conf
+![[Pasted image 20240528171032.png]]
+检查语法
+/usr/local/nginx/sbin/nginx -t
+/usr/local/nginx/sbin/nginx -s reload
+客户端测试
+![[Pasted image 20240528171144.png|340]]
