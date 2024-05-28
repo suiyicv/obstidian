@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -130,14 +128,6 @@
             }
           },
           {
-            "id": "4c212bcda71f6421",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
             "id": "abcd43b55624fa10",
             "type": "leaf",
             "state": {
@@ -152,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,6 +158,10 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-05-28 21.17.27.excalidraw.md",
+    "云计算/第二部分/Nginx.md",
+    "Excalidraw/Drawing 2024-05-28 10.16.23.excalidraw.md",
+    "云计算/第二部分/image/Pasted image 20240528105347.png",
     "云计算/第二部分/image/Pasted image 20240528171144.png",
     "云计算/第二部分/image/Pasted image 20240528171032.png",
     "云计算/第二部分/image/Pasted image 20240528170905.png",
@@ -178,11 +171,7 @@
     "云计算/第二部分/image/Pasted image 20240528150820.png",
     "云计算/第二部分/image/Pasted image 20240528150740.png",
     "云计算/第二部分/image/Pasted image 20240528150507.png",
-    "云计算/第二部分/image/Pasted image 20240528150006.png",
-    "云计算/第二部分/image/Pasted image 20240528145912.png",
     "云计算/第二部分/image",
-    "Excalidraw/Drawing 2024-05-28 10.16.23.excalidraw.md",
-    "云计算/第二部分/Nginx.md",
     "云计算/第一部分/Git/Git Branch.md",
     "云计算/第一部分/Git/Git 版本控制器.md",
     "云计算/第二部分",
