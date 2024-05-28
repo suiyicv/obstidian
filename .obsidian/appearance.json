@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "cssTheme": "Atom",
+  "theme": "system",
+  "baseFontSize": 16,
+  "monospaceFontFamily": "Microsoft YaHei UI",
+  "textFontFamily": "Microsoft YaHei,Microsoft Sans Serif,Microsoft YaHei UI",
+  "baseFontSizeAction": true
+}
