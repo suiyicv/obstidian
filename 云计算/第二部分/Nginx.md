@@ -290,3 +290,4 @@ vim /usr/local/nginx/conf/nginx.conf
 /usr/local/nginx/sbin/nginx -s reload
 客户端测试
 ![[Pasted image 20240528171144.png|340]]
+ 
