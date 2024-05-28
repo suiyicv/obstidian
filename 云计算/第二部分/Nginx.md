@@ -213,7 +213,7 @@ keepalive_requests 1000;  //最大请求数
 基于名称的虚拟主机  
 基于IP的虚拟主机
 
-基于名称的虚拟主机配置
+### (1)基于名称的虚拟主机配置
 
 规划
 music.linux.com
@@ -271,3 +271,4 @@ vim /usr/local/nginx/conf/nginx.conf
 
 
 
+(2)基于IP地址的虚拟机配置
