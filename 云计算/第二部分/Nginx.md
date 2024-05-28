@@ -59,3 +59,19 @@ netstat -tunlp | grep nginx
 启动之后查看进程
 ps -elf | grep nginx
 ![[Pasted image 20240528110647.png]]
+master process: 主进程，负责记录日志、读取配置文件，管理子进程
+
+设置开机自启
+sed -ri '$a \/usr/local/nginx/sbin/nginx' /etc/rc.d/rc.local
+chmod a+x /etc/rc.d/rc.local
+
+关闭nginx
+/usr/local/nginx/sbin/nginx -s stop
+检测配置文件语法
+/usr/local/nginx/sbin/nginx -t
+### 查看版本
+/usr/local/nginx/sbin/nginx -v
+
+### 加载配置文件
+/usr/local/nginx/sbin/nginx -s reload
+netstat -tunlp | grep nginx
