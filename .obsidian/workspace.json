@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/Git/Git Branch.md",
+                "file": "云计算/Linux/Nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/Git/Git Branch.md",
+                "file": "云计算/Linux/Nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/Git/Git Branch.md",
+                "file": "云计算/Linux/Nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/Git/Git Branch.md"
+                "file": "云计算/Linux/Nginx.md"
               }
             }
           }
@@ -167,28 +168,29 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
-    "云计算/Git/测试测试猜测市场.md",
-    "云计算/Git/Git Branch.md",
     "云计算/Git/Git 简单服务器的使用.md",
+    "云计算/Git/image/Pasted image 20240528095105.png",
     "云计算/Git/Git 版本控制器.md",
-    "云计算/Linux/text.md",
+    "云计算/Git/image/Pasted image 20240528094556.png",
+    "云计算/Git/image/Pasted image 20240528094118.png",
+    "云计算/Git/image/Pasted image 20240528093953.png",
+    "云计算/Git/image/Pasted image 20240528093835.png",
+    "云计算/Git/image/Pasted image 20240528093707.png",
+    "云计算/Git/image/Pasted image 20240528093459.png",
+    "云计算/Git/image/Pasted image 20240528093400.png",
+    "云计算/Git/Git Branch.md",
+    "云计算/Linux/Nginx.md",
+    "考试.md",
     "README.md",
+    "云计算/Git/测试测试猜测市场.md",
+    "云计算/Linux/text.md",
     "云计算/Git/test.md",
     "Excalidraw/Drawing 2024-05-27 15.08.40.excalidraw.md",
     "云计算/Git/image/Pasted image 20240527165728.png",
     "云计算/Git/image/Pasted image 20240527165257.png",
-    "云计算/Git/image/Pasted image 20240527164835.png",
-    "云计算/Git/image/Pasted image 20240527164720.png",
-    "云计算/Git/image/Pasted image 20240527164417.png",
-    "云计算/Git/image/Pasted image 20240527164115.png",
-    "云计算/Git/image/Pasted image 20240527163537.png",
-    "Excalidraw/image/Pasted Image 20240527161715_062.png",
     "Excalidraw/image",
-    "云计算/Git/image/Pasted image 20240527153447.png",
     "Excalidraw",
-    "考试.md",
     "云计算/Git/测试.md",
-    "云计算/Git/image/Pasted image 20240526232600.png",
     "云计算/Git/image",
     "云计算/Git",
     "未命名.md",

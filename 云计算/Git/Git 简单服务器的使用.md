@@ -6,3 +6,44 @@
 | gitee  | www.gitee.com  | 国内 |
 | gitHub | www.github.com | 国外 |
 
+---
+
+**1.生成ssh key**
+
+ssh-keygen -t rsa -C "2028393350@qq.com"
+window上找到.ssh文件
+C:\Users\20283\.ssh
+
+![[Pasted image 20240528093400.png|700]]
+
+**2.把密钥复制到github上**
+![[Pasted image 20240528093707.png|700]]
+
+**3.验证是否设置成功**
+ssh -T git@github.com
+![[Pasted image 20240528093835.png]]
+设置成功后，即可不需要账号密码clone和push代码
+
+**4.建立仓库**
+![[Pasted image 20240528093953.png]]
+![[Pasted image 20240528094118.png]]
+
+**5.进入你想上传的那个本地目录**
+![[Pasted image 20240528094556.png|218]]
+
+**6.配置**
+第一次使用的话，先做初始化设置
+(1).设置用户名，邮箱
+```bash fold title:1.设置用户名|邮箱
+git config --global user.name "Suiyi"
+git config --global user.email "2028393350@qq.com"
+```
+
+(2).设置git里面的颜色高亮
+```bash  fold title:设置git里面的颜色高亮
+git config --global color.ui true
+```
+
+(3).回到GitHub找到该界面，复制到命令行
+![[Pasted image 20240528095105.png|700]]
+成功！
