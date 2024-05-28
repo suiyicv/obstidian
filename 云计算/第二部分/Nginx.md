@@ -262,4 +262,12 @@ vim /usr/local/nginx/conf/nginx.conf
 ![[Pasted image 20240528150820.png]]
 /usr/local/nginx/sbin/nginx -s reload 
 让配置生效
+然后还是未生效
+![[Pasted image 20240528161432.png|275]]
+
+经过排查是因为客户端开了vpn，把vpn关掉即可正常访问
+![[Pasted image 20240528161755.png|325]]
+
+
+
 
