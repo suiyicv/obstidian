@@ -1,0 +1,55 @@
+作用：匹配客户端响应
+
+location [ = | ~ | ~* | ^~ ] uri { … }
+优先级: =, ^~, ~, ~\*, location /
+
+
+1、= 
+精确匹配
+location = /upload {    }
+http://x.x.x.x/upload
+
+2、~ 
+以正则表达式匹配请求，区分大小写
+location ~ /test {    }
+location ~ \\.php$ {    }
+location ~ \\.(jpg|jpeg|gif|png)$ {    }
+http://x.x.x.x/upload/test
+http://x.x.x.x/test/a/b/c
+
+3、~* 
+以正则匹配请求，不区分大小写
+location ~* /download {    }
+http://x.x.x.x/test/download/
+http://x.x.x.x/DownLoad/test
+
+4、^~ 
+不以正则的方式匹配请求
+location ^~ /test {    }
+http://x.x.x.x/test
+
+5、/
+所有请求
+location  /   {    }
+
+
+
+
+
+二、stub_status模块显示工作状态
+    location /status {
+        stub_status;
+        access_log off;
+        allow 192.168.140.1;
+        deny all;
+    }
+
+
+Active connections: 1 				// 当前的活跃连接数
+server accepts handled requests
+ 2809 2809 2937 
+Reading: 0 Writing: 1 Waiting: 0
+
+accepts：接收的连接数
+handlerd：处理的连接
+requests：请求数 
