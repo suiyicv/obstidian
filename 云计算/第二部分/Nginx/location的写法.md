@@ -141,3 +141,17 @@ $1反向引用,他会调用前面的正则表达式第一对括号里的内容
 ![[Pasted image 20240529225416.png]]
 
 4.https自动跳转
+先测试http://secure.linux.com 会跳转到那个网页
+![[Pasted image 20240529231235.png]]
+
+cat /music/index.html
+![[Pasted image 20240529231338.png]]
+发现是我的服务端的music.linux.com网站
+
+所以要在music.conf 添加一个判断改写
+
+![[Pasted image 20240529231832.png]]
+/usr/local/nginx/sbin/nginx -t
+/usr/local/nginx/sbin/nginx -s reload
+
+改完测试加密页面跟其他页面是否都能正常访问
