@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "云计算/第二部分/Nginx.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
