@@ -68,9 +68,75 @@ location /status {
 
 作业：写个脚本把这个状态数字 单独提取出来，差值十以内负载正在，插值十意以外，显示警报
 
-
+```bash 
+#! bin/bash
 curl music.linux.com/status > status.txt 2> /dev/null
-awk 'NR\==3{print "accepts:"$1,"handled:"$2,"requests"$3}' ./status.txt
+awk 'NR==3{print "accepts:"$1,"handled:"$2,"requests"$3}' ./status.txt
+awk 'NR==3{ if( $1-$2 > 10){print "警告"} else{ print "正常"} }' ./status.txt
+```
 
-awk 'NR\==3{if($1-$2 gt 10){print "警告"} else{ print "正常"} }' ./status.txt 
-警告
+
+# 三.rewrite模块
+
+url地址重写
+
+让[服务器](https://so.csdn.net/so/search?q=%E6%9C%8D%E5%8A%A1%E5%99%A8&spm=1001.2101.3001.7020)接收到请求后，根据需求改写地址，以改写的地址给客户端响应
+
+为什么要让服务器改人家的请求？
+1.网站的项目结构发生变化了
+2.网站更换了域名
+3.https的自动跳转
+
+## 1.语法
+
+rewrite  旧uri地址   新uri地址; 
+注意:
+1.旧uri匹配请求时，是不包含请求的参数，不包括<span style="background:#affad1">?后面的内容 </span>
+2.旧uri地址支持正则表达式
+3.避免循环匹配，否则会产生5xx的错误 ,后面的新地址写完整的url地址可避免这个情况发生
+
+## 2.针对项目结构发生变化
+mkdir /music/audio
+vim /music/audio/index.html
+
+客户端访问
+![[Pasted image 20240529221527.png|375]]
+audio目录改名为mp3
+
+mv /music/audio/ /music/mp3
+
+此时客户端访问
+![[Pasted image 20240529221708.png]]
+
+vim /usr/local/nginx/conf.d/music.conf
+![[Pasted image 20240529222140.png]]
+
+客户端访问 music.linux.com/audio
+![[Pasted image 20240529222334.png]]
+![[Pasted image 20240529223028.png|700]]
+
+但是我们现在做的这个改写是有问题的
+
+模拟music/mp3m目录下有多个网页
+echo "music audio a" > /music/mp3/a.html
+echo "music audio b" > /music/mp3/b.html
+
+客户端访问 music.linux.com/audio/a.html
+![[Pasted image 20240529223647.png]]
+
+所以我们要求改的只是audio->mp3,<span style="background:#affad1">只改中间的这个目录名</span>
+music.linux.com/audio/a.html
+music.linux.com/mp3/a.html
+vim /usr/local/nginx/conf.d/music.conf
+![[Pasted image 20240529224458.png]]
+
+$1反向引用,他会调用前面的正则表达式第一对括号里的内容
+
+![[Pasted image 20240529225115.png]]
+现在访问就正常了
+
+
+## 3.网站改名的情况
+
+![[Pasted image 20240529225416.png]]
+
