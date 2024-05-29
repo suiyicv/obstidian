@@ -15,3 +15,22 @@ netstat -tunlp | grep php
 
 将nginx和php融合
 vim /usr/local/nginx/conf.d/vedio.conf
+![[Pasted image 20240529234652.png]]
+
+/usr/local/nginx/sbin/nginx -t
+/usr/local/nginx/sbin/nginx -s reload
+
+测试
+cd /vedio
+vim test1.php
+![[Pasted image 20240529235407.png]]
+![[Pasted image 20240529235452.png]]
+
+vim test2.php
+![[Pasted image 20240529235342.png]]
+
+![[Pasted image 20240529235317.png]]
+
+```ad-success
+搭建完成！！
+```
