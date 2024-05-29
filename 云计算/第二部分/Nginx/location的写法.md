@@ -1,3 +1,5 @@
+# 一.location的写法
+
 作用：匹配客户端响应
 
 location [ = | ~ | ~* | ^~ ] uri { … }
@@ -36,13 +38,18 @@ location  /   {    }
 
 
 
-二、stub_status模块显示工作状态
-    location /status {
+# 二.stub_status模块
+
+显示虚拟主机的工作状态
+
+```bash
+location /status {
         stub_status;
         access_log off;
         allow 192.168.140.1;
         deny all;
     }
+```
 
 
 Active connections: 1 				// 当前的活跃连接数
