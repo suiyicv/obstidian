@@ -63,11 +63,11 @@ location /status {
 | ------------------ | -------- |
 | Active connections | 当前的活跃连接数 |
 | accepts            | 接收的连接数   |
-| handlerd           | 处理的连接    |
+| handled            | 处理的连接    |
 | requests           | 请求数      |
 
 作业：写个脚本把这个状态数字 单独提取出来，差值十以内负载正在，插值十意以外，显示警报
 
 
 curl music.linux.com/status > status.txt 2> /dev/null
-
+awk 'NR\==3{print "accepts:"$1,"handled:"$2,"requests"$3}' ./status.txt
