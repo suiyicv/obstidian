@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Nginx.md",
-                "mode": "preview",
+                "file": "云计算/第二部分/Nginx/Https的虚拟主机.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Nginx.md",
+                "file": "云计算/第二部分/Nginx/Https的虚拟主机.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Nginx.md",
+                "file": "云计算/第二部分/Nginx/Https的虚拟主机.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Nginx.md"
+                "file": "云计算/第二部分/Nginx/Https的虚拟主机.md"
               }
             }
           }
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,8 +160,10 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
+    "云计算/第二部分/Nginx/Nginx基础.md",
+    "云计算/第二部分/Nginx/Https的虚拟主机.md",
+    "云计算/第二部分/Nginx",
     "Excalidraw/Drawing 2024-05-28 21.17.27.excalidraw.md",
-    "云计算/第二部分/Nginx.md",
     "Excalidraw/Drawing 2024-05-28 10.16.23.excalidraw.md",
     "云计算/第二部分/image/Pasted image 20240528105347.png",
     "云计算/第二部分/image/Pasted image 20240528171144.png",
@@ -195,7 +198,6 @@
     "www.baidu.com.md",
     "().md",
     "云计算/第一部分/Mysql",
-    "云计算/第一部分/Shell",
     "Welcome.md"
   ]
 }
