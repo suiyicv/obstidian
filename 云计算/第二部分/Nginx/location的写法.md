@@ -71,3 +71,6 @@ location /status {
 
 curl music.linux.com/status > status.txt 2> /dev/null
 awk 'NR\==3{print "accepts:"$1,"handled:"$2,"requests"$3}' ./status.txt
+
+awk 'NR\==3{if($1-$2 gt 10){print "警告"} else{ print "正常"} }' ./status.txt 
+警告
