@@ -41,22 +41,30 @@ location  /   {    }
 # 二.stub_status模块
 
 显示虚拟主机的工作状态
+vim /usr/local/nginx/conf.d/music.conf
 
 ```bash
 location /status {
         stub_status;
         access_log off;
-        allow 192.168.140.1;
+        allow 192.168.1.101;
         deny all;
     }
 ```
 
+![[Pasted image 20240529205316.png]]
 
-Active connections: 1 				// 当前的活跃连接数
-server accepts handled requests
- 2809 2809 2937 
-Reading: 0 Writing: 1 Waiting: 0
+/usr/local/nginx/sbin/nginx -t
+/usr/local/nginx/sbin/nginx -s reload
 
-accepts：接收的连接数
-handlerd：处理的连接
-requests：请求数 
+![[Pasted image 20240529205448.png]]
+
+| 名称                 | 含义       |
+| ------------------ | -------- |
+| Active connections | 当前的活跃连接数 |
+| accepts            | 接收的连接数   |
+| handlerd           | 处理的连接    |
+| requests           | 请求数      |
+
+作业：写个脚本把这个状态数字 单独提取出来，差值十以内负载正在，插值十意以外，显示警报
+
