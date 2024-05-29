@@ -68,3 +68,6 @@ location /status {
 
 作业：写个脚本把这个状态数字 单独提取出来，差值十以内负载正在，插值十意以外，显示警报
 
+
+curl music.linux.com/status > status.txt 2> /dev/null
+
