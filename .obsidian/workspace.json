@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md",
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md",
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md",
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md"
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md"
               }
             }
           }
@@ -156,10 +156,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd7d2010221d431a",
+  "active": "031faedaf776c315",
   "lastOpenFiles": [
+    "云计算/第一部分/Linux/text.md",
+    "云计算/第一部分/Shell/image/Pasted image 20240530213604.png",
+    "云计算/第一部分/Shell/image",
+    "云计算/第二部分/Tomcat/1.Tomcat安装.md",
     "云计算/第一部分/Git/1.Git 版本控制器.md",
-    "云计算/第二部分/Tomcat/1.tomcat安装.md",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530155334.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530155228.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530150005.png",
@@ -169,7 +172,6 @@
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140529.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140232.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140119.png",
-    "云计算/第二部分/Tomcat/image/Pasted image 20240530135659.png",
     "云计算/第二部分/Tomcat/image",
     "云计算/第二部分/Nginx/nginx平滑升级.md",
     "云计算/第二部分/Tomcat",
@@ -197,11 +199,9 @@
     "Excalidraw/image",
     "Excalidraw",
     "云计算/Git/测试.md",
-    "云计算/第一部分/Git/image",
     "未命名.md",
     "2024-05-26.md",
     "www.baidu.com.md",
-    "().md",
-    "Welcome.md"
+    "().md"
   ]
 }
