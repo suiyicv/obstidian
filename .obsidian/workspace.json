@@ -156,16 +156,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f1375a499410540",
+  "active": "031faedaf776c315",
   "lastOpenFiles": [
     "云计算/第二部分/Nginx/1.Nginx基础.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
+    "云计算/第二部分/Nginx/Https的虚拟主机.md",
+    "云计算/第二部分/Nginx/location的写法.md",
     "云计算/第二部分/Tomcat/1.Tomcat安装.md",
     "Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md",
     "Excalidraw/Drawing 2024-05-28 21.17.27.excalidraw.md",
     "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
     "云计算/第二部分/Nginx/LNMP平台搭建.md",
-    "云计算/第二部分/Nginx/Https的虚拟主机.md",
     "Excalidraw/Drawing 2024-05-27 15.08.40.excalidraw.md",
     "Excalidraw/Drawing 2024-05-28 10.16.23.excalidraw.md",
     "云计算/第二部分/Nginx/nginx平滑升级.md",
@@ -188,7 +189,6 @@
     "笔记插图/image4/Pasted image 20240530143401.png",
     "笔记插图/image4",
     "云计算/第二部分/Tomcat",
-    "云计算/第二部分/Nginx/location的写法.md",
     "笔记插图/image3",
     "云计算/第二部分/Nginx",
     "笔记插图/image2",
