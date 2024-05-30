@@ -88,7 +88,30 @@ upstream模块
 - rr 轮询 默认算法  
     支持权重 weight， 高配置主机处理更多请求  
     会话持久问题，利用NoSQL做会话共享
+    ![[Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md#^group=IrtAaFz3aQ51-yIzB_LPV]]
+    
 - sh 源hash  
     一段时间内，同一个客户端的请求到达同一个后端服务器  
     解决会话持久问题
 - lc 最少连接
+
+3.配置应用
+
+定义后端服务器组， 支持健康状态检查
+nginx服务器会实时检查后端服务器80端口的状态，如果出错则不会往这个服务器发送请求
+```bash
+upstream 组名 {
+	[调度算法];
+	server IP:port weight=权重 fail_timeout=时间 max_fails=次数;
+	server IP:port;
+}
+location uri {
+	proxy_pass http:   //组名;
+}
+```
+
+实验：
+负载均衡，后端部署的业务必须是一样的
+但是为了练习看出差别，暂时使后端业务不同
+
+
