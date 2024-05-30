@@ -1,0 +1,93 @@
+在升级过程中不会影响现有进行的运行，不会影响现有客户端的访问
+
+常规软件升级-必须重启
+1、rpm格式
+	yum update
+	rpm -Uvh
+2、.tar.gz源码
+	再装一遍
+
+nginx做平滑升级
+两个kill 信号
+- USR2  
+    启动新版本进程
+- WINCH  
+    平缓关闭旧工作进程
+
+查看当前版本
+/usr/local/nginx/sbin/nginx -v
+![[Pasted image 20240530125030.png]]
+1.下载新版本安装包
+wget http://nginx.org/download/nginx-1.26.1.tar.gz
+升级不管你添加什么新的模块还在怎么，但是要保证的是，以前的功能不能受到影响
+
+2.以之前的安装参数来编译现在的新版本软件
+
+查看以前的安装参数
+/usr/local/nginx/sbin/nginx -V
+![[Pasted image 20240530125541.png]]
+
+3.解压编译新版本软件
+
+./configure  --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module
+
+重新编译，但是不要安装，平滑升级的关键就在这里
+make
+
+此时就编译出来了一个新版的nginx命令
+再解压目录下的 objs目录里
+ls
+![[Pasted image 20240530130209.png]]
+ls objs/
+![[Pasted image 20240530130234.png]]
+objs/nginx -v
+![[Pasted image 20240530130416.png]]
+
+4.将新版本的nginx拷贝到安装目录
+mv /usr/local/nginx/sbin/nginx   /usr/local/nginx/sbin/nginx.bak
+cp objs/nginx   /usr/local/nginx/sbin/
+ls /usr/local/nginx/sbin/
+![[Pasted image 20240530130846.png]]
+nginx.old是添加一个模块后，重新安装后自动生成的，删到就行
+rm -rf nginx.old
+
+此时有两个版本的nginx
+/usr/local/nginx/sbin/nginx -v
+![[Pasted image 20240530131202.png]]./usr/local/nginx/sbin/nginx.bak -v
+![[Pasted image 20240530131219.png]]
+
+查看当前的nginx进程，这个进程是1.20.2版本的nginx的进程
+ps -elf | grep nginx
+![[Pasted image 20240530131503.png]]
+
+kill USR2 启动新版本
+kill -USR2 $(cat /usr/local/nginx/logs/nginx.pid)
+
+
+ps -elf | grep nginx
+![[Pasted image 20240530131934.png]]
+出现了两套nginx进程
+此时还会出现一个新的pid文件
+cat /usr/local/nginx/logs/nginx.pid
+![[Pasted image 20240530132201.png]]
+存的是最新的nginx进程的pid
+/usr/local/nginx/logs/nginx.pid.oldbin
+![[Pasted image 20240530132317.png]].
+这个是就的nginx进程的pid
+
+
+平缓关闭旧工作进程
+kill -WINCH $(cat /usr/local/nginx/logs/nginx.pid.oldbin)
+ps -elf | grep nginx
+![[Pasted image 20240530132625.png]]
+
+
+清理旧版本的nginx
+kill 1642
+rm -rf nginx.bak
+
+```ad-success
+平滑升级完成！！！
+```
+
+

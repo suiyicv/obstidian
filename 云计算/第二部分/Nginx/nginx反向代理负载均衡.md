@@ -104,6 +104,7 @@ upstream 组名 {
 	[调度算法];
 	server IP:port weight=权重 fail_timeout=时间 max_fails=次数;
 	server IP:port;
+	server IP:port backup;
 }
 location uri {
 	proxy_pass http:   //组名;
@@ -113,5 +114,45 @@ location uri {
 实验：
 负载均衡，后端部署的业务必须是一样的
 但是为了练习看出差别，暂时使后端业务不同
+![[Pasted image 20240530121103.png]]
+
+/usr/local/nginx/sbin/nginx -t
+/usr/local/nginx/sbin/nginx -s reload
+
+客户端验证
+![[Pasted image 20240530121618.png]]
+
+验证健康检查的功能
+
+关闭一个后端httpd服务器
+systemctl stop httpd
+![[Pasted image 20240530122303.png]]
+此时只会有一个web服务器响应
+
+重启关闭的web服务器
+systemctl start httpd
+![[Pasted image 20240530122436.png]]
+此时两个web服务器都会想响应
+
+把后端两个服务器都关闭
+客户但再次访问会显示502的错误
+![[Pasted image 20240530122808.png]]
+不想给用户展示这个界面，可以如下设置
+在nginx服务器建一个虚拟主机
+mkdir /sorry
+vim  /sorry/index.html
+vim /usr/local/nginx/conf/nginx.conf
+
+![[Pasted image 20240530123335.png]]
+![[Pasted image 20240530123425.png]]
+
+现在就不显示502了
+![[Pasted image 20240530123851.png]]
+
+后端的web服务器只要恢复一个。这个backup就会失效
+
+
+
+
 
 

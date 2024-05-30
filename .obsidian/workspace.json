@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
+                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "bbdfb80f64268c27",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md"
               }
             }
           }
@@ -115,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
+                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
+                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,17 +134,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Nginx/nginx反向代理负载均衡.md"
+                "file": "云计算/第二部分/Tomcat/1.tomcat安装.md"
               }
+            }
+          },
+          {
+            "id": "fae5c8683ef46257",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,20 +165,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "031faedaf776c315",
+  "active": "fae5c8683ef46257",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md",
+    "云计算/第二部分/Tomcat/image/Pasted image 20240530140822.png",
+    "云计算/第二部分/Tomcat/image/Pasted image 20240530140529.png",
+    "云计算/第二部分/Tomcat/image/Pasted image 20240530140232.png",
+    "云计算/第二部分/Tomcat/image/Pasted image 20240530140119.png",
+    "云计算/第二部分/Tomcat/image/Pasted image 20240530135659.png",
+    "云计算/第二部分/Tomcat/image/Pasted image 20240530134935.png",
+    "云计算/第二部分/Tomcat/image",
+    "云计算/第二部分/Nginx/nginx平滑升级.md",
+    "云计算/第二部分/Tomcat/1.tomcat安装.md",
+    "云计算/第二部分/Tomcat",
+    "云计算/第二部分/Nginx/image/Pasted image 20240530132625.png",
+    "云计算/第二部分/Nginx/image/Pasted image 20240530132317.png",
+    "云计算/第二部分/Nginx/image/Pasted image 20240530132250.png",
+    "云计算/第二部分/Nginx/image/Pasted image 20240530132201.png",
+    "云计算/第二部分/Nginx/image/Pasted image 20240530131934.png",
     "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530111554.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530111145.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530111038.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530110321.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530110029.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530105436.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530104837.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530103410.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530103104.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530103025.png",
+    "Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md",
     "云计算/第二部分/Nginx/Https的虚拟主机.md",
     "云计算/第二部分/Nginx/LNMP平台搭建.md",
     "云计算/第二部分/Nginx/location的写法.md",
@@ -206,9 +208,7 @@
     "Excalidraw",
     "云计算/Git/测试.md",
     "云计算/第一部分/Git/image",
-    "云计算/第一部分/Git",
     "未命名.md",
-    "未命名",
     "2024-05-26.md",
     "www.baidu.com.md",
     "().md",
