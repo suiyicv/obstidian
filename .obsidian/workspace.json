@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
+                "file": "云计算/第二部分/Nginx/nginx平滑升级.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 285.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
+                "file": "云计算/第二部分/Nginx/nginx平滑升级.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
+                "file": "云计算/第二部分/Nginx/nginx平滑升级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md"
+                "file": "云计算/第二部分/Nginx/nginx平滑升级.md"
               }
             }
           }
@@ -158,14 +158,14 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
-    "云计算/第二部分/Nginx/Https的虚拟主机.md",
-    "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
-    "云计算/第二部分/Nginx/1.Nginx基础.md",
+    "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
     "云计算/第二部分/Nginx/location的写法.md",
+    "云计算/第二部分/Nginx/1.Nginx基础.md",
+    "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
+    "云计算/第二部分/Nginx/Https的虚拟主机.md",
     "云计算/第二部分/Tomcat/1.Tomcat安装.md",
     "Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md",
     "Excalidraw/Drawing 2024-05-28 21.17.27.excalidraw.md",
-    "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
     "云计算/第二部分/Nginx/LNMP平台搭建.md",
     "Excalidraw/Drawing 2024-05-27 15.08.40.excalidraw.md",
     "Excalidraw/Drawing 2024-05-28 10.16.23.excalidraw.md",
