@@ -300,7 +300,7 @@
           "lineNumbers": true,
           "unwrapLines": true,
           "wrapLinesActive": false,
-          "curvature": 8
+          "curvature": 5
         },
         "gutter": {
           "highlight": true,
@@ -355,8 +355,8 @@
       "colours": {
         "light": {
           "codeblock": {
-            "backgroundColour": "#E8E9EC54",
-            "textColour": "--code-normal"
+            "backgroundColour": "#ACE4B563",
+            "textColour": "#CEC4C473"
           },
           "gutter": {
             "backgroundColour": "#E3E3E54A",
@@ -504,8 +504,8 @@
     "colours": {
       "light": {
         "codeblock": {
-          "backgroundColour": "#E8E9EC54",
-          "textColour": "#313135"
+          "backgroundColour": "#ACE4B563",
+          "textColour": "#CEC4C473"
         },
         "gutter": {
           "backgroundColour": "#E3E3E54A",
