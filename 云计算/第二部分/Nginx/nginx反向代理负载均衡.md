@@ -33,3 +33,62 @@ vim /usr/local/nginx/conf/nginx.conf
 客户端测试
 ![[Pasted image 20240530103410.png]]
 
+2.注意：
+反向代理时，nginx会将location中的uri地址自动拼接后端服务器地址，前提是那个后端你自己没写地址
+![[Pasted image 20240530104837.png]]
+
+http://192.168.1.10/fiist --->  http://192.168.140.11/
+如果 写成 http://192.168.140.11 他真是访问的后端服务器的地址为
+http://192.168.1.10/first --->  http://192.168.140.11/first 
+
+location中要涉及到正则匹配，后端服务器<span style="background:#affad1">不支持</span>写具体的uri地址
+![[Pasted image 20240530105436.png]]
+
+
+
+3.后端服务器记录客户端真是IP
+现在我们来查看一下httpd服务的日志文件
+tail -f /var/log/httpd/access_log
+![[Pasted image 20240530110029.png]]
+可见他记录的都是nginx反向代理服务器的ip地址，<span style="background:#affad1">并不是客户端的</span>,为了后端服务器能显示客户端访问的真是IP，需要做以下操作
+
+(1)在nginx反向代理时添加x-real-ip字段
+
+vim /usr/local/nginx/conf/nginx.conf
+![[Pasted image 20240530110321.png]]
+(2)后端httpd修改combined日志格式
+vim /etc/httpd/conf/httpd.conf
+![[Pasted image 20240530111038.png]]
+
+此时日志文件可以记录真是IP了
+![[Pasted image 20240530111145.png]]
+
+(3)后端是nginx的情况
+proxy_set_header X-Forwarded-For  $proxy_add_x_forwarded_for;
+
+修改main日志格式
+$http_x_forwarded_for
+![[Pasted image 20240530111554.png]]
+把红框里面的进行更换
+
+
+
+# 二.负载均衡
+
+upstream模块
+
+![[Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md#^group=nhvcZTntFkPlPZWDjcM99]]
+
+
+
+1、负载均衡作用
+流量分发，提升连接
+
+2、调度算法
+- rr 轮询 默认算法  
+    支持权重 weight， 高配置主机处理更多请求  
+    会话持久问题，利用NoSQL做会话共享
+- sh 源hash  
+    一段时间内，同一个客户端的请求到达同一个后端服务器  
+    解决会话持久问题
+- lc 最少连接
