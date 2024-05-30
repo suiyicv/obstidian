@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5,
-    "collapsed": true
+    "width": 248.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -157,8 +156,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "031faedaf776c315",
+  "active": "bd7d2010221d431a",
   "lastOpenFiles": [
+    "云计算/第一部分/Git/1.Git 版本控制器.md",
+    "云计算/第二部分/Tomcat/1.tomcat安装.md",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530155334.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530155228.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530150005.png",
@@ -169,10 +170,8 @@
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140232.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140119.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530135659.png",
-    "云计算/第二部分/Tomcat/image/Pasted image 20240530134935.png",
     "云计算/第二部分/Tomcat/image",
     "云计算/第二部分/Nginx/nginx平滑升级.md",
-    "云计算/第二部分/Tomcat/1.tomcat安装.md",
     "云计算/第二部分/Tomcat",
     "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
     "Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md",
@@ -182,7 +181,6 @@
     "云计算/第二部分/Nginx/Nginx基础.md",
     "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
     "云计算/第一部分/Git/2.Git Branch.md",
-    "云计算/第一部分/Git/1.Git 版本控制器.md",
     "云计算/第二部分/Nginx/image",
     "云计算/第二部分/Nginx",
     "Excalidraw/Drawing 2024-05-28 21.17.27.excalidraw.md",

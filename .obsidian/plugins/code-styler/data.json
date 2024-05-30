@@ -355,7 +355,7 @@
       "colours": {
         "light": {
           "codeblock": {
-            "backgroundColour": "#ACE4B563",
+            "backgroundColour": "#CDD4CE1A",
             "textColour": "#CEC4C473"
           },
           "gutter": {
@@ -364,7 +364,7 @@
             "activeTextColour": "#414194"
           },
           "header": {
-            "backgroundColour": "#DBEAEA73",
+            "backgroundColour": "#D0D3D573",
             "title": {
               "textColour": "--code-comment"
             },
@@ -504,7 +504,7 @@
     "colours": {
       "light": {
         "codeblock": {
-          "backgroundColour": "#ACE4B563",
+          "backgroundColour": "#CDD4CE1A",
           "textColour": "#CEC4C473"
         },
         "gutter": {
@@ -513,7 +513,7 @@
           "activeTextColour": "#414194"
         },
         "header": {
-          "backgroundColour": "#DBEAEA73",
+          "backgroundColour": "#D0D3D573",
           "title": {
             "textColour": "--code-comment"
           },
