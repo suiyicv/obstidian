@@ -449,7 +449,7 @@
         "lineNumbers": true,
         "unwrapLines": true,
         "wrapLinesActive": false,
-        "curvature": 8
+        "curvature": 5
       },
       "gutter": {
         "highlight": true,
@@ -505,7 +505,7 @@
       "light": {
         "codeblock": {
           "backgroundColour": "#E8E9EC54",
-          "textColour": "--code-normal"
+          "textColour": "#313135"
         },
         "gutter": {
           "backgroundColour": "#E3E3E54A",
