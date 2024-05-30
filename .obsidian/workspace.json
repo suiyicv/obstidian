@@ -137,22 +137,13 @@
                 "file": "云计算/第二部分/Tomcat/1.tomcat安装.md"
               }
             }
-          },
-          {
-            "id": "fae5c8683ef46257",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
