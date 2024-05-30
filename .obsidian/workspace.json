@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,8 +166,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fae5c8683ef46257",
+  "active": "031faedaf776c315",
   "lastOpenFiles": [
+    "云计算/第二部分/Tomcat/image/Pasted image 20240530142254.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140822.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140529.png",
     "云计算/第二部分/Tomcat/image/Pasted image 20240530140232.png",
@@ -181,7 +183,6 @@
     "云计算/第二部分/Nginx/image/Pasted image 20240530132317.png",
     "云计算/第二部分/Nginx/image/Pasted image 20240530132250.png",
     "云计算/第二部分/Nginx/image/Pasted image 20240530132201.png",
-    "云计算/第二部分/Nginx/image/Pasted image 20240530131934.png",
     "云计算/第二部分/Nginx/nginx反向代理负载均衡.md",
     "Excalidraw/Drawing 2024-05-30 10.10.01.excalidraw.md",
     "云计算/第二部分/Nginx/Https的虚拟主机.md",
