@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md",
+                "file": "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md",
+                "file": "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md",
+                "file": "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md"
+                "file": "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md"
               }
             }
           }
@@ -170,22 +170,24 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
-    "笔记插图/Pasted image 20240601180345.png",
-    "笔记插图/Pasted image 20240601180228.png",
-    "笔记插图/Pasted image 20240601180143.png",
-    "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md",
-    "笔记插图/Pasted image 20240601175244.png",
-    "云计算/第二部分/Tomcat/1.Tomcat安装.md",
-    "笔记插图/Pasted image 20240601174517.png",
-    "笔记插图/Pasted image 20240601173943.png",
-    "笔记插图/Pasted image 20240601173621.png",
-    "笔记插图/Pasted image 20240601171401.png",
-    "笔记插图/Pasted image 20240601171005.png",
-    "笔记插图/Pasted image 20240601170928.png",
-    "笔记插图/Pasted image 20240601170710.png",
-    "Excalidraw/Drawing 2024-06-01 16.25.49.excalidraw.md",
-    "云计算/第二部分/Nginx/4.nginx反向代理负载均衡.md",
+    "笔记插图/Pasted image 20240602105450.png",
+    "笔记插图/Pasted image 20240602104909.png",
+    "笔记插图/Pasted image 20240602104843.png",
+    "笔记插图/Pasted image 20240602104307.png",
+    "笔记插图/Pasted image 20240602104155.png",
+    "笔记插图/Pasted image 20240602103832.png",
+    "笔记插图/Pasted image 20240602102656.png",
+    "笔记插图/Pasted image 20240602102627.png",
+    "笔记插图/Pasted image 20240602102538.png",
+    "笔记插图/Pasted image 20240602102516.png",
+    "笔记插图/Pasted image 20240602101909.png",
+    "云计算/第二部分/Tomcat/3.Tomacat 配置文件.md",
+    "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
     "云计算/第二部分/Nginx/3.Nginx模块.md",
+    "云计算/第二部分/Nginx/4.nginx反向代理负载均衡.md",
+    "云计算/第二部分/Tomcat/1.Tomcat安装.md",
+    "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md",
+    "Excalidraw/Drawing 2024-06-01 16.25.49.excalidraw.md",
     "云计算/第二部分/Nginx/5.nginx平滑升级.md",
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
@@ -213,8 +215,6 @@
     "README.md",
     "云计算/Git/测试测试猜测市场.md",
     "云计算/Linux/text.md",
-    "云计算/Git/test.md",
-    "云计算/Git/测试.md",
-    "未命名.md"
+    "云计算/Git/test.md"
   ]
 }
