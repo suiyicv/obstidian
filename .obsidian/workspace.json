@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Redis/2.Redis配置文件解析.md",
+                "file": "云计算/第二部分/Redis/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 285.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Redis/2.Redis配置文件解析.md",
+                "file": "云计算/第二部分/Redis/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Redis/2.Redis配置文件解析.md",
+                "file": "云计算/第二部分/Redis/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Redis/2.Redis配置文件解析.md"
+                "file": "云计算/第二部分/Redis/未命名.md"
               }
             }
           }
@@ -160,19 +159,19 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
+    "云计算/第二部分/Redis/2.Redis配置文件解析.md",
+    "云计算/第二部分/Redis/未命名.md",
     "笔记插图/Pasted image 20240603212427.png",
     "笔记插图/Pasted image 20240603202908.png",
     "笔记插图/Pasted image 20240603202816.png",
     "笔记插图/Pasted image 20240603202439.png",
     "云计算/第二部分/Redis/1.Redis安装.md",
-    "云计算/第二部分/Redis/2.Redis配置文件解析.md",
     "笔记插图/Pasted image 20240603201445.png",
     "笔记插图/Pasted image 20240603200612.png",
     "笔记插图/Pasted image 20240603200550.png",
     "笔记插图/Pasted image 20240603200125.png",
     "笔记插图/Pasted image 20240603195519.png",
     "笔记插图/Pasted image 20240603195436.png",
-    "笔记插图/Pasted image 20240603195343.png",
     "Excalidraw/Drawing 2024-06-03 09.22.32.excalidraw.md",
     "Excalidraw/Drawing 2024-06-01 16.25.49.excalidraw.md",
     "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
