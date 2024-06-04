@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Redis/未命名.md",
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Redis/未命名.md",
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Redis/未命名.md",
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Redis/未命名.md"
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md"
               }
             }
           }
@@ -160,7 +160,7 @@
   "active": "031faedaf776c315",
   "lastOpenFiles": [
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
-    "云计算/第二部分/Redis/未命名.md",
+    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
     "笔记插图/Pasted image 20240603212427.png",
     "笔记插图/Pasted image 20240603202908.png",
     "笔记插图/Pasted image 20240603202816.png",
