@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Redis/1.Redis安装.md",
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Redis/1.Redis安装.md",
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Redis/1.Redis安装.md",
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Redis/1.Redis安装.md"
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md"
               }
             }
           }
@@ -159,6 +159,10 @@
   },
   "active": "031faedaf776c315",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240605213229.png",
+    "云计算/第二部分/Redis/2.Redis配置文件解析.md",
+    "云计算/第二部分/Redis/1.Redis安装.md",
+    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/1.Nginx基础.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
@@ -168,13 +172,10 @@
     "云计算/第二部分/Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/Nginx/3.Nginx模块.md",
     "云计算/第二部分/Nginx/4.nginx反向代理负载均衡.md",
-    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
-    "云计算/第二部分/Redis/2.Redis配置文件解析.md",
     "笔记插图/Pasted image 20240603212427.png",
     "笔记插图/Pasted image 20240603202908.png",
     "笔记插图/Pasted image 20240603202816.png",
     "笔记插图/Pasted image 20240603202439.png",
-    "云计算/第二部分/Redis/1.Redis安装.md",
     "笔记插图/Pasted image 20240603201445.png",
     "笔记插图/Pasted image 20240603200612.png",
     "笔记插图/Pasted image 20240603200550.png",
@@ -203,7 +204,6 @@
     "笔记插图/image3",
     "云计算/第二部分/Nginx",
     "笔记插图/image2",
-    "云计算/第二部分",
-    "考试.md"
+    "云计算/第二部分"
   ]
 }
