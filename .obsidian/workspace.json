@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f30b8738f5895cf2",
+        "id": "eab1310d8fa2025e",
         "type": "tabs",
         "children": [
           {
-            "id": "031faedaf776c315",
+            "id": "ef8cab1e7da0f182",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -104,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -157,12 +149,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "031faedaf776c315",
+  "active": "ef8cab1e7da0f182",
   "lastOpenFiles": [
-    "笔记插图/Pasted image 20240605213229.png",
+    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
+    "笔记插图/Pasted image 20240605231349.png",
+    "笔记插图/Pasted image 20240605231120.png",
+    "笔记插图/Pasted image 20240605231057.png",
+    "笔记插图/Pasted image 20240605230958.png",
+    "笔记插图/Pasted image 20240605230825.png",
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/Redis/1.Redis安装.md",
-    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
+    "笔记插图/Pasted image 20240605230633.png",
+    "笔记插图/Pasted image 20240605230609.png",
+    "笔记插图/Pasted image 20240605230058.png",
+    "笔记插图/Pasted image 20240605225834.png",
+    "笔记插图/Pasted image 20240605225633.png",
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/1.Nginx基础.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
@@ -172,16 +173,6 @@
     "云计算/第二部分/Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/Nginx/3.Nginx模块.md",
     "云计算/第二部分/Nginx/4.nginx反向代理负载均衡.md",
-    "笔记插图/Pasted image 20240603212427.png",
-    "笔记插图/Pasted image 20240603202908.png",
-    "笔记插图/Pasted image 20240603202816.png",
-    "笔记插图/Pasted image 20240603202439.png",
-    "笔记插图/Pasted image 20240603201445.png",
-    "笔记插图/Pasted image 20240603200612.png",
-    "笔记插图/Pasted image 20240603200550.png",
-    "笔记插图/Pasted image 20240603200125.png",
-    "笔记插图/Pasted image 20240603195519.png",
-    "笔记插图/Pasted image 20240603195436.png",
     "Excalidraw/Drawing 2024-06-03 09.22.32.excalidraw.md",
     "Excalidraw/Drawing 2024-06-01 16.25.49.excalidraw.md",
     "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
