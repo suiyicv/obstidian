@@ -11,8 +11,12 @@
             "id": "ef8cab1e7da0f182",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -100,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md"
+              }
             }
           }
         ],
