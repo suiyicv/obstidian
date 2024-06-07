@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "tag:#replicaof",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,6 +161,10 @@
   },
   "active": "ef8cab1e7da0f182",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240607184328.png",
+    "笔记插图/Pasted image 20240607183849.png",
+    "笔记插图/Pasted image 20240607183643.png",
+    "笔记插图/Pasted image 20240607183011.png",
     "笔记插图/Pasted image 20240607174511.png",
     "笔记插图/Pasted image 20240607174122.png",
     "笔记插图/Pasted image 20240607173942.png",
@@ -169,12 +174,8 @@
     "笔记插图/Pasted image 20240605231120.png",
     "笔记插图/Pasted image 20240605231057.png",
     "笔记插图/Pasted image 20240605230958.png",
-    "笔记插图/Pasted image 20240605230825.png",
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/Redis/1.Redis安装.md",
-    "笔记插图/Pasted image 20240605230633.png",
-    "笔记插图/Pasted image 20240605230609.png",
-    "笔记插图/Pasted image 20240605230058.png",
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/1.Nginx基础.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
