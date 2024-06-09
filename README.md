@@ -1,3 +1,0 @@
-# obstidian
-
-# yunjisuanbiji-obsidian

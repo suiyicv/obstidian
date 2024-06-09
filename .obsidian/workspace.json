@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常记录/1.安装记录.md",
+                "file": "云计算/第二部分/Redis/1.Redis安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日常记录/1.安装记录.md",
+                "file": "云计算/第二部分/Redis/1.Redis安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日常记录/1.安装记录.md",
+                "file": "云计算/第二部分/Redis/1.Redis安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日常记录/1.安装记录.md"
+                "file": "云计算/第二部分/Redis/1.Redis安装.md"
               }
             }
           }
@@ -159,9 +160,9 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
-    "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
+    "简介.md",
     "日常记录/1.安装记录.md",
-    "README.md",
+    "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
     "考试.md",
     "未命名/未命名.md",
     "日常记录",
