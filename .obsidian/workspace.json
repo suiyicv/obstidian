@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eab1310d8fa2025e",
+        "id": "58e817dd70e3989e",
         "type": "tabs",
         "children": [
           {
-            "id": "ef8cab1e7da0f182",
+            "id": "904b8e1f8977c3cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md",
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 285.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md",
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md",
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md"
+                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md"
               }
             }
           }
@@ -144,38 +142,42 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5,
+    "width": 214.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ef8cab1e7da0f182",
+  "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
-    "笔记插图/Pasted image 20240607222614.png",
-    "笔记插图/Pasted image 20240607222518.png",
-    "笔记插图/Pasted image 20240607222306.png",
-    "笔记插图/Pasted image 20240607221142.png",
-    "笔记插图/Pasted image 20240607221110.png",
-    "笔记插图/Pasted image 20240607220510.png",
-    "笔记插图/Pasted image 20240607220039.png",
-    "笔记插图/Pasted image 20240607215002.png",
-    "笔记插图/Pasted image 20240607214625.png",
-    "笔记插图/Pasted image 20240607212948.png",
-    "笔记插图/Pasted image 20240607212312.png",
-    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
+    "日常记录/1.安装记录.md",
+    "README.md",
+    "考试.md",
+    "未命名/未命名.md",
+    "日常记录",
     "云计算/第二部分/Redis/4.redis常见部署架构.md",
+    "笔记插图/Pasted image 20240609212112.png",
+    "笔记插图/Pasted image 20240609212044.png",
+    "笔记插图/Pasted image 20240609212007.png",
+    "笔记插图/Pasted image 20240609211801.png",
+    "笔记插图/Pasted image 20240609211245.png",
+    "笔记插图/Pasted image 20240609210639.png",
+    "笔记插图/Pasted image 20240609210251.png",
+    "笔记插图/Pasted image 20240609210224.png",
+    "笔记插图/Pasted image 20240609210136.png",
+    "笔记插图/Pasted image 20240609194252.png",
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/Redis/1.Redis安装.md",
+    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/1.Nginx基础.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
@@ -195,9 +197,6 @@
     "Excalidraw/Drawing 2024-05-28 21.17.27.excalidraw.md",
     "Excalidraw/Drawing 2024-05-27 15.08.40.excalidraw.md",
     "Excalidraw/Drawing 2024-05-28 10.16.23.excalidraw.md",
-    "云计算/第一部分/Git/1.Git 版本控制器.md",
-    "云计算/第一部分/Git/2.Git Branch.md",
-    "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
     "笔记插图",
     "云计算/第一部分/Linux/image",
     "云计算/第一部分/Shell/image",
@@ -205,7 +204,6 @@
     "云计算/第二部分/Tomcat",
     "笔记插图/image3",
     "云计算/第二部分/Nginx",
-    "笔记插图/image2",
-    "云计算/第二部分"
+    "笔记插图/image2"
   ]
 }
