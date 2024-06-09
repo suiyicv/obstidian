@@ -136,9 +136,17 @@
                 "file": "云计算/第二部分/Redis/2.Redis配置文件解析.md"
               }
             }
+          },
+          {
+            "id": "d88c66ed5bc981da",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -156,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "904b8e1f8977c3cc",
+  "active": "d88c66ed5bc981da",
   "lastOpenFiles": [
     "云计算/第二部分/Redis/1.Redis安装.md",
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
