@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
-                "mode": "source",
+                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 261.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
+                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
+                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md"
+                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md"
               }
             }
           }
@@ -150,6 +150,9 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
+    "云计算/第二部分/Redis/1.Redis安装.md",
+    "云计算/第二部分/Redis/4.redis常见部署架构.md",
+    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/5.nginx平滑升级.md",
@@ -157,8 +160,6 @@
     "云计算/第二部分/Nginx/3.Nginx模块.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/Nginx/1.Nginx基础.md",
-    "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
-    "云计算/第二部分/Redis/1.Redis安装.md",
     "Excalidraw/Drawing 2024-06-03 09.22.32.excalidraw.md",
     "简介.md",
     "日常记录/1.安装记录.md",
@@ -166,7 +167,6 @@
     "考试.md",
     "未命名/未命名.md",
     "日常记录",
-    "云计算/第二部分/Redis/4.redis常见部署架构.md",
     "笔记插图/Pasted image 20240609212112.png",
     "笔记插图/Pasted image 20240609212044.png",
     "笔记插图/Pasted image 20240609212007.png",
