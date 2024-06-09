@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -160,6 +159,8 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-06-03 09.22.32.excalidraw.md",
+    "云计算/第二部分/Redis/1.Redis安装.md",
     "简介.md",
     "日常记录/1.安装记录.md",
     "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
@@ -178,7 +179,6 @@
     "笔记插图/Pasted image 20240609210136.png",
     "笔记插图/Pasted image 20240609194252.png",
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
-    "云计算/第二部分/Redis/1.Redis安装.md",
     "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/1.Nginx基础.md",
@@ -189,7 +189,6 @@
     "云计算/第二部分/Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/Nginx/3.Nginx模块.md",
     "云计算/第二部分/Nginx/4.nginx反向代理负载均衡.md",
-    "Excalidraw/Drawing 2024-06-03 09.22.32.excalidraw.md",
     "Excalidraw/Drawing 2024-06-01 16.25.49.excalidraw.md",
     "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
     "云计算/第二部分/Redis",
