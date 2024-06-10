@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "28171f088aee55b3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +136,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Tomcat/1.Tomcat安装.md"
+                "file": "云计算/第二部分/Redis/4.redis常见部署架构.md"
               }
+            }
+          },
+          {
+            "id": "77d45394e9b3169c",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -138,22 +157,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "904b8e1f8977c3cc",
+  "active": "77d45394e9b3169c",
   "lastOpenFiles": [
-    "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md",
-    "云计算/第二部分/Tomcat/3.Tomacat 配置文件.md",
     "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
+    "云计算/第二部分/Tomcat/3.Tomacat 配置文件.md",
     "云计算/第二部分/Tomcat/1.Tomcat安装.md",
+    "云计算/第二部分/Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/Redis/1.Redis安装.md",
     "云计算/第二部分/Redis/4.redis常见部署架构.md",
     "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
