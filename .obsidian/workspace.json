@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#replicaof",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -160,6 +161,7 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240612013050.png",
     "笔记插图/Pasted image 20240612010110.png",
     "笔记插图/Pasted image 20240612000634.png",
     "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md",
@@ -173,7 +175,6 @@
     "笔记插图/Pasted image 20240611135634.png",
     "笔记插图/Pasted image 20240611135620.png",
     "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
-    "笔记插图/Pasted image 20240611124743.png",
     "云计算/第二部分/Redis/4.redis常见部署架构.md",
     "云计算/第二部分/Lvs负载均衡",
     "云计算/第二部分/lvs负载均衡.md",
