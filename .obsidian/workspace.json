@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
                 "mode": "preview",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Nginx/6.LNMP平台搭建.md"
+                "file": "云计算/第二部分/Nginx/2.Nginx配置web服务.md"
               }
             }
           },
@@ -160,6 +160,7 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
+    "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/Nginx/1.Nginx基础.md",
     "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
@@ -186,7 +187,6 @@
     "云计算/第二部分/Redis/1.Redis安装.md",
     "云计算/第二部分/Redis/3.wordpress博客对接redis缓存.md",
     "云计算/第二部分/Redis/2.Redis配置文件解析.md",
-    "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/5.nginx平滑升级.md",
     "云计算/第二部分/Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/Nginx/3.Nginx模块.md",
