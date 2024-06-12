@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
+                "file": "云计算/第二部分/Nginx/1.Nginx基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
+                "file": "云计算/第二部分/Nginx/1.Nginx基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
+                "file": "云计算/第二部分/Nginx/1.Nginx基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md"
+                "file": "云计算/第二部分/Nginx/1.Nginx基础.md"
               }
             }
           },
@@ -160,9 +160,9 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
+    "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
     "笔记插图/Pasted image 20240612143718.png",
     "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
-    "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
     "笔记插图/Pasted image 20240612133557.png",
@@ -174,7 +174,6 @@
     "笔记插图/Pasted image 20240611234546.png",
     "笔记插图/Pasted image 20240611225941.png",
     "笔记插图/Pasted image 20240611224905.png",
-    "笔记插图/Pasted image 20240611140130.png",
     "云计算/第二部分/Redis/4.redis常见部署架构.md",
     "云计算/第二部分/负载均衡",
     "云计算/第二部分/lvs负载均衡.md",
