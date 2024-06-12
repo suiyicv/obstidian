@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
+                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 261.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
+                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
+                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md"
+                "file": "云计算/第二部分/负载均衡/4.keepalived高可用集群.md"
               }
             }
           },
@@ -159,9 +160,11 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
-    "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
-    "云计算/第二部分/负载均衡/2.keepalived结合LVS配合使用.md",
+    "笔记插图/Pasted image 20240612143718.png",
     "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
+    "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
+    "云计算/第二部分/负载均衡/2.keepalived结合LVS配合使用.md",
+    "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
     "笔记插图/Pasted image 20240612133557.png",
     "笔记插图/Pasted image 20240612133258.png",
     "笔记插图/Pasted image 20240612132249.png",
@@ -195,7 +198,6 @@
     "考试.md",
     "未命名/未命名.md",
     "日常记录",
-    "Excalidraw/Drawing 2024-06-01 16.25.49.excalidraw.md",
     "云计算/第二部分/Redis",
     "笔记插图",
     "云计算/第一部分/Linux/image",
