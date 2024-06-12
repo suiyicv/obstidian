@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md",
+                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md",
+                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md",
+                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md"
+                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md"
               }
             }
           },
@@ -161,19 +159,18 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
+    "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md",
+    "云计算/第二部分/Lvs负载均衡/2.keepalived结合LVS配合使用.md",
     "笔记插图/Pasted image 20240612133557.png",
     "笔记插图/Pasted image 20240612133258.png",
     "笔记插图/Pasted image 20240612132249.png",
     "笔记插图/Pasted image 20240612013050.png",
     "笔记插图/Pasted image 20240612010110.png",
     "笔记插图/Pasted image 20240612000634.png",
-    "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md",
     "笔记插图/Pasted image 20240611234546.png",
-    "云计算/第二部分/Lvs负载均衡/2.keepalived结合LVS配合使用.md",
     "笔记插图/Pasted image 20240611225941.png",
     "笔记插图/Pasted image 20240611224905.png",
     "笔记插图/Pasted image 20240611140130.png",
-    "笔记插图/Pasted image 20240611135730.png",
     "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/Redis/4.redis常见部署架构.md",
     "云计算/第二部分/Lvs负载均衡",
