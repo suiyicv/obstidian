@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
+                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
+                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
+                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md"
+                "file": "云计算/第二部分/负载均衡/3.haproxy负载均衡.md"
               }
             }
           },
@@ -159,8 +159,9 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
-    "云计算/第二部分/Lvs负载均衡/3.haproxy负载均衡.md",
-    "云计算/第二部分/Lvs负载均衡/2.keepalived结合LVS配合使用.md",
+    "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
+    "云计算/第二部分/负载均衡/2.keepalived结合LVS配合使用.md",
+    "云计算/第二部分/负载均衡/3.haproxy负载均衡.md",
     "笔记插图/Pasted image 20240612133557.png",
     "笔记插图/Pasted image 20240612133258.png",
     "笔记插图/Pasted image 20240612132249.png",
@@ -171,9 +172,8 @@
     "笔记插图/Pasted image 20240611225941.png",
     "笔记插图/Pasted image 20240611224905.png",
     "笔记插图/Pasted image 20240611140130.png",
-    "云计算/第二部分/Lvs负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/Redis/4.redis常见部署架构.md",
-    "云计算/第二部分/Lvs负载均衡",
+    "云计算/第二部分/负载均衡",
     "云计算/第二部分/lvs负载均衡.md",
     "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
     "云计算/第二部分/Tomcat/3.Tomacat 配置文件.md",
