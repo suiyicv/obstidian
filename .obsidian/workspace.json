@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 321.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +157,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b57fd0422476784e",
+  "active": "bd7d2010221d431a",
   "lastOpenFiles": [
     "云计算/第一部分/Git/2.Git Branch.md",
     "云计算/第一部分/Git/1.Git 版本控制器.md",
