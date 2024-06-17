@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/存储/2.ceph存储组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/存储/2.ceph存储组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/存储/2.ceph存储组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md"
+                "file": "云计算/第二部分/存储/2.ceph存储组件.md"
               }
             }
           },
@@ -160,6 +160,8 @@
   },
   "active": "904b8e1f8977c3cc",
   "lastOpenFiles": [
+    "云计算/第二部分/存储/2.ceph存储组件.md",
+    "云计算/第二部分/存储/1.NAS和SAN存储.md",
     "笔记插图/Pasted image 20240617090153.png",
     "笔记插图/Pasted image 20240617090134.png",
     "笔记插图/Pasted image 20240617090025.png",
@@ -170,8 +172,6 @@
     "笔记插图/Pasted image 20240617084618.png",
     "笔记插图/Pasted image 20240617084317.png",
     "笔记插图/Pasted image 20240617084220.png",
-    "笔记插图/Pasted image 20240617084117.png",
-    "云计算/第二部分/存储/1.NAS和SAN存储.md",
     "云计算/第二部分/负载均衡/5.负载均衡相关云产品.md",
     "云计算/第二部分/存储",
     "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
