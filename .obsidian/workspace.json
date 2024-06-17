@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/存储/未命名.md",
+                "file": "云计算/第二部分/存储/3.ceph-mimic版本部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 282.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/存储/未命名.md",
+                "file": "云计算/第二部分/存储/3.ceph-mimic版本部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/存储/未命名.md",
+                "file": "云计算/第二部分/存储/3.ceph-mimic版本部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/存储/未命名.md"
+                "file": "云计算/第二部分/存储/3.ceph-mimic版本部署.md"
               }
             }
           },
@@ -158,9 +159,9 @@
   },
   "active": "b57fd0422476784e",
   "lastOpenFiles": [
-    "云计算/第二部分/存储/1.NAS和SAN存储.md",
-    "云计算/第二部分/存储/未命名.md",
+    "云计算/第二部分/存储/2.ceph存储组件.md",
     "云计算/第二部分/存储/3.ceph-mimic版本部署.md",
+    "云计算/第二部分/存储/1.NAS和SAN存储.md",
     "Excalidraw/Drawing 2024-06-17 17.22.33.excalidraw.md",
     "笔记插图/Pasted image 20240617172017.png",
     "笔记插图/Pasted image 20240617171728.png",
