@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
+                "file": "云计算/第一部分/Shell/1.shell脚本基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
+                "file": "云计算/第一部分/Shell/1.shell脚本基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
+                "file": "云计算/第一部分/Shell/1.shell脚本基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第一部分/Git/3.Git 简单服务器的使用.md"
+                "file": "云计算/第一部分/Shell/1.shell脚本基础.md"
               }
             }
           },
@@ -157,8 +157,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd7d2010221d431a",
+  "active": "b57fd0422476784e",
   "lastOpenFiles": [
+    "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
+    "云计算/第一部分/Shell/1.shell脚本基础.md",
     "云计算/第一部分/Git/2.Git Branch.md",
     "云计算/第一部分/Git/1.Git 版本控制器.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
@@ -184,7 +186,6 @@
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "云计算/第二部分/5.存储/2.ceph存储组件.md",
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
-    "Excalidraw/Drawing 2024-06-17 17.22.33.excalidraw.md",
     "笔记插图/Pasted image 20240617172017.png",
     "笔记插图/Pasted image 20240617171728.png",
     "笔记插图/Pasted image 20240617170951.png",
@@ -196,7 +197,6 @@
     "笔记插图/Pasted image 20240617165630.png",
     "云计算/第二部分/5.存储",
     "云计算/第二部分/4.负载均衡",
-    "云计算/第二部分/lvs负载均衡.md",
     "日常记录",
     "云计算/第二部分/3.Redis",
     "笔记插图",
