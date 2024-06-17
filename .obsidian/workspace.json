@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md",
-                "mode": "preview",
+                "file": "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/存储/1.NAS和SAN存储.md"
+                "file": "云计算/第二部分/负载均衡/1.lvs负载均衡.md"
               }
             }
           },
@@ -158,9 +158,11 @@
   },
   "active": "b57fd0422476784e",
   "lastOpenFiles": [
+    "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
+    "云计算/第二部分/负载均衡/5.负载均衡相关云产品.md",
+    "云计算/第二部分/存储/1.NAS和SAN存储.md",
     "云计算/第二部分/存储/2.ceph存储组件.md",
     "云计算/第二部分/存储/3.ceph-mimic版本部署.md",
-    "云计算/第二部分/存储/1.NAS和SAN存储.md",
     "Excalidraw/Drawing 2024-06-17 17.22.33.excalidraw.md",
     "笔记插图/Pasted image 20240617172017.png",
     "笔记插图/Pasted image 20240617171728.png",
@@ -172,7 +174,6 @@
     "笔记插图/Pasted image 20240617170124.png",
     "笔记插图/Pasted image 20240617165630.png",
     "笔记插图/Pasted image 20240617165401.png",
-    "云计算/第二部分/负载均衡/5.负载均衡相关云产品.md",
     "云计算/第二部分/存储",
     "云计算/第二部分/负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/Redis/4.redis常见部署架构.md",
@@ -183,7 +184,6 @@
     "云计算/第二部分/Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/Nginx/3.Nginx模块.md",
-    "云计算/第二部分/负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/负载均衡",
     "云计算/第二部分/lvs负载均衡.md",
     "云计算/第二部分/Tomcat/4.Tomacat 多实例部署.md",
