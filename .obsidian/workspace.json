@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
+                "file": "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
+                "file": "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
+                "file": "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md"
+                "file": "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md"
               }
             }
           },
@@ -160,10 +160,11 @@
   },
   "active": "b57fd0422476784e",
   "lastOpenFiles": [
+    "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
+    "笔记插图/Pasted image 20240618150744.png",
     "笔记插图/Pasted image 20240618150706.png",
     "笔记插图/Pasted image 20240618150605.png",
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
-    "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
     "笔记插图/Pasted image 20240618145601.png",
     "笔记插图/Pasted image 20240618145442.png",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
@@ -194,8 +195,6 @@
     "笔记插图/Pasted image 20240617171728.png",
     "笔记插图/Pasted image 20240617170951.png",
     "笔记插图/Pasted image 20240617170938.png",
-    "笔记插图/Pasted image 20240617170849.png",
-    "笔记插图/Pasted image 20240617170658.png",
     "云计算/第二部分/5.存储",
     "云计算/第二部分/4.负载均衡",
     "日常记录",
