@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -160,17 +159,17 @@
   },
   "active": "b57fd0422476784e",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240619001645.png",
+    "笔记插图/Pasted image 20240619001627.png",
+    "笔记插图/Pasted image 20240619001610.png",
+    "笔记插图/Pasted image 20240619001557.png",
+    "笔记插图/Pasted image 20240619001329.png",
     "笔记插图/Pasted image 20240619000822.png",
     "笔记插图/Pasted image 20240619000653.png",
     "笔记插图/Pasted image 20240619000551.png",
     "笔记插图/Pasted image 20240619000012.png",
     "笔记插图/Pasted image 20240618235956.png",
     "笔记插图/Pasted image 20240618235608.png",
-    "笔记插图/Pasted image 20240618235415.png",
-    "笔记插图/Pasted image 20240618235218.png",
-    "笔记插图/Pasted image 20240618235202.png",
-    "笔记插图/Pasted image 20240618234744.png",
-    "笔记插图/Pasted image 20240618234727.png",
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
     "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
