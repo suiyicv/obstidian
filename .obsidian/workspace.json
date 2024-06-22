@@ -92,35 +92,6 @@
             }
           },
           {
-            "id": "baaed9d218dc655c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "13ef9eb14ab74b27",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "abcd43b55624fa10",
             "type": "leaf",
             "state": {
@@ -129,17 +100,9 @@
                 "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md"
               }
             }
-          },
-          {
-            "id": "77d45394e9b3169c",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,8 +121,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "324e2cb444f2dc3a",
+  "active": "abcd43b55624fa10",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240622113358.png",
+    "笔记插图/Pasted image 20240622113112.png",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "Excalidraw/Drawing 2024-06-22 10.55.02.excalidraw.md",
@@ -174,7 +139,6 @@
     "笔记插图/Pasted image 20240622103805.png",
     "笔记插图/Pasted image 20240622103702.png",
     "笔记插图/Pasted image 20240622103006.png",
-    "笔记插图/Pasted image 20240622102932.png",
     "云计算/第二部分/6.集群中间件",
     "云计算/第二部分/6.kafka消息队列.md",
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
@@ -196,7 +160,6 @@
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
-    "云计算/第二部分/3.Redis/3.wordpress博客对接redis缓存.md",
     "云计算/第二部分/5.存储",
     "云计算/第二部分/4.负载均衡",
     "日常记录",
