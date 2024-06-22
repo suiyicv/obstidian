@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
+                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5,
-    "collapsed": true
+    "width": 282.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -97,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
+                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
+                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md"
+                "file": "云计算/第二部分/5.存储/4.ceph存储使用流程.md"
               }
             }
           },
@@ -160,6 +159,8 @@
   },
   "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
+    "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
+    "笔记插图/Pasted image 20240622105326.png",
     "笔记插图/Pasted image 20240622104753.png",
     "笔记插图/Pasted image 20240622104735.png",
     "笔记插图/Pasted image 20240622104714.png",
@@ -169,10 +170,7 @@
     "笔记插图/Pasted image 20240622103702.png",
     "笔记插图/Pasted image 20240622103006.png",
     "笔记插图/Pasted image 20240622102932.png",
-    "笔记插图/Pasted image 20240622102918.png",
-    "笔记插图/Pasted image 20240622092427.png",
     "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
-    "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "云计算/第二部分/6.集群中间件",
     "云计算/第二部分/6.kafka消息队列.md",
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
