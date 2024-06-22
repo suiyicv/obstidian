@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
+                "file": "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md"
+                "file": "云计算/第二部分/6.集群中间件/3.Elk日志分析.md"
               }
             }
           }
@@ -123,8 +123,9 @@
   },
   "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
-    "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
+    "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
+    "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "笔记插图/Pasted image 20240622155120.png",
     "笔记插图/Pasted image 20240622153352.png",
     "笔记插图/Pasted image 20240622151726.png",
@@ -159,7 +160,6 @@
     "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
     "云计算/第一部分/Git/2.Git Branch.md",
     "云计算/第一部分/Git/1.Git 版本控制器.md",
-    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
     "云计算/第二部分/5.存储",
     "云计算/第二部分/4.负载均衡",
     "日常记录",
