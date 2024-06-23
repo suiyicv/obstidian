@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iscs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md"
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md"
               }
             }
           },
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,13 +152,16 @@
   },
   "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240623191125.png",
+    "笔记插图/Pasted image 20240623191015.png",
+    "笔记插图/Pasted image 20240623190902.png",
+    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "笔记插图/Pasted image 20240623185828.png",
     "笔记插图/Pasted image 20240623184138.png",
     "笔记插图/Pasted image 20240623183119.png",
     "云计算/第二部分/5.存储/2.ceph存储组件.md",
-    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
@@ -168,8 +170,6 @@
     "笔记插图/Pasted image 20240623135905.png",
     "笔记插图/Pasted image 20240623134857.png",
     "笔记插图/Pasted image 20240623134500.png",
-    "笔记插图/Pasted image 20240623132719.png",
-    "笔记插图/Pasted image 20240623132555.png",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
