@@ -135,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,6 +151,7 @@
   },
   "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240624201138.png",
     "笔记插图/Pasted image 20240624201116.png",
     "笔记插图/Pasted image 20240624200744.png",
     "笔记插图/Pasted image 20240624194001.png",
@@ -162,7 +162,6 @@
     "笔记插图/Pasted image 20240624193112.png",
     "笔记插图/Pasted image 20240624192817.png",
     "笔记插图/Pasted image 20240624192758.png",
-    "笔记插图/Pasted image 20240624192537.png",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
