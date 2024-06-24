@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 420.5
+    "width": 420.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -151,6 +152,7 @@
   },
   "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240624183727.png",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "笔记插图/Pasted image 20240624123750.png",
     "笔记插图/Pasted image 20240624182933.png",
