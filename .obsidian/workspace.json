@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md"
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md"
               }
             }
           },
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,10 +152,12 @@
   },
   "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
+    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+    "云计算/第二部分/7.自动化工具/1.ansible.md",
+    "云计算/第二部分/7.自动化工具",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
-    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "笔记插图/Pasted image 20240624201138.png",
     "笔记插图/Pasted image 20240624201116.png",
     "笔记插图/Pasted image 20240624200744.png",
@@ -194,7 +197,6 @@
     "笔记插图",
     "云计算/第一部分/Linux/image",
     "云计算/第一部分/Shell/image",
-    "笔记插图/image4",
-    "云计算/第二部分/2.Tomcat"
+    "笔记插图/image4"
   ]
 }
