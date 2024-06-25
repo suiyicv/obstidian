@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md"
+                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
+                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
+                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +163,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "324e2cb444f2dc3a",
+  "active": "a8bd5f148c65284d",
   "lastOpenFiles": [
+    "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
-    "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/4.负载均衡/5.负载均衡相关云产品.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
