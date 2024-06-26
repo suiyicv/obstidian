@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md"
+              }
             }
           },
           {
@@ -152,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,8 +196,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4901505dbbf22e13",
+  "active": "a563d534cbb77bcf",
   "lastOpenFiles": [
+    "笔记插图/Pasted image 20240626105116.png",
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
@@ -232,7 +236,6 @@
     "云计算/第二部分/6.集群中间件",
     "云计算/第二部分/6.kafka消息队列.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
-    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/5.存储",
     "云计算/第二部分/4.负载均衡",
     "日常记录",
