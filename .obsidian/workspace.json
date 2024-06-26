@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "7c7a2bd3b9ad5d67",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://webtatic.com/projects/yum-repository/"
-              }
-            }
-          },
-          {
             "id": "324e2cb444f2dc3a",
             "type": "leaf",
             "state": {
@@ -199,8 +189,8 @@
   },
   "active": "b0d7d82fb32a0c47",
   "lastOpenFiles": [
-    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
+    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "笔记插图/Pasted image 20240626113940.png",
