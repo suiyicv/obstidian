@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "ca3168b37699a1db",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://webtatic.com/packages/php72/"
-              }
-            }
-          },
-          {
             "id": "324e2cb444f2dc3a",
             "type": "leaf",
             "state": {
@@ -143,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md"
+              }
             }
           },
           {
@@ -152,6 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,6 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +187,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca3168b37699a1db",
+  "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
