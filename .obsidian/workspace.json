@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md"
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md"
               }
             }
           },
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,11 +187,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b0d7d82fb32a0c47",
+  "active": "324e2cb444f2dc3a",
   "lastOpenFiles": [
-    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
+    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "笔记插图/Pasted image 20240626113940.png",
     "笔记插图/Pasted image 20240626113805.png",
