@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "a09bc921d31595e2",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://webtatic.com/"
+              }
+            }
+          },
+          {
             "id": "4f699f1561a2dd9d",
             "type": "leaf",
             "state": {
@@ -193,11 +203,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f699f1561a2dd9d",
+  "active": "a09bc921d31595e2",
   "lastOpenFiles": [
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
-    "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
+    "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "笔记插图/Pasted image 20240626113940.png",
     "笔记插图/Pasted image 20240626113805.png",
