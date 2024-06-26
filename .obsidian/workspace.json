@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md"
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md"
               }
             }
           },
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,13 +162,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da34e8bee0158627",
+  "active": "a563d534cbb77bcf",
   "lastOpenFiles": [
+    "云计算/第二部分/7.自动化工具/1.ansible.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
-    "云计算/第二部分/7.自动化工具/1.ansible.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "笔记插图/Pasted image 20240626113940.png",
     "笔记插图/Pasted image 20240626113805.png",
