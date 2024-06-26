@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nfs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md"
+                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md"
               }
             }
           },
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +153,9 @@
   },
   "active": "a563d534cbb77bcf",
   "lastOpenFiles": [
+    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
-    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
