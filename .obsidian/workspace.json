@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "c142e007e412c0a6",
+            "id": "7c7a2bd3b9ad5d67",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -143,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +152,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +168,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +193,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "324e2cb444f2dc3a",
+  "active": "7c7a2bd3b9ad5d67",
   "lastOpenFiles": [
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
