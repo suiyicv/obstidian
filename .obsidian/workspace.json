@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 259.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -162,7 +162,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a563d534cbb77bcf",
+  "active": "da34e8bee0158627",
   "lastOpenFiles": [
     "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
