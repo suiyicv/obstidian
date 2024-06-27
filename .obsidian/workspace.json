@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md"
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,7 @@
   },
   "active": "874587a2ac250f6a",
   "lastOpenFiles": [
+    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "笔记插图/Pasted image 20240627100246.png",
     "笔记插图/Pasted image 20240627095931.png",
