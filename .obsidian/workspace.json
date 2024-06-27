@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第一部分/Git/1.Git 版本控制器.md"
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第一部分/Git/1.Git 版本控制器.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第一部分/Git/1.Git 版本控制器.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,11 +175,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c8261e538784e6f1",
+  "active": "874587a2ac250f6a",
   "lastOpenFiles": [
+    "云计算/第一部分/Git/1.Git 版本控制器.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
-    "云计算/第一部分/Git/1.Git 版本控制器.md",
     "云计算/第一部分/Git/2.Git Branch.md",
     "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
     "笔记插图/Pasted image 20240627104337.png",
