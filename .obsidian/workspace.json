@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "e66af81df7f91042",
+            "id": "874587a2ac250f6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "service",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +78,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md"
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +163,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a563d534cbb77bcf",
+  "active": "874587a2ac250f6a",
   "lastOpenFiles": [
-    "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
+    "Excalidraw/Drawing 2024-06-27 09.23.44.excalidraw.md",
+    "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+    "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
@@ -200,8 +203,6 @@
     "Excalidraw/Drawing 2024-06-22 10.55.02.excalidraw.md",
     "Excalidraw/Drawing 2024-06-22 10.55.03.excalidraw.md",
     "云计算/第二部分/6.集群中间件",
-    "云计算/第二部分/6.kafka消息队列.md",
-    "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "云计算/第二部分/5.存储",
     "云计算/第二部分/4.负载均衡",
     "日常记录",
