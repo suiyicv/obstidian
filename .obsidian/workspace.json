@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第一部分/Git/1.Git 版本控制器.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第一部分/Git/1.Git 版本控制器.md"
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第一部分/Git/1.Git 版本控制器.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第一部分/Git/1.Git 版本控制器.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +165,9 @@
   },
   "active": "874587a2ac250f6a",
   "lastOpenFiles": [
+    "云计算/第一部分/Git/1.Git 版本控制器.md",
     "云计算/第一部分/Git/2.Git Branch.md",
     "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
-    "云计算/第一部分/Git/1.Git 版本控制器.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "笔记插图/Pasted image 20240627104337.png",
     "笔记插图/Pasted image 20240627104255.png",
