@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b9619cb3f5d442a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md"
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
               }
             }
           },
@@ -144,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +175,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b9619cb3f5d442a2",
+  "active": "874587a2ac250f6a",
   "lastOpenFiles": [
+    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "笔记插图/Pasted image 20240627143404.png",
     "云计算/第一部分/Git/1.Git 版本控制器.md",
@@ -197,7 +186,6 @@
     "云计算/第一部分/Git/3.Git 简单服务器的使用.md",
     "笔记插图/Pasted image 20240627104337.png",
     "笔记插图/Pasted image 20240627104255.png",
-    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
     "笔记插图/Pasted image 20240627100246.png",
     "笔记插图/Pasted image 20240627095931.png",
     "笔记插图/Pasted image 20240627095811.png",
