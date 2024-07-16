@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -173,11 +172,11 @@
   },
   "active": "da6bab7a883f0285",
   "lastOpenFiles": [
+    "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
+    "复习.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "().md",
-    "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第一部分/Git/1.Git 版本控制器.md",
-    "复习.md",
     "Excalidraw/Drawing 2024-07-16 16.01.04.excalidraw.md",
     "笔记插图/Pasted image 20240716192221.png",
     "笔记插图/Pasted image 20240716192152.png",
