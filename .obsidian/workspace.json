@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -170,7 +171,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da34e8bee0158627",
+  "active": "da6bab7a883f0285",
   "lastOpenFiles": [
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "复习.md",
