@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sche",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "e37766720e77e728",
@@ -161,6 +159,8 @@
   },
   "active": "da6bab7a883f0285",
   "lastOpenFiles": [
+    "1.md",
+    "复习.md",
     "笔记插图/Pasted image 20240723152208.png",
     "笔记插图/Pasted image 20240723110931.png",
     "笔记插图/Pasted image 20240723105556.png",
@@ -171,8 +171,6 @@
     "笔记插图/Pasted image 20240723093827.png",
     "笔记插图/Pasted image 20240723093414.png",
     "笔记插图/Pasted image 20240723092736.png",
-    "笔记插图/Pasted image 20240722205030.png",
-    "复习.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
