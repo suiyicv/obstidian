@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1d73a50a89320721",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习.md"
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md"
               }
             }
           },
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习.md",
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习.md",
+                "file": "云计算/第二部分/7.自动化工具/2.ansible集群联系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,22 +171,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da6bab7a883f0285",
+  "active": "1d73a50a89320721",
   "lastOpenFiles": [
+    "复习.md",
     "笔记插图/Pasted image 20240724134522.png",
     "笔记插图/Pasted image 20240724134434.png",
     "笔记插图/Pasted image 20240724103533.png",
     "笔记插图/Pasted image 20240724103339.png",
     "笔记插图/Pasted image 20240724103304.png",
     "考试.md",
-    "复习.md",
     "1.md",
     "笔记插图/Pasted image 20240723152208.png",
     "笔记插图/Pasted image 20240723110931.png",
     "笔记插图/Pasted image 20240723105556.png",
     "笔记插图/Pasted image 20240723104944.png",
     "笔记插图/Pasted image 20240723101800.png",
-    "笔记插图/Pasted image 20240723094003.png",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
