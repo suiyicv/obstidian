@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考试.md",
+                "file": "复习/K8S.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试.md"
+                "file": "复习/K8S.md"
               }
             }
           },
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考试.md",
+                "file": "复习/K8S.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考试.md",
+                "file": "复习/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +160,8 @@
   },
   "active": "9a27f6688ba933e7",
   "lastOpenFiles": [
-    "ceshi.md",
     "考试.md",
+    "ceshi.md",
     "复习/K8S.md",
     "笔记插图/Pasted image 20240729125755.png",
     "笔记插图/Pasted image 20240729125031.png",
