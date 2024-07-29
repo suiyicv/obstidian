@@ -901,7 +901,7 @@ kubectl cp project.war  test3-tomcat-78cb46587d-5srn4:/usr/local/tomcat/webapps/
 
 
 
-
+-
 # 十.kubernetes资源-pv/pvc持久化卷
 
 尝试挂载不同的远程存储测试一下
