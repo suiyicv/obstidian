@@ -1020,6 +1020,15 @@ kubectl logs test-mysql-0
 #### 2.3 测试有状态负载
 进入数据库pod
 添加库
-
+create database a;
+create database b;
 删除数据库pod
-
+kubectl  delete  pod test-mysql-0
+![[Pasted image 20240729210918.png]]
+已经重新创建了pod
+![[Pasted image 20240729210958.png]]
+并且名字没有发生变化
+![[Pasted image 20240729211036.png]]
+创建的库还在
+测试成功！！！！！！！！！
+不要太片面，这个有状态和五转台只要你创建的时候做了持久化，那k8s重建的而事后都会自动会挂载之前的数据卷，他们的核心区别就是时候会记录客户端的状态信息，
