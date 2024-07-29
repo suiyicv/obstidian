@@ -1035,16 +1035,19 @@ kubectl  delete  pod test-mysql-0
 
 # 十二.kubernetes资源-configmap(<font color="#d99694">完整</font>)
 
-## 1创建configMap
+## 1.创建configMap
 存MySQL配置
 ![[Pasted image 20240729212428.png]]
 一个键对应着多个值的话，一定要有 | 
 ![[Pasted image 20240729212717.png]]
 kubectl describe cm test-mysql-config
 ![[Pasted image 20240729212839.png]]
-通过数据卷的方式挂载配置文件
-![[Pasted image 20240729213116.png]]
+## 2.通过数据卷的方式挂载配置文件
+![[Pasted image 20240729213420.png]]
 额外添加
-进入数据库查看二进制日志开没开启
+## 3.进入数据库查看二进制日志开没开启
+![[Pasted image 20240729213509.png]]
+配置生效，测试成功
+
 
 
