@@ -917,5 +917,9 @@ Kubernetes支持多种类型的卷，例如EmptyDir、HostPath、nfs、glusterfs
 /var/lib/kubelet/pods/<\pod id >/volumes/kubernetes.io-empty-dir/ # 卷名字
 Pod宕机销毁后，改临时卷中的数据会随之被删除
 ![[Pasted image 20240729102429.png|330]]
-
-
+### 1.2 hostPath
+创建Pod时，Pod运行的node节点会在本地创建目录，并该目录挂载到Pod中
+Pod宕机后，宿主机对应目录中的文件不会消失
+以前讲docker -v挂载目录，前提是你的物理机上面应该有这个目录
+K8S里面这么多工作节点，我这个pod到那个工作节点上还不一定，那我们在物理机上面准备这个目录的话，<font color="#ff0000">我们应该怎么准备？</font>
+k8s挂目录不需要我们事先准备，将来这个pod在那个被创建
