@@ -908,5 +908,10 @@ kubectl cp project.war  test3-tomcat-78cb46587d-5srn4:/usr/local/tomcat/webapps/
 
 1.volume数据卷
 作用：
-就是对容器里面的数据做持久化
-借助数据卷dui
+就是对容器里面的数据做持久化，借助数据卷对pod里面的数据卷做持久化，当然也可以挂载配置文件，部署业务项目
+Kubernetes支持多种类型的卷，例如EmptyDir、HostPath、nfs、glusterfs、ceph等
+
+EmptyDir
+创建pod时，pod运行的node节点会创建临时卷，并讲卷挂到pod指定的项目中
+临时卷存放目录
+/var/lib/kubelet/pods/<pod id >
