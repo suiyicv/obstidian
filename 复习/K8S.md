@@ -1034,6 +1034,13 @@ kubectl  delete  pod test-mysql-0
 不要太片面，这个有状态和五转台只要你创建的时候做了持久化，那k8s重建的而事后都会自动会挂载之前的数据卷，<span style="background:#affad1">他们的核心区别就是时候会记录客户端的状态信息</span>，我们之前接触的http，但从本身上来说他是无状态的，但是从实际应用的角度来说，他又是有状态的。这是为什么呢？开发在开发这个应用的时候，给它加进去了cookie呀令牌呀会话的这些功能，他才变成有状态的。想mysql数据库这种东西，他原生就是一个有状态的东西。
 
 # 十二.kubernetes资源-configmap(<font color="#d99694">完整</font>)
-1.配置映射
 
+## 1创建configMap
+存MySQL配置
+![[Pasted image 20240729212428.png]]
+一个键对应着多个值的话，一定要有 | 
+![[Pasted image 20240729212717.png]]
+kubectl describe cm test-mysql-config
+![[Pasted image 20240729212839.png]]
+通过数据卷的方式
 
