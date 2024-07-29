@@ -977,15 +977,7 @@ kubectl create -f pvc-1g
 ![[Pasted image 20240729192744.png]]
 #### (3) 创建pod
 使用pv做持久化
-
-
-
-
-
-
-
-
-
+![[Pasted image 20240729192911.png|475]]
 
 # 十一.kubernetes资源-statefulset
 有状态负载
