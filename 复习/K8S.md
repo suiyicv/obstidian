@@ -905,7 +905,6 @@ kubectl cp project.war  test3-tomcat-78cb46587d-5srn4:/usr/local/tomcat/webapps/
 # 十.kubernetes资源-pv/pvc持久化卷
 
 尝试挂载不同的远程存储测试一下
-
 ## 1.volume数据卷
 作用：
 就是对容器里面的数据做持久化，借助数据卷对pod里面的数据卷做持久化，当然也可以挂载配置文件，部署业务项目
@@ -931,3 +930,8 @@ k8s挂目录不需要我们事先准备，将来这个pod在那个被创建，�
 
 ### 1.3 基于nfs的网络卷
 ![[Pasted image 20240729125755.png|379]]
+都要装nfs-utils不然会报错，如果没有的话，报错了查看日志，会发现是挂载失败
+
+
+## 2.pv/pvc 持久卷/持久卷声明
+
