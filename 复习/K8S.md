@@ -931,9 +931,8 @@ k8s挂目录不需要我们事先准备，将来这个pod在那个被创建，�
 ### 1.3 基于nfs的网络卷
 ![[Pasted image 20240729125755.png|379]]
 都要装nfs-utils不然会报错，如果没有的话，报错了查看日志，会发现是挂载失败
-
-
 ## 2.pv/pvc 持久卷/持久卷声明(<font color="#ff0000">最多的方式</font>)
+
 
 # 十一.kubernetes资源-statefulset
 有状态负载
