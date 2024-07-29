@@ -1009,4 +1009,10 @@ pv已有
 ### 2.2 创建有状态负载
 ![[Pasted image 20240729204524.png|525]]
 ![[Pasted image 20240729204606.png|525]]
+kubectl get pod
+![[Pasted image 20240729205259.png]]
+kubectl get svc
+#### 2.3 测试有状态负载
+
+删除数据库pod
 
