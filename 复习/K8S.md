@@ -912,6 +912,11 @@ kubectl cp project.war  test3-tomcat-78cb46587d-5srn4:/usr/local/tomcat/webapps/
 Kubernetes支持多种类型的卷，例如EmptyDir、HostPath、nfs、glusterfs、ceph等
 
 EmptyDir
+(<span style="background:#fff88f">根本不用</span>)
 创建pod时，pod运行的node节点会创建临时卷，并讲卷挂到pod指定的项目中
 临时卷存放目录
-/var/lib/kubelet/pods/<pod id >
+/var/lib/kubelet/pods/<pod id >/volumes/kubernetes.io-empty-dir/卷名字
+Pod宕机销毁后，改临时卷中的数据会随之被删除
+
+![[Pasted image 20240729102429.png]]
+![[Pasted image 20240729102511.png]]
