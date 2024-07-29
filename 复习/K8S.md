@@ -1,3 +1,4 @@
+![[Pasted image 20240729212129.png]]
 # Kubernetes
 ## 一.Kubernetes概述(<font color="#d99694">完整</font>)
 ### 1.kubernetes是什么
@@ -550,7 +551,7 @@ exec
  ![[Pasted image 20240725210546.png]]
  检测这些业务好不好，是通过负载均衡器检测业务是否正常运行
  如果没有健康状态检查，负载均衡器在接受请求的时候有可能把这个请求分发到故障的业务服务器上面，导致客户访问不正常，如果有健康状态检查，负载均衡器就不再往故障机器上分发请求
-## 六.Kubernetes资源-deployment无状态负载
+## 六.Kubernetes资源-deployment无状态负载(<font color="#d99694">完整</font>)
 #### 4.1 无状态负载介绍
 一种特殊的pod
 在k8s里面创建业务的时候，我们强烈不建议直接去构建pod
@@ -902,7 +903,7 @@ kubectl cp project.war  test3-tomcat-78cb46587d-5srn4:/usr/local/tomcat/webapps/
 
 
 -
-# 十.kubernetes资源-pv/pvc持久化卷
+# 十.kubernetes资源-pv/pvc持久化卷(<font color="#d99694">完整</font>)
 
 尝试挂载不同的远程存储测试一下
 ## 1.volume数据卷
@@ -979,7 +980,7 @@ kubectl create -f pvc-1g
 使用pv做持久化
 ![[Pasted image 20240729192911.png|475]]
 
-# 十一.kubernetes资源-statefulset
+# 十一.kubernetes资源-statefulset(<font color="#d99694">完整</font>)
 ## 1.有状态负载介绍
 有状态负载 本质上也是个pod
 创建的时候yaml文件的结构跟无状态负载大致是一样的
@@ -1005,7 +1006,6 @@ pv已有
 ![[Pasted image 20240729204019.png]]
 <font color="#ff0000">一块硬盘上主要逻辑分区，不要主分区可不可以？</font>
 如果你只当数据盘存放数据来用的话，可以。如果要做系统盘，不行，虽然可以装系统，但是装完了无法启动
-
 ### 2.2 创建有状态负载
 ![[Pasted image 20240729204524.png|525]]
 ![[Pasted image 20240729204606.png|525]]
@@ -1017,7 +1017,7 @@ kubectl logs test-mysql-0
 这表明容器启动时指定了 `--initialize` 参数，但数据目录中已经有了文件。MySQL 不允许在数据目录已经有文件的情况下进行初始化。然后手动删除了已经存在的文件之后
 ![[Pasted image 20240729210647.png]]
 
-#### 2.3 测试有状态负载
+### 2.3 测试有状态负载
 进入数据库pod
 添加库
 create database a;
@@ -1029,6 +1029,11 @@ kubectl  delete  pod test-mysql-0
 ![[Pasted image 20240729210958.png]]
 并且名字没有发生变化
 ![[Pasted image 20240729211036.png]]
-创建的库还在
-测试成功！！！！！！！！！
-不要太片面，这个有状态和五转台只要你创建的时候做了持久化，那k8s重建的而事后都会自动会挂载之前的数据卷，他们的核心区别就是时候会记录客户端的状态信息，我们之前接触的http，但从本身上来说他是无状态的，但是从实际应用的角度来说，他又是有状态的。这是为什么呢？开发在开发这个应用的时候，给它加进去了cookie呀令牌呀会话的这些功能，他才变成有状态的。想mysql数据库这种东西，他原生就是一个有状态的东西
+创建的库还在，测试成功！！！！！！！！！
+
+不要太片面，这个有状态和五转台只要你创建的时候做了持久化，那k8s重建的而事后都会自动会挂载之前的数据卷，<span style="background:#affad1">他们的核心区别就是时候会记录客户端的状态信息</span>，我们之前接触的http，但从本身上来说他是无状态的，但是从实际应用的角度来说，他又是有状态的。这是为什么呢？开发在开发这个应用的时候，给它加进去了cookie呀令牌呀会话的这些功能，他才变成有状态的。想mysql数据库这种东西，他原生就是一个有状态的东西。
+
+# 十二.kubernetes资源-configmap(<font color="#d99694">完整</font>)
+1.配置映射
+
+
