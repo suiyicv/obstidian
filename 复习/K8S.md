@@ -1009,10 +1009,17 @@ pv已有
 ### 2.2 创建有状态负载
 ![[Pasted image 20240729204524.png|525]]
 ![[Pasted image 20240729204606.png|525]]
+kubectl create -f mysql-pod-youzhuangtai
 kubectl get pod
-![[Pasted image 20240729205259.png]]
-kubectl get svc
+![[Pasted image 20240729210553.png]]
+kubectl logs test-mysql-0
+![[Pasted image 20240729210610.png]]
+这表明容器启动时指定了 `--initialize` 参数，但数据目录中已经有了文件。MySQL 不允许在数据目录已经有文件的情况下进行初始化。然后手动删除了已经存在的文件之后
+![[Pasted image 20240729210647.png]]
+
 #### 2.3 测试有状态负载
+进入数据库pod
+添加库
 
 删除数据库pod
 
