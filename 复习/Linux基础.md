@@ -688,6 +688,7 @@ linux本地的rmp包存放位置
 rpm 选项 软件包全名 
 rpm -ivh /mnt/Packages/telnet-0.17-64.el7.x86_64.rpm 
 -i  安装 install 
+-e 卸载
 -v 显示过程 view 
 -h 显示%
 RPM 包默认安装路径
@@ -702,6 +703,16 @@ RPM 包默认安装路径
 rpm -q nmap  # 不加.rpm后缀
 查询包的信息
 rpm -qi nmap
+查询安装位置
+rpm -ql nmap
+查看配置文件 
+rpm -qc nmap
+查看帮助文档的位置 
+rpm -qd nmap 
+查询已安装软件包 
+rpm -qa 
+rpm -qa | grep nmap 
+
 
 
 
