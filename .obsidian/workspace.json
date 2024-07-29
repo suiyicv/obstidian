@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Linux基础.md"
+                "file": "复习/K8S.md"
               }
             }
           },
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/K8S.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +170,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "04836889c1363bfd",
+  "active": "9a27f6688ba933e7",
   "lastOpenFiles": [
+    "复习/Linux基础.md",
+    "笔记插图/Pasted image 20240729154827.png",
     "笔记插图/Pasted image 20240729153306.png",
     "复习/K8S.md",
     "考试.md",
@@ -185,11 +186,8 @@
     "笔记插图/Pasted image 20240729103026.png",
     "笔记插图/Pasted image 20240729103021.png",
     "笔记插图/Pasted image 20240729103013.png",
-    "笔记插图/Pasted image 20240729102857 1.png",
-    "笔记插图/Pasted image 20240729102857.png",
     "复习/Openstack.md",
     "复习/Docker.md",
-    "复习/Linux基础.md",
     "复习/复习(不能删).md",
     "测试机.md",
     "复习",

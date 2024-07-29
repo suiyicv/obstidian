@@ -724,13 +724,7 @@ yum工具
 yum是linux操作系统中最常见的软件安装工具，名为（Yellowdog Updater Modified），主要用于批量管理rpm包，可以做到批量安装软件包，且自动解决软件间依赖关系。
 /etc/yum.conf           yum的配置文件，一般保持默认
 /etc/yum.repos.d/     yum源文件目录
-[池名称]
-name=
-baseurl=
-enabled=
-gpgcheck
-gpgkey=检测地址
-
+![[Pasted image 20240729154827.png]]
 
 
 
