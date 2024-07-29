@@ -1042,5 +1042,9 @@ kubectl  delete  pod test-mysql-0
 ![[Pasted image 20240729212717.png]]
 kubectl describe cm test-mysql-config
 ![[Pasted image 20240729212839.png]]
-通过数据卷的方式
+通过数据卷的方式挂载配置文件
+![[Pasted image 20240729213116.png]]
+额外添加
+进入数据库查看二进制日志开没开启
+
 
