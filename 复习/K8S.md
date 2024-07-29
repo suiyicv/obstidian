@@ -907,14 +907,14 @@ kubectl cp project.war  test3-tomcat-78cb46587d-5srn4:/usr/local/tomcat/webapps/
 尝试挂载不同的远程存储测试一下
 ## 1.volume数据卷
 作用：
-就是对容器里面的数据做持久化，借助数据卷对pod里面的数据卷做持久化，当然也可以挂载配置文件，部署业务项目
+就是借助数据卷对pod里面的数据做持久化，当然也可以挂载配置文件，部署业务项目
 Kubernetes支持多种类型的卷，例如EmptyDir、HostPath、nfs、glusterfs、ceph等
 ### 1.1 EmptyDir
 (<span style="background:#fff88f">根本不用</span>)
-创建pod时，pod运行的node节点会创建临时卷，并讲卷挂到pod指定的项目中
+创建pod时，pod运行的node节点会创建临时卷，并将卷挂到pod指定的项目中
 临时卷存放目录
 /var/lib/kubelet/pods/<\pod id >/volumes/kubernetes.io-empty-dir/ # 卷名字
-Pod宕机销毁后，改临时卷中的数据会随之被删除
+Pod宕机销毁后，该临时卷中的数据会随之被删除
 ![[Pasted image 20240729102429.png|330]]
 ### 1.2 hostPath
 创建Pod时，Pod运行的node节点会在本地创建目录，并该目录挂载到Pod中
