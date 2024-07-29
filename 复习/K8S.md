@@ -948,7 +948,13 @@ pvc     ：持久卷声明，使用存储的申请
 假设公司有一套华为ocean store的存储，当我们创建某一个pod的时候，假设我们规划想用后端的华为存储给我们提供100g空间，安装传统的方式，我们可以直接让k8s去直接挂载这个华为的存储器，但是这种方式，k8s直接和存储设备对接，将来难免就会出现兼容性等乱七八糟的问题，所以k8s提供了存储类去对接后端的存储，后端的这个存储不管是以块设备的方式，还是文件系统的方式，给我提供了100g的真实的存储空间，将来我们要把它挂载到pod上面去用，<font color="#ff0000">按照官方的方式我们应该怎么做呢？</font>
 首先我们应该在这个集群里面去创建一个叫做<span style="background:#affad1">pv</span>的东西，然后用这个pv去代表后端真实的100g的存储，同理我们也可以创建一个500g的pv
 <font color="#ff0000">那如何让pod和pv之间形成挂载关系呢？</font>
-他们俩之间需要一个叫<span style="background:#affad1">pvc</span>的东西，假设将来我们要在集群里面创建一个跑数据库的pod，对数据做持久化，<span style="background:#affad1">我们需要一个40g的存储空间，这个需求就叫一个pvc</span>，一旦这个pvc创建好之后，K8s集群会自动在一个合适的pv和pvc之间建立关联关系，优先选容量最小最合适的
+他们俩之间需要一个叫<span style="background:#affad1">pvc</span>的东西，假设将来我们要在集群里面创建一个跑数据库的pod，对数据做持久化，<span style="background:#affad1">我们需要一个40g的存储空间，这个需求就叫一个pvc</span>，一旦这个pvc创建好之后，K8s集群会自动在一个合适的pv和pvc之间建立关联关系，优先选容量最小最合适的，但是实际上，k8s在和pv和pvc之间形成绑定关系的时候，还有两外一种方式，<font color="#f79646">就是还要考虑pv的权限，需要读写权限的pvc肯定不会和只读的pv绑定</font>。
+accessModes：用于指定PV的访问模式，共有四种
+ReadWriteOnce          被单个节点以读写模式挂载
+ReadWriteMany          被多个节点以读写模式挂载
+ReadOnlyMany           被多个节点以只读模式挂载
+ReadOnlyOnce,        被单节点以只读模式挂载 (k8s 1.29出现的xin)  
+
 最后创建pod的时候在拿pod绑定pvc
 
 总结使用流程:  
