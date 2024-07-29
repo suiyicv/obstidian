@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3001e2fae08112a3",
+        "id": "8471cc8d818555e8",
         "type": "tabs",
         "children": [
           {
-            "id": "da6bab7a883f0285",
+            "id": "9a27f6688ba933e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/Linux基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "621159bc2c6df2fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习.md",
+                "file": "复习/K8S.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -109,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习.md"
+                "file": "复习/K8S.md"
               }
             }
           },
@@ -119,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习.md",
+                "file": "复习/K8S.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习.md",
+                "file": "复习/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,13 +158,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "621159bc2c6df2fb",
+  "active": "9a27f6688ba933e7",
   "lastOpenFiles": [
-    "复习/Linux基础.md",
-    "复习.md",
-    "复习/Docker.md",
+    "复习/复习(不能删).md",
     "复习/K8S.md",
+    "复习/Linux基础.md",
     "复习/Openstack.md",
+    "复习/Docker.md",
     "测试机.md",
     "考试.md",
     "复习",
