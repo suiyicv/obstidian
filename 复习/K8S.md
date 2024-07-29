@@ -917,5 +917,5 @@ Kubernetes支持多种类型的卷，例如EmptyDir、HostPath、nfs、glusterfs
 /var/lib/kubelet/pods/<\pod id >/volumes/kubernetes.io-empty-dir/ # 卷名字
 Pod宕机销毁后，改临时卷中的数据会随之被删除
 ![[Pasted image 20240729102429.png|330]]
- 
+
 
