@@ -712,6 +712,12 @@ rpm -qd nmap
 查询已安装软件包 
 rpm -qa 
 rpm -qa | grep nmap 
+查询文件对应的软件包 
+rpm -qf /etc/man_db.conf 
+rpm -qf `which cat`
+![[Pasted image 20240729153306.png]]
+rpm -e qemu-kvm-1.5.3-167.el7.x86_64 --nodeps <span style="background:#fff88f"># --nodeps忽略依赖</span>
+安装或卸载时忽略依赖关系（rpm软件包在安装或卸载时都可以忽略依赖，但是可能导致安装后的软件功能不完整或不能正常使用）
 
 
 
