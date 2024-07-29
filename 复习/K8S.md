@@ -953,7 +953,7 @@ accessModes：用于指定PV的访问模式，共有四种
 ReadWriteOnce          被单个节点以读写模式挂载
 ReadWriteMany          被多个节点以读写模式挂载
 ReadOnlyMany           被多个节点以只读模式挂载
-ReadOnlyOnce,        被单节点以只读模式挂载 (k8s 1.29出现的xin)  
+ReadOnlyOnce            被单节点以只读模式挂载 (k8s 1.29出现的新模式)  
 
 最后创建pod的时候在拿pod绑定pvc
 
@@ -964,6 +964,8 @@ ReadOnlyOnce,        被单节点以只读模式挂载 (k8s 1.29出现的xin)
 ![[Pasted image 20240729190748.png|500]]
 
 ### 2.2 pv/pvc的使用流程
+(1)创建pv
+![[Pasted image 20240729191746.png]]
 
 
 
