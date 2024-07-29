@@ -1,6 +1,6 @@
 # Docker
 <font color="#ff0000">容器和传统虚拟机的区别？？</font>
-## 一.容器介绍
+## 一.容器介绍(<font color="#d99694">完整</font>)
 容器就是轻量级虚拟化技术
 <font color="#ff0000">轻量级体现在什么地方？</font>
 创建速度特别快；秒级
@@ -55,7 +55,7 @@ docker-ce(社区);docker-ee(企业)
 podman 跟docker一模一样
 containerd
 
-## 二.安装docker
+## 二.安装docker(<font color="#d99694">完整</font>)
 ### 1.配置docker软件仓库
 wget -O /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo
 cat /etc/yum.repos.d/docker-ce.repo

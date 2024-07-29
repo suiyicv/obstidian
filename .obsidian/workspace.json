@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -172,8 +173,9 @@
   },
   "active": "04836889c1363bfd",
   "lastOpenFiles": [
-    "复习/Linux基础.md",
     "复习/K8S.md",
+    "复习/Docker.md",
+    "复习/Linux基础.md",
     "笔记插图/Pasted image 20240729213509.png",
     "笔记插图/Pasted image 20240729213420.png",
     "笔记插图/Pasted image 20240729213116.png",
@@ -187,7 +189,6 @@
     "考试.md",
     "ceshi.md",
     "复习/Openstack.md",
-    "复习/Docker.md",
     "复习/复习(不能删).md",
     "测试机.md",
     "复习",
