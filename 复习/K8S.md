@@ -1056,8 +1056,8 @@ kubectl describe cm test-mysql-config
 
 
 # 十三.Kubernetes<font color="#ff0000">调度系统</font>
-第一天我们讲k8s的时候说集群分主节点和go
-创建pod的时候怎么让他固定在某一个节点上？
+第一天我们讲k8s的时候说集群分主节点和工作节点，我们在集群里面创建pod，pod都是随机分布在所有的工作节点上的。那我们这了所说的调度包括什么呢？给大家讲调度就是为了实现，<font color="#ff0000">创建pod的时候怎么让他明确的固定在某一个节点上？</font>
+就拿我们之前说的ingress的控制器来说，我么们通过ingress主机名的方式，对外发布服务，客户端这边或者dns上面都需要解析，需要解析到ingress控制器身上，
 1.
 
 # 十四.
