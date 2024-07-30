@@ -1,4 +1,7 @@
 ![[Pasted image 20240729212129.png]]
+https://blog.csdn.net/lwxvgdv/article/details/140465812
+pod的所有状态详解
+
 # Kubernetes
 ## 一.Kubernetes概述(<font color="#d99694">完整</font>)
 ### 1.kubernetes是什么
