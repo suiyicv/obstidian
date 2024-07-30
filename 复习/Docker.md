@@ -508,7 +508,7 @@ cat /run/flannel/docker
 iptables -P FORWARD ACCEPT
 ![[Pasted image 20240717231324.png]]
 
-## 八.docker镜像
+## 八.docker镜像(<font color="#d99694">完整</font>)
 
 ### 1.镜像介绍
 所有的容器都是要依赖于特定的镜像创建的，镜像如同模板一样(说法不够准确)
@@ -606,7 +606,7 @@ ifconfig
 ### 2.dockerfile 常用指令
 #### -FORM
 指定基础镜像
-镜像不村子，构建镜像时自动下载镜像
+镜像不存在，构建镜像时自动下载镜像
 建议尽量选择小容量的镜像 /debian/ubuntu
 FROM 镜像名称
 
@@ -931,8 +931,6 @@ docker push harbor.linux.com/miaosha/websocket-server:1.0
 #### 4.4退出仓库
 docker logout harbor.linux.com
 
-
-
 ### 5.harbor核心组件
 单个harbor很容易成为单点故障
 ![[Pasted image 20240722150812.png|650]]
@@ -1001,7 +999,7 @@ mount -a
 #### 6.5编辑harbor配置文件
  禁用自带数据库，连接外部数据库
  vim harbor.yml
- ```bash title:harbor.yml 
+ ```bash title:harbor.yml  
  # Harbor DB configuration
 # database:
   # The password for the root user of Harbor DB. Change this before any production use.
