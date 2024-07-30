@@ -930,7 +930,6 @@ docker tag websocket-server:1.0 harbor.linux.com/miaosha/websocket-server:1.0
 docker push harbor.linux.com/miaosha/websocket-server:1.0 
 #### 4.4退出仓库
 docker logout harbor.linux.com
-
 ### 5.harbor核心组件
 单个harbor很容易成为单点故障
 ![[Pasted image 20240722150812.png|650]]
@@ -1134,7 +1133,7 @@ command:
 	-"shell命令"
 ```
 ![[Pasted image 20240723101800.png]]
-docker run 创建能够默认允许是应为，-t -i 提供了一个终端
+docker run 创建能够默认允许是因为，-t -i 提供了一个终端
 没有终端怎么执行/bin/bash
 这就是docker-compose编排创建的时候，centos:7的容器虽默认执行bash但是无法启动的原因
 ```bash title:常用选项
