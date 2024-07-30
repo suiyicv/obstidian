@@ -1189,9 +1189,12 @@ Exists：某个label存在
 DoesNotExist：某个label不存在  
 Gt：label的值大于某个值（字符串比较）  
 Lt：label的值小于某个值（字符串比较）
-
 ![[Pasted image 20240730203928.png]]
-
+4.组合使用
+![[Pasted image 20240730204411.png]]
+表示调度到同时有这两个标签的的机器上
+![[Pasted image 20240730204521.png]]
+又重新调度回节点1 
 
 
 
