@@ -341,7 +341,9 @@ docker cp wordpres1:/wordpress.sql   ./
 ## 五.堡垒机/跳板机
 
 堡垒机/跳板机，加强内网服务器的安全管理
-在所有的服务器前端添加一个一跳板机，工作人员只能连接到跳板机，然后跳板机帮你连接到后端的服务器，就是为了加强后后端服务器的an'quan
+在所有的服务器前端添加一个一跳板机，工作人员只能连接到跳板机，然后跳板机帮你连接到后端的服务器，就是为了加强后后端服务器的安全性
+设置好权限，规定好那个人可以通过什么用户去管理那些后端的服务器，后端的服务器叫做资产
+
 ![[Pasted image 20240716160037.png]]
 ### 1.jumpserver安装使用
 #### (1)生成jumpserver需要的密钥
@@ -370,8 +372,7 @@ docker run -tid --name=jumpserver --hostname=jumpserver \
 ssh admin@192.168.140.21:2222 
 ![[Pasted image 20240716192152.png]]
 
-2.jumpserver的使用
-
+### 2.jumpserver的使用
 创建用户组
 创建用户
 ![[Pasted image 20240717091808.png]]
