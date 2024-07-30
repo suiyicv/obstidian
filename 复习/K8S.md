@@ -1094,6 +1094,16 @@ kubectl get nodes --show-labels
 #### (2) 添加标签
 可以根据机器的特性给机器打标签
 kubectl label node k8s-node01.linux.com key=value
+kubectl label node k8s-node01.linux.com disk=ssd
+![[Pasted image 20240730190340.png]]
+#### (3) 删除标签
+kubectl label node k8s-node01.linux.com key-
+kubectl label node k8s-node01.linux.com disk-
+![[Pasted image 20240730190526.png]]
+#### (4) 修改标签
+disk=full
+kubectl label node k8s-node01.linux.com disk=full  --overwrite
+![[Pasted image 20240730190653.png]]
 
 
 # 十四.
