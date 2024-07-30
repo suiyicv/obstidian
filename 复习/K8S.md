@@ -1060,7 +1060,7 @@ kubectl describe cm test-mysql-config
 创建pod的时候怎么让他固定在某一个节点上？
 1.
 
-
+# 十四.
 
 
 
