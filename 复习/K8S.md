@@ -1091,8 +1091,9 @@ k8s里面标签是一个很重要的概念，k8s里面任何一个对象身上�
 kubectl get nodes --show-labels
 ![[Pasted image 20240730185445.png]]
 这些标签都是k8s搭好之后自动创建的标签，如果你需要的话k8s支持给你的机器自己打标签
-#### (2) 创建标签
-可以根据ji'qi
+#### (2) 添加标签
+可以根据机器的特性给机器打标签
+kubectl label node k8s-node01.linux.com key=value
 
 
 # 十四.
