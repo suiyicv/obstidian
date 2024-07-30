@@ -156,7 +156,10 @@ docker run -tid --name=test4 --hostname=test4 -p 80:80 nginx:1.18
 docker run -tid --name=test6 --hostname=test6 -P nginx:1.18 
 从三万多开始
 无论是P还是p 其实本质上都属于dnat
-
+iptables -t nat -nL
+![[Pasted image 20240730113300.png]]
+<font color="#ff0000">既然他本质就是一条dnat规则，那我们可以可以自己手写一条dnat规则往外发布呢？</font>
+理论可行，实际上不能！容器内有内核，就没有办法驱动硬件，容器不支持固定ip，只能通过dhcp自动获取，为什么说理论上可行呢？就在于你确实可以手写一条dnat规则把服务发不出来，但是如果容器ip变了呢？这个dnat规则就失效了，
 
 ### 5.传递环境变量
 https://hub.docker.com/
