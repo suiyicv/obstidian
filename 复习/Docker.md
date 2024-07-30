@@ -119,7 +119,7 @@ docker tag 555308ffc1d7 suiyi:1003
 docker run -tid suiyi:1003 /bin/bash
 <span style="background:#affad1">docker run -tid --name xxx  image_id /bin/bash</span>
 ![[Pasted image 20240715202855.png]]
-## 四.容器常用选项
+## 四.容器常用选项(<font color="#d99694">完整</font>)
 ### 1.后台运行
 -d 
 不加-d的话
@@ -223,10 +223,12 @@ docker exec -ti test30 bash
 --link=容器名:别名
 容器不允许使用IP通信
 容器是不支持配置固定ip所有的ip都是由dhcp自动分配出来的，这个ip不一定什么时候就会变，所以容器和容器之间通信不能走ip的，所以要定义一个别名
-
+![[Pasted image 20240730115852.png|500]]
 ### 9.容器的资源限制
 --cpus
 --memory
+![[Pasted image 20240730115757.png|500]]
+![[Pasted image 20240730115824.png|500]]
 
 ### 10.小练习
 前期规划：
@@ -1179,3 +1181,4 @@ networks_mode: 'host'             # 定义容器网络模式
 ```
 ### 4.配置nginx负载均衡案例
 nginx tomcat tomcat
+
