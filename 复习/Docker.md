@@ -171,7 +171,7 @@ docker run -tid --name=test7 --hostname=test7
 ![[Pasted image 20240715211226.png]]
 ![[Pasted image 20240715211247.png]]
 容器建出来就是挂的
-当我们拿镜像创建容器的时候，尤其是一些docker官方的镜像，有的会要求创建容器的时候必须有变量给我传值，不然容器就创建不出来
+当我们拿镜像创建容器的时候，尤其是一些docker官方的镜像，有的会要求创建容器的时候必须有变量给我传值，不然容器就创建出来就是挂的
 查看日志
 docker logs  4a3a
 ![[Pasted image 20240715211408.png]]
@@ -188,10 +188,11 @@ docker run -tid --name=test9 --hostname=test9 \
 > -e MYSQL_PASSWORD=redhat \
 > mysql:5.7
 ```
-![[Pasted image 20240715211653.png]]
-
+通过-e 创建出来的用户，会自动给it库授权
+![[Pasted image 20240730114519.png]]
 ### 6.容器持久化保存
 <span style="background:#affad1">-v 物理机目录:容器目录</span>
+创建容器的同时，在你的物理机上面选定一个目录，然后把这个目录g
 docker run -tid --name=test1 --hostname=test1 -v /opt/test1:/test1 centos:7 
 docker exec -ti test1 bash
 ![[Pasted image 20240715211858.png]]
