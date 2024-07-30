@@ -1107,7 +1107,15 @@ kubectl label node k8s-node01.linux.com disk=full  --overwrite
 
 ### 2.3 通过节点标签做调度
 ![[Pasted image 20240730191115.png|450]]
-kubectl create -f nodebiqo
+kubectl create -f nodebq.yaml
+![[Pasted image 20240730191454.png]]
+创建不成功，一直在请求调度，但是找不到合适的节点，应为我们没有节点标签为 ram:higher的标签
+我们在节点1添加 ram:higher的标签
+![[Pasted image 20240730191715.png]]
+成功创建
+
+
+
 
 # 十四.
 
