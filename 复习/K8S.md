@@ -1177,7 +1177,20 @@ RequiredDuringExecution表示pod部署之后运行的时候，如果节点标签
 表示优先部署到更符合的节点上，如果没有满足条件的节点，就忽略这些条件，按照正常逻辑部署。
 RequiredDuringExecution表示如果后面节点标签发生了变化，满足了条件，则重新调度到满足条件的节点。
 
-## 3.但条件使用
+## 3.单条件使用
+![[Pasted image 20240730203742.png|500]]
+给节点1添加yewu=dev标签
+![[Pasted image 20240730203831.png|500]]
+调度到没有yewu=dev标签的机器上
+支持的操作符：  
+In: label的值在某个列表中  
+NotIn：label的值不在某个列表中  
+Exists：某个label存在  
+DoesNotExist：某个label不存在  
+Gt：label的值大于某个值（字符串比较）  
+Lt：label的值小于某个值（字符串比较）
+
+![[Pasted image 20240730203928.png]]
 
 
 
