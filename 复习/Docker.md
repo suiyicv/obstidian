@@ -84,7 +84,7 @@ iptables -t nat -nL
 ![[Pasted image 20240715112538.png]]
 
 
-## 三.容器管理的常用操作
+## 三.容器管理的常用操作(<font color="#d99694">完整</font>)
 创建容器
 我是用什么镜像创建容器，设置容器执行什么命令
 docker run [选项] 镜像名称 [命令]
@@ -119,8 +119,7 @@ docker tag 555308ffc1d7 suiyi:1003
 docker run -tid suiyi:1003 /bin/bash
 <span style="background:#affad1">docker run -tid --name xxx  image_id /bin/bash</span>
 ![[Pasted image 20240715202855.png]]
-
-## 四.容器常用选项
+## 四.容器常用选项(<font color="#d99694">完整</font>)
 ### 1.后台运行
 -d 
 ### 2.指定容器名字 主机名字
