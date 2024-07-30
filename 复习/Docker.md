@@ -192,7 +192,9 @@ docker run -tid --name=test9 --hostname=test9 \
 ![[Pasted image 20240730114519.png]]
 ### 6.容器持久化保存
 <span style="background:#affad1">-v 物理机目录:容器目录</span>
-创建容器的同时，在你的物理机上面选定一个目录，然后把这个目录g
+创建容器的同时，在你的物理机上面选定一个目录，然后把这个目录挂载到容器里面去，然后你的那个容器产生数据的时候，这些数据会被自动映射到物理机上一部分，就算你的容器被删了，但是你的数据在物理机上还有
+物理机上的目录要是不存在的话会自动创建，容器机上的目录要是没有也会自动创建
+
 docker run -tid --name=test1 --hostname=test1 -v /opt/test1:/test1 centos:7 
 docker exec -ti test1 bash
 ![[Pasted image 20240715211858.png]]
