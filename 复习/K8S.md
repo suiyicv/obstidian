@@ -1158,8 +1158,24 @@ toleration Seconds：30  容忍的超时时间
 
 
 # 十四.kubernetes调度-节点亲缘性/pod亲缘性
+## 1.节点亲缘性
+本质上还是根据节点上的标签进行调度，但是调度策略更加的丰富
+通过调度可以说，可以实现新建的pod应该到那个节点上去，或者不该到那个节点上去
+## 2.四种nodeAffinity调度策略
+**(1)requiredDuringSchedulingIgnoredDuringExecution**
+表示pod必须部署到满足条件的节点上，如果没有满足条件的节点，就不停重试。
+IgnoreDuringExecution表示pod部署之后运行的时候，如果节点标签发生了变化，不再满足pod指定的条件，pod也会继续运行
 
+**(2)requiredDuringSchedulingRequiredDuringExecution**
+表示pod必须部署到满足条件的节点上，如果没有满足条件的节点，就不停重试
+RequiredDuringExecution表示pod部署之后运行的时候，如果节点标签发生了变化，不再满足pod指定的条件，则重新选择符合要求的节点
 
+**(3)preferredDuringSchedulingIgnoredDuringExecution**
+表示优先部署到满足条件的节点上，如果没有满足条件的节点，就忽略这些条件，按照正常逻辑部署
+
+**(4)preferredDuringSchedulingRequiredDuringExecution**
+表示优先部署到满足条件的节点上，如果没有满足条件的节点，就忽略这些条件，按照正常逻辑部署。
+RequiredDuringExecution表示如果后面节点标签发生了变化，满足了条件，则重新调度到满足条件的节点。
 
 
 
