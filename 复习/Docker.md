@@ -339,6 +339,8 @@ docker cp wordpres1:/wordpress.sql   ./
 
 
 ## 五.堡垒机/跳板机
+
+堡垒机/跳板机，加强内网服务器的安全管理
 ![[Pasted image 20240716160037.png]]
 ### 1.jumpserver安装使用
 #### (1)生成jumpserver需要的密钥
@@ -359,6 +361,9 @@ docker run -tid --name=jumpserver --hostname=jumpserver \
  -v /opt/jumpserver/mysql:/var/lib/mysql \
  jumpserver/jms_all:v2.8.4 
 ```
+80端口，提供webUI，jumpserver后台管理界面  
+默认用户名admin，密码admin
+
 ![[Pasted image 20240716192221.png]]
 #### (3)客户端登录
 ssh admin@192.168.140.21:2222 
