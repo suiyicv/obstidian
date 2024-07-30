@@ -1140,8 +1140,12 @@ kubectl taint node <节点名称> key=value:{NoSchedule|NoExecute|PreferNoSchedu
     已经运行在该节点的POD同时也会被驱逐
 - PreferNoSchedule  
     尽量不向该节点调度新建的POD
-     早c
-
+    在创建pod的时候要是通过节点名或者通过节点标签或者通过一些亲缘新的机制明确写了我们新建的pod还就带在这个机器上，这个时候就可能会有这个优先级之分
+```bash
+kubectl taint node k8s-node02.linux.com fan=error:NoExecute 
+kubectl describe node k8s-node02.linux.com | grep -i taint
+Taints:             fan=error:NoExecute
+```
 
 # 十四.
 
