@@ -816,7 +816,6 @@ docker logs websocket
 registry(早期;容器镜像):就是一个容器;功能太少,缺少日志,权限分配,高可用功能;仅支持上传下载;5000端口
 <span style="background:#affad1">harbor</span>(软件):VMware开源的;在早期的registry的基础之上进行改进;增加了web ui;支持日志审计;权限分配;统一认证等功能，更贴合公司实际的使用需求
 两种安装包:离线安装包(包含镜像)；在线安装包(内存小;不包含镜像;需要自己下载)
-
 ### 3.部署harbor仓库(单机版)
 #### 3.1安装docker
 #### 3.2安装docker-compose工具
