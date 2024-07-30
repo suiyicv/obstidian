@@ -1056,7 +1056,7 @@ kubectl describe cm test-mysql-config
 
 
 # 十三.Kubernetes<font color="#ff0000">调度系统</font>
-
+第一天我们讲k8s的时候说集群分主节点和go
 创建pod的时候怎么让他固定在某一个节点上？
 1.
 
