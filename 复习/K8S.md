@@ -909,21 +909,21 @@ kubectl cp project.war  test3-tomcat-78cb46587d-5srn4:/usr/local/tomcat/webapps/
 
 
 -
-# 十.kubernetes资源-pv/pvc持久化卷(<font color="#d99694">完整</font>)
+## 十.kubernetes资源-pv/pvc持久化卷(<font color="#d99694">完整</font>)
 
 尝试挂载不同的远程存储测试一下
-## 1.volume数据卷
+### 1.volume数据卷
 作用：
 就是借助数据卷对pod里面的数据做持久化，当然也可以挂载配置文件，部署业务项目
 Kubernetes支持多种类型的卷，例如EmptyDir、HostPath、nfs、glusterfs、ceph等
-### 1.1 EmptyDir
+#### 1.1 EmptyDir
 (<span style="background:#fff88f">根本不用</span>)
 创建pod时，pod运行的node节点会创建临时卷，并将卷挂到pod指定的项目中
 临时卷存放目录
 /var/lib/kubelet/pods/<\pod id >/volumes/kubernetes.io-empty-dir/ # 卷名字
 Pod宕机销毁后，该临时卷中的数据会随之被删除
 ![[Pasted image 20240729102429.png|330]]
-### 1.2 hostPath
+#### 1.2 hostPath
 创建Pod时，Pod运行的node节点会在本地创建目录，并该目录挂载到Pod中
 Pod宕机后，宿主机对应目录中的文件不会消失
 以前讲docker -v挂载目录，前提是你的物理机上面应该有这个目录
@@ -935,12 +935,12 @@ k8s挂目录不需要我们事先准备，将来这个pod在那个被创建，�
 在物理机上面可以看到相应的文件
 ![[Pasted image 20240729125031.png]]
 
-### 1.3 基于nfs的网络卷
+#### 1.3 基于nfs的网络卷
 ![[Pasted image 20240729125755.png|379]]
 都要装nfs-utils不然会报错，如果没有的话，报错了查看日志，会发现是挂载失败
-## 2.pv/pvc 持久卷/持久卷声明(<font color="#ff0000">最多的方式</font>)
+### 2.pv/pvc 持久卷/持久卷声明(<font color="#ff0000">最多的方式</font>)
 
-### 2.1 pv和pvc的介绍
+#### 2.1 pv和pvc的介绍
 从软件设计的角度来讲(跟pod类似)，k8s在做持久化存储的时候，支持很多种格式的存储，各种品牌的存储
 从软件设计的角度来说，市面上出现一款新的存储k8s就要添加一个新的的接口，去对接该存储，这样子就会很繁琐，所以k8s为了方便自己的软件维护，所以在k8s内部设计了一个通用的接口 <span style="background:#affad1">storage class </span><span style="background:#affad1">（存储类）,通过存储类去对接各厂商的存储设备</span>
 如果说，出现了一家新的存储厂商，我只需要对存储类进行升级更新就行了，不需要动K8s集群的其他东西，可以基于这一个存储类，去对接所有的存储。
@@ -970,24 +970,24 @@ ReadOnlyOnce            被单节点以只读模式挂载 (k8s 1.29出现的新�
 创建pod，挂载pvc使用存储
 ![[Pasted image 20240729190748.png|500]]
 
-### 2.2 pv/pvc的使用流程
-#### (1)创建pv
+#### 2.2 pv/pvc的使用流程
+##### (1)创建pv
 ![[Pasted image 20240729191746.png]]
 persistentVolumeReclaimPolicy:  
 指定回收模式是自动回收，当空间被释放时，K8S自动清理，然后可以继续绑定使用
 kubectl get pv
 ![[Pasted image 20240729192436.png]]
 available:有效的，空闲的没有 被任何pvc绑定，没有被任何pod占用
-#### (2)创建pvc
+##### (2)创建pvc
 ![[Pasted image 20240729192133.png]]
 kubectl create -f pvc-1g
 ![[Pasted image 20240729192744.png]]
-#### (3) 创建pod
+##### (3) 创建pod
 使用pv做持久化
 ![[Pasted image 20240729192911.png|475]]
 
-# 十一.kubernetes资源-statefulset(<font color="#d99694">完整</font>)
-## 1.有状态负载介绍
+## 十一.kubernetes资源-statefulset(<font color="#d99694">完整</font>)
+### 1.有状态负载介绍
 有状态负载 本质上也是个pod
 创建的时候yaml文件的结构跟无状态负载大致是一样的
 <font color="#ff0000">有状态负载和无状态负载的区别？</font>
@@ -1005,14 +1005,14 @@ kubectl create -f pvc-1g
 以有状态负载的方式去建数据库，肯定要做持久化，<font color="#ff0000">那做持久化是拿本地的目录去做还是拿网络的去做？</font>
 必须用网络存储，不能用本地存储，应为如果你用本地存储的话，你的这个数据库的pod假设跑在第一个节点，然后在第一个节点上有一个文件夹来做持久化存储，正常运行的时候是没有问题的，但是一点这个pod挂了，重建了，问题就有可能发生，因为重建后的pod不一定还在这个节点上，别的节点上，没有原始的旧数据。
 <span style="background:#affad1">注意：</span>其实无论是无状态负载，还是有状态负载，你要是给他做了持久化之后，他们被删了重建之后，都会自动的去挂载以前的数据卷，最主要的区别就是一个是无状态，一个是有状态
-## 2.创建有状态负载
-### 2.1 创建pv/pvc
+### 2.创建有状态负载
+#### 2.1 创建pv/pvc
 pv已有
 直接创建pvc
 ![[Pasted image 20240729204019.png]]
 <font color="#ff0000">一块硬盘上主要逻辑分区，不要主分区可不可以？</font>
 如果你只当数据盘存放数据来用的话，可以。如果要做系统盘，不行，虽然可以装系统，但是装完了无法启动
-### 2.2 创建有状态负载
+#### 2.2 创建有状态负载
 ![[Pasted image 20240729204524.png|525]]
 ![[Pasted image 20240729204606.png|525]]
 kubectl create -f mysql-pod-youzhuangtai
@@ -1023,7 +1023,7 @@ kubectl logs test-mysql-0
 这表明容器启动时指定了 `--initialize` 参数，但数据目录中已经有了文件。MySQL 不允许在数据目录已经有文件的情况下进行初始化。然后手动删除了已经存在的文件之后
 ![[Pasted image 20240729210647.png]]
 
-### 2.3 测试有状态负载
+#### 2.3 测试有状态负载
 进入数据库pod
 添加库
 create database a;
@@ -1039,24 +1039,21 @@ kubectl  delete  pod test-mysql-0
 
 不要太片面，这个有状态和五转台只要你创建的时候做了持久化，那k8s重建的而事后都会自动会挂载之前的数据卷，<span style="background:#affad1">他们的核心区别就是时候会记录客户端的状态信息</span>，我们之前接触的http，但从本身上来说他是无状态的，但是从实际应用的角度来说，他又是有状态的。这是为什么呢？开发在开发这个应用的时候，给它加进去了cookie呀令牌呀会话的这些功能，他才变成有状态的。想mysql数据库这种东西，他原生就是一个有状态的东西。
 
-# 十二.kubernetes资源-configmap(<font color="#d99694">完整</font>)
+## 十二.kubernetes资源-configmap(<font color="#d99694">完整</font>)
 
-## 1.创建configMap
+### 1.创建configMap
 存MySQL配置
 ![[Pasted image 20240729212428.png]]
 一个键对应着多个值的话，一定要有 | 
 ![[Pasted image 20240729212717.png]]
 kubectl describe cm test-mysql-config
 ![[Pasted image 20240729212839.png]]
-## 2.通过数据卷的方式挂载配置文件
+### 2.通过数据卷的方式挂载配置文件
 ![[Pasted image 20240729213420.png]]
 额外添加
-## 3.进入数据库查看二进制日志开没开启
+### 3.进入数据库查看二进制日志开没开启
 ![[Pasted image 20240729213509.png]]
 配置生效，测试成功
-
-
-
 
 
 # 3.Kubernetes调度
@@ -1162,11 +1159,11 @@ kubectl taint node <节点名称> key:{NoSchedule|NoExecute|PreferNoSchedule}-
 toleration Seconds：30  容忍的超时时间
 
 
-# 十四.kubernetes调度-节点亲缘性/pod亲缘性
+## 十四.kubernetes调度-节点亲缘性/pod亲缘性
 ### 1.节点亲缘性
 本质上还是根据<span style="background:#affad1">节点上的标签</span>进行调度，但是调度策略更加的丰富
 通过调度可以说，可以实现新建的pod应该到那个节点上去，或者不该到那个节点上去
-### 2.四种nodeAffinity调度策略
+#### 1.1 四种nodeAffinity调度策略
 **(1)<font color="#ff0000">requiredDuringScheduling</font><font color="#f79646">Ignored</font>DuringExecution**
 表示pod必须部署到满足条件的节点上，如果没有满足条件的节点，就不停重试。
 IgnoreDuringExecution表示pod部署之后运行的时候，如果节点标签发生了变化，不再满足pod指定的条件，pod也会继续运行
@@ -1182,7 +1179,7 @@ RequiredDuringExecution表示pod部署之后运行的时候，如果节点标签
 表示优先部署到更符合的节点上，如果没有满足条件的节点，就忽略这些条件，按照正常逻辑部署。
 RequiredDuringExecution表示如果后面节点标签发生了变化，满足了条件，则重新调度到满足条件的节点。
 
-### 3.单条件使用
+#### 1.2 单条件使用
 ![[Pasted image 20240730203742.png|500]]
 给节点1添加yewu=dev标签
 ![[Pasted image 20240730203831.png|500]]
@@ -1195,7 +1192,7 @@ DoesNotExist：某个label不存在
 Gt：label的值大于某个值（字符串比较）  
 Lt：label的值小于某个值（字符串比较）
 ![[Pasted image 20240730203928.png]]
-### 4.组合使用
+#### 1.3 组合使用
 ![[Pasted image 20240730204411.png]]
 表示调度到同时有这两个标签的的机器上
 ![[Pasted image 20240730204521.png]]
