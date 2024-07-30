@@ -198,22 +198,17 @@ docker run -tid --name=test2 --hostname=test2 \
 ```
 多个容器挂载同一个目录
 docker run -tid --name=test3 --hostname=test3 -v /opt/test1/:/test3 centos:7 
- docker run -tid --name=test4 --hostname=test4 -v /opt/test1/:/test4 centos:7 
+docker run -tid --name=test4 --hostname=test4 -v /opt/test1/:/test4 centos:7 
 docker exec -ti test30 bash
 ![[Pasted image 20240715212630.png]]
 ![[Pasted image 20240715212639.png]]
 ![[Pasted image 20240715212649.png]]
-
-
-
 ### 7.容器中应用的配置文件
 -v
 把配置文件在物理机上准备好
-
 ![[Pasted image 20240716091034.png]]
 ![[Pasted image 20240716091115.png]]
 ### 8.定义容器的通信别名
-
 --link=容器名:别名
 容器不允许使用IP通信
 ### 9.容器的资源限制
