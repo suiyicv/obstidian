@@ -1052,4 +1052,7 @@ kubectl describe cm test-mysql-config
 
 
 
-# 十三.
+# 十三.Kubernetes调度系统
+
+创建pod的时候怎么让他固定在某一个ji'ei'd
+1.
