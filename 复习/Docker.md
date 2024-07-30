@@ -382,7 +382,6 @@ docker run -tid --name=jumpserver --hostname=jumpserver \
 #### (3)客户端登录
 ssh admin@192.168.140.21:2222 
 ![[Pasted image 20240716192152.png]]
-
 ### 2.jumpserver的使用
 创建用户组
 创建用户
