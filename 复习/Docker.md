@@ -1133,9 +1133,9 @@ command:
 	-"shell命令"
 ```
 ![[Pasted image 20240723101800.png]]
-docker run 创建能够默认允许是因为，-t -i 提供了一个终端
+docker run 创建能够默认运行是因为，-t -i 提供了一个终端
 没有终端怎么执行/bin/bash
-这就是docker-compose编排创建的时候，centos:7的容器虽默认执行bash但是无法启动的原因
+这就是docker-compose编排创建的时候，centos:7的容器虽默认执行bash但是无法启动的原因，所以要明确指定一个命令，比如sleep 3600 ,这样子才会正常运行
 ```bash title:常用选项
 links: - 容器名称:别名              # 容器名称写的是服务名称
 ports:                                        # 发布容器服务
