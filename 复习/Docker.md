@@ -155,6 +155,8 @@ docker run -tid --name=test4 --hostname=test4 -p 80:80 nginx:1.18
 -P 随机发布端口
 docker run -tid --name=test6 --hostname=test6 -P nginx:1.18 
 从三万多开始
+无论是P还是p 其实本质上都属于dnat
+
 
 ### 5.传递环境变量
 https://hub.docker.com/
