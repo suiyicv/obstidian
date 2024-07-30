@@ -1125,7 +1125,23 @@ kubectl create -f nodebq.yaml
 关键点在污点这个词的意思上，某一个机器上一但有了污点之后，将来k8s在调度pod时这个pod就不会被调度到有污点的机器，除非，你在创建这个pod的时候容忍了这个污点
 二进制的方式搭建出来的k8s集群，新建的pod就可能会跑到主节点上，但是通过kubeadm自动化工具搭建出来的k8s集群，新建的pod就不会跑到主节点上，<font color="#ff0000">这是为什么呢？</font>
 就是因为通过kubeadm自动化工具部署集群的时候，就会自带一个污点
-3.1 查看主节点上的污点
+### 3.1 查看主节点上的污点
+kubectl describe node k8s-master.linux.com | grep -i taint
+![[Pasted image 20240730200821.png]]
+### 3.2 添加污点
+格式：
+kubectl taint node <节点名称> key=value:{NoSchedule|NoExecute|PreferNoSchedule}
+污点策略
+- NoSchedule  
+    新建的POD不会再向该节点调度  
+    已经运行在该节点的POD不会受影响
+- NoExecute  
+    新建的POD不会再向该节点调度  
+    已经运行在该节点的POD同时也会被驱逐
+- PreferNoSchedule  
+    尽量不向该节点调度新建的POD
+     早c
+
 
 # 十四.
 
