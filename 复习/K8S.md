@@ -1154,15 +1154,11 @@ kubectl taint node <节点名称> key:{NoSchedule|NoExecute|PreferNoSchedule}-
 你希望新建的pod到有污点的机器上来，你创建pod的时候要添加容忍
 #### (1)添加容忍
 ![[Pasted image 20240730202113.png|409]]
-支持的操作符：
-- In: label的值在某个列表中
-- NotIn：label的值不在某个列表中
-- Exists：某个label存在
-- DoesNotExist：某个label不存在
-- Gt：label的值大于某个值（字符串比较）
-- Lt：label的值小于某个值（字符串比较）
+toleration Seconds：30  容忍的超时时间
 
-# 十四.
+
+# 十四.kubernetes调度-节点亲缘性/pod亲缘性
+
 
 
 
