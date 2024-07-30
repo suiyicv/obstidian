@@ -1056,6 +1056,8 @@ kubectl describe cm test-mysql-config
 
 
 # 十三.Kubernetes<font color="#ff0000">调度系统</font>
+## 1.调度介绍
+
 第一天我们讲k8s的时候说集群分主节点和工作节点，我们在集群里面创建pod，pod都是随机分布在所有的工作节点上的。那我们这了所说的调度包括什么呢？给大家讲调度就是为了实现
 <font color="#ff0000">创建pod的时候怎么让他明确的固定在某一个节点上？</font>
 <font color="#ff0000">调度有什么做用？</font>
@@ -1115,6 +1117,7 @@ kubectl create -f nodebq.yaml
 成功创建
 
 
+## 3.污点Taint和容忍Toleration
 
 
 # 十四.
