@@ -1081,6 +1081,7 @@ pod亲缘性
 kubectl get nodes
 ![[Pasted image 20240730184137.png]]
 就是创建pod的时候添加一个参数
+![[Pasted image 20240730184256.png|356]]
 
 
 
