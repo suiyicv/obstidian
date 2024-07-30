@@ -141,11 +141,10 @@ docker run -tid --name=test2 --hostname=test2 --restart=always centos:7
 ```bash
 docker run -tid --name=test4 --hostname=test4  nginx:1.18 
 ```
-现在我们机器里的这个80端口谁可以访问？
+<font color="#ff0000">现在我们机器里的这个80端口谁可以访问？</font>
 跑docker的这个物理机可以访问，其他docke容器也可以访问
 如果想外界可以访问，第一种方式就是通过nat转换(dnat)
 docker思想上是这样的，但是操作不是这样
-
 容器一点创建好以后，里面的东西就已经固定了没法改变
 ```bash
 docker run -tid --name=test4 --hostname=test4 -p 80:80 nginx:1.18 
