@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d03f9237324186b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/K8S.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Docker.md"
+                "file": "复习/K8S.md"
               }
             }
           },
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/K8S.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,13 +171,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa9581263d487648",
+  "active": "d03f9237324186b5",
   "lastOpenFiles": [
+    "复习/Docker.md",
+    "笔记插图/Pasted image 20240730140350.png",
     "复习/K8S.md",
     "复习/Linux基础.md",
     "复习/Openstack.md",
     "ceshi.md",
-    "复习/Docker.md",
     "笔记插图/Pasted image 20240730115852.png",
     "笔记插图/Pasted image 20240730115824.png",
     "笔记插图/Pasted image 20240730115757.png",
@@ -175,7 +189,6 @@
     "笔记插图/Pasted image 20240729213420.png",
     "笔记插图/Pasted image 20240729213116.png",
     "笔记插图/Pasted image 20240729212839.png",
-    "笔记插图/Pasted image 20240729212717.png",
     "考试.md",
     "测试机.md",
     "复习",
