@@ -1146,6 +1146,21 @@ kubectl taint node k8s-node02.linux.com fan=error:NoExecute
 kubectl describe node k8s-node02.linux.com | grep -i taint
 Taints:             fan=error:NoExecute
 ```
+#### 删除污点
+格式：
+kubectl taint node <节点名称> key:{NoSchedule|NoExecute|PreferNoSchedule}-
+
+### 3.3 容忍Toleration
+你希望新建的pod到有污点的机器上来，你创建pod的时候要添加容忍
+#### (1)添加容忍
+![[Pasted image 20240730202113.png|409]]
+支持的操作符：
+- In: label的值在某个列表中
+- NotIn：label的值不在某个列表中
+- Exists：某个label存在
+- DoesNotExist：某个label不存在
+- Gt：label的值大于某个值（字符串比较）
+- Lt：label的值小于某个值（字符串比较）
 
 # 十四.
 
