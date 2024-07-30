@@ -119,7 +119,7 @@ docker tag 555308ffc1d7 suiyi:1003
 docker run -tid suiyi:1003 /bin/bash
 <span style="background:#affad1">docker run -tid --name xxx  image_id /bin/bash</span>
 ![[Pasted image 20240715202855.png]]
-## 四.容器常用选项(<font color="#d99694">完整</font>)
+## 四.容器常用选项
 ### 1.后台运行
 -d 
 ### 2.指定容器名字 主机名字
@@ -208,7 +208,7 @@ docker exec -ti test30 bash
 把配置文件在物理机上准备好
 ![[Pasted image 20240716091034.png]]
 ![[Pasted image 20240716091115.png]]
-### 8.定义容器的通信别名
+### 8.定义容器的<span style="background:#affad1">通信别名</span>
 --link=容器名:别名
 容器不允许使用IP通信
 容器是不支持配置固定ip所有的ip都是由dhcp自动分配出来的，这个ip不一定什么时候就会变，所以容器和容器之间通信是不走ip的
@@ -412,7 +412,7 @@ docker run -tid --name=test5 --net=container:test4 centos:7
 #### (4)none模式
 容器没有自己的网络命名空间
 
-## 七.flannel+etcd网络
+## 七.flannel+etcd网络(<font color="#d99694">完整</font>)
 跨物理机之间的容器相互通信
 一种方法:host网络模式
 第二种方法：
