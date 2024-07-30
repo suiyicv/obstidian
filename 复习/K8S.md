@@ -1084,7 +1084,7 @@ kubectl get nodes
 ![[Pasted image 20240730184256.png|356]]
 ![[Pasted image 20240730184954.png]]
 在第二个节点创建了
-### 2.2 节点标签调度
+### 2.2 节点标签
 k8s里面标签是一个很重要的概念，k8s里面任何一个对象身上都是有标签的，然后我们就可以通过标签做调度
 标签本身就是一个键值对的数据
 #### (1)查看节点标签
@@ -1105,6 +1105,9 @@ disk=full
 kubectl label node k8s-node01.linux.com disk=full  --overwrite
 ![[Pasted image 20240730190653.png]]
 
+### 2.3 通过节点标签做调度
+![[Pasted image 20240730191115.png|450]]
+kubectl create -f nodebiqo
 
 # 十四.
 
