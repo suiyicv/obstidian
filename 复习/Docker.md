@@ -122,6 +122,9 @@ docker run -tid suiyi:1003 /bin/bash
 ## 四.容器常用选项
 ### 1.后台运行
 -d 
+不加-d的话
+创建完容器之后，就自动登录到容器里面了
+退出之后，容器就暂停运行了
 ### 2.指定容器名字 主机名字
 --name=test1 --hostname=test1 
 ```bash
