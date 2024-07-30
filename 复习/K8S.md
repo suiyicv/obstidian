@@ -2,7 +2,7 @@
 https://blog.csdn.net/lwxvgdv/article/details/140465812
 pod的所有状态详解
 
-# Kubernetes
+# 1.Kubernetes介绍及部署
 ## 一.Kubernetes概述(<font color="#d99694">完整</font>)
 ### 1.kubernetes是什么
 有谷歌公司基于go语言开发的集群版的容器编排工具
@@ -392,6 +392,9 @@ kubectl create -f calico.yaml
 ![[Pasted image 20240725092924.png]]
 
 
+
+
+# 2.Kubernetes资源
 ## 五. Kubernetes资源-pod(<font color="#d99694">完整</font>)
 工作负载
 ### 1.namespace 命名空间
@@ -1055,8 +1058,10 @@ kubectl describe cm test-mysql-config
 
 
 
-# 十三.Kubernetes<font color="#ff0000">调度系统</font>
-## 1.调度介绍
+
+# 3.Kubernetes调度
+## 十三.Kubernetes<font color="#ff0000">调度系统</font>(<font color="#d99694">完整</font>)
+### 1.调度介绍
 
 第一天我们讲k8s的时候说集群分主节点和工作节点，我们在集群里面创建pod，pod都是随机分布在所有的工作节点上的。那我们这了所说的调度包括什么呢？给大家讲调度就是为了实现
 <font color="#ff0000">创建pod的时候怎么让他明确的固定在某一个节点上？</font>
@@ -1076,7 +1081,7 @@ k8s给我们提供的调度策略
 污点
 节点亲缘性
 pod亲缘性
-## 2.通过节点属性调度
+### 2.通过节点属性调度
 节点名称
 节点标签
 ### 2.1 节点名称调度
@@ -1117,7 +1122,7 @@ kubectl create -f nodebq.yaml
 成功创建
 
 
-## 3.污点Taint和容忍Toleration
+### 3.污点Taint和容忍Toleration
 这两个可以配合着用，或者单独用污点
 目的：就是为了避免一些pod被分配到不合理的机器上的
 我要是不希望pod到某一个机器上去，我们就可以通过污点的方式实现
@@ -1125,10 +1130,10 @@ kubectl create -f nodebq.yaml
 关键点在污点这个词的意思上，某一个机器上一但有了污点之后，将来k8s在调度pod时这个pod就不会被调度到有污点的机器，除非，你在创建这个pod的时候容忍了这个污点
 二进制的方式搭建出来的k8s集群，新建的pod就可能会跑到主节点上，但是通过kubeadm自动化工具搭建出来的k8s集群，新建的pod就不会跑到主节点上，<font color="#ff0000">这是为什么呢？</font>
 就是因为通过kubeadm自动化工具部署集群的时候，就会自带一个污点
-### 3.1 查看主节点上的污点
+#### 3.1 查看主节点上的污点
 kubectl describe node k8s-master.linux.com | grep -i taint
 ![[Pasted image 20240730200821.png]]
-### 3.2 添加污点
+#### 3.2 添加污点
 格式：
 kubectl taint node <节点名称> key=value:{NoSchedule|NoExecute|PreferNoSchedule}
 污点策略
@@ -1150,18 +1155,18 @@ Taints:             fan=error:NoExecute
 格式：
 kubectl taint node <节点名称> key:{NoSchedule|NoExecute|PreferNoSchedule}-
 
-### 3.3 容忍Toleration
+#### 3.3 容忍Toleration
 你希望新建的pod到有污点的机器上来，你创建pod的时候要添加容忍
-#### (1)添加容忍
+##### (1)添加容忍
 ![[Pasted image 20240730202113.png|409]]
 toleration Seconds：30  容忍的超时时间
 
 
 # 十四.kubernetes调度-节点亲缘性/pod亲缘性
-## 1.节点亲缘性
+### 1.节点亲缘性
 本质上还是根据<span style="background:#affad1">节点上的标签</span>进行调度，但是调度策略更加的丰富
 通过调度可以说，可以实现新建的pod应该到那个节点上去，或者不该到那个节点上去
-## 2.四种nodeAffinity调度策略
+### 2.四种nodeAffinity调度策略
 **(1)<font color="#ff0000">requiredDuringScheduling</font><font color="#f79646">Ignored</font>DuringExecution**
 表示pod必须部署到满足条件的节点上，如果没有满足条件的节点，就不停重试。
 IgnoreDuringExecution表示pod部署之后运行的时候，如果节点标签发生了变化，不再满足pod指定的条件，pod也会继续运行
@@ -1177,7 +1182,7 @@ RequiredDuringExecution表示pod部署之后运行的时候，如果节点标签
 表示优先部署到更符合的节点上，如果没有满足条件的节点，就忽略这些条件，按照正常逻辑部署。
 RequiredDuringExecution表示如果后面节点标签发生了变化，满足了条件，则重新调度到满足条件的节点。
 
-## 3.单条件使用
+### 3.单条件使用
 ![[Pasted image 20240730203742.png|500]]
 给节点1添加yewu=dev标签
 ![[Pasted image 20240730203831.png|500]]
@@ -1190,7 +1195,7 @@ DoesNotExist：某个label不存在
 Gt：label的值大于某个值（字符串比较）  
 Lt：label的值小于某个值（字符串比较）
 ![[Pasted image 20240730203928.png]]
-4.组合使用
+### 4.组合使用
 ![[Pasted image 20240730204411.png]]
 表示调度到同时有这两个标签的的机器上
 ![[Pasted image 20240730204521.png]]
