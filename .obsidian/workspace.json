@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ceshi.md",
+                "file": "复习/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ceshi.md"
+                "file": "复习/Docker.md"
               }
             }
           },
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ceshi.md",
+                "file": "复习/Docker.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ceshi.md",
+                "file": "复习/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,15 +160,16 @@
   },
   "active": "fa9581263d487648",
   "lastOpenFiles": [
+    "复习/K8S.md",
+    "复习/Linux基础.md",
+    "复习/Openstack.md",
+    "ceshi.md",
     "复习/Docker.md",
     "笔记插图/Pasted image 20240730115852.png",
     "笔记插图/Pasted image 20240730115824.png",
     "笔记插图/Pasted image 20240730115757.png",
     "笔记插图/Pasted image 20240730114519.png",
     "笔记插图/Pasted image 20240730113300.png",
-    "复习/K8S.md",
-    "复习/Linux基础.md",
-    "复习/Openstack.md",
     "复习/复习(不能删).md",
     "笔记插图/Pasted image 20240729213509.png",
     "笔记插图/Pasted image 20240729213420.png",
@@ -175,7 +177,6 @@
     "笔记插图/Pasted image 20240729212839.png",
     "笔记插图/Pasted image 20240729212717.png",
     "考试.md",
-    "ceshi.md",
     "测试机.md",
     "复习",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
