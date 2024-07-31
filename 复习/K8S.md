@@ -807,6 +807,9 @@ K8s原生本身就支持的一种服务
 缺点：如果公司的业务涉及到几十个甚至上百个业务，对外发布一个就会有一个端口，端口多了不便于记忆跟管理
 服务发布
 ![[Pasted image 20240726202651.png|450]]
+- `port` 是 Service 的逻辑端口，用于集群内部通信。
+- `targetPort` 是 Pod 上应用程序的实际端口。
+- `nodePort` 是 Node 上的端口，用于集群外部访问 Service。
 通过发布端口可以正常访问
 	![[Pasted image 20240726202820.png]]
 <font color="#ffc000">但是需要注意的是：</font>
@@ -1252,6 +1255,10 @@ service discovert:服务发现
 kubectl create -f prom-config.yaml
 ![[Pasted image 20240731110857.png]]
 ### 2.部署prometheus服务器及service
+
+- `port` 是 Service 的逻辑端口，用于集群内部通信。
+- `targetPort` 是 Pod 上应用程序的实际端口。
+- `nodePort` 是 Node 上的端口，用于集群外部访问 Service。
 ![[Pasted image 20240731112513.png]]
 ![[Pasted image 20240731112529.png]]
 
