@@ -1283,13 +1283,18 @@ vim grafana.yaml
 监控数据
 ![[Pasted image 20240731144511.png]]
 ## 五.监控MySQL pod
-1.创建测试MySQL服务
+### 1.创建测试MySQL服务
 vim mysql-deploy.yaml
 ![[Pasted image 20240731152903.png]]
 
-2.登录MySQL, 创建监控权限用户
+### 2.创建监控权限用户
+GRANT PROCESS, REPLICATION CLIENT, SELECT ON *.* TO 'martin'@'%' IDENTIFIED BY 'WWW.1.com';
+flush privileges;
+这个用户仅仅是为了获取监控数据用的
 
-3.部署MySQL-exporter
+### 3.部署MySQL-exporter
+vim mysql-exporter.yaml
+
 4.更新promethues配置
 添加MySQL采集任务，更新promethues pod
 5.在grafana界面添加新数据源
