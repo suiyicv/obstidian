@@ -1252,4 +1252,8 @@ kubectl get pod
 
 ## 三.部署node exporter
 监控集群资源使用情况
+使用ds安装node exporter
 vim node-exporter.yaml
+![[Pasted image 20240731141905.png|329]]
+![[Pasted image 20240731141932.png]]
+
