@@ -1323,6 +1323,10 @@ vim grafana.yaml
 监控数据
 ![[Pasted image 20240731144511.png]]
 ## 五.监控MySQL pod
+![[Pasted image 20240731204824.png|475]]
+应为在集群状态下，我们需要通上图的这种架构实现mysql的监控
+promethues通过mysql-exporter能够搜集到mysql的数据，所以mysql要创建一个远程用户给mysql-exporter使用
+
 ### 1.创建测试MySQL服务
 vim mysql-deploy.yaml
 ![[Pasted image 20240731152903.png]]
