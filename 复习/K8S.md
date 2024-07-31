@@ -1216,3 +1216,6 @@ prometheus是一个时间序列数据库
 ![[Pasted image 20240731100433.png]]
 prometheus server (最核心)
 
+<font color="#ff0000">prometheus和zabbix的区别？</font>
+
+
