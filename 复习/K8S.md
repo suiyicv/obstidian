@@ -1261,5 +1261,11 @@ node exporter要运行在物理机上，因此指定了hostNetwork和hostPID参�
 curl http://192.168.140.22:9100/metrics
 3.添加采集任务
 ![[Pasted image 20240731142450.png|475]]
+kubectl apply -f prom-config.yaml
+kubectl delete pod prometheus-85d76fb498-wv55k
+刷新网页
+![[Pasted image 20240731142943.png|500]]
 
+## 四.配置grafana展示数据
 
+vim grafana.yaml
