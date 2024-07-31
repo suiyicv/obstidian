@@ -1294,8 +1294,10 @@ flush privileges;
 
 ### 3.部署MySQL-exporter
 vim mysql-exporter.yaml
+![[Pasted image 20240731153731.png]]
+![[Pasted image 20240731153828.png]]
+### 4.更新promethues配置
 
-4.更新promethues配置
 添加MySQL采集任务，更新promethues pod
 5.在grafana界面添加新数据源
 导入7362模板
