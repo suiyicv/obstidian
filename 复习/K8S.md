@@ -1238,7 +1238,11 @@ zabbix本身自带web界面，Prometheus本身也自带，单是过于简陋，�
 pushgateway:推送网关(插件，可有可无)
 prometheus默认是以拉取客户端的监控数据来实现监控的(zabbix默认也是拉取)
 <font color="#ff0000">拉取的方式的缺点：</font>
-prometheus想要主动获取数据，他就要主动去找客户端要监控数据，所以这种方式不可能是实时的，所以被监控机上面如果有一些瞬时的监控数据，prometheus是搜集不到的， 所以设计了一个short-lived jobszu'jian
+prometheus想要主动获取数据，他就要主动去找客户端要监控数据，所以这种方式不可能是实时的，所以被监控机上面如果有一些瞬时的监控数据，prometheus是搜集不到的， 所以设计了一个short-lived jobs组件，针对瞬时数据的监控可以安装pushgateway插件，安装了该插件之后，pushgateway收集数据的方式就变了，就变成主动收集，由被监控机主动向prometheus来推送数据
+
+service discovert:服务发现
+其实讲来拿Prometheus来做监控的话，其实他有两种监控数据，一种叫静态配置。就是通过给客户端安装export的方式
+
 
 ## 二.prometheus部署
 有理论需要补充
