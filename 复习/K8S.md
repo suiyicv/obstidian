@@ -1252,8 +1252,14 @@ kubectl get pod
 
 ## 三.部署node exporter
 监控集群资源使用情况
-使用ds安装node exporter
+### 1.使用ds安装node exporter
 vim node-exporter.yaml
 ![[Pasted image 20240731141905.png|329]]
+node exporter要运行在物理机上，因此指定了hostNetwork和hostPID参数
 ![[Pasted image 20240731141932.png]]
+2.测试通过node exporter获取数据
+curl http://192.168.140.22:9100/metrics
+3.添加采集任务
+![[Pasted image 20240731142450.png|475]]
+
 
