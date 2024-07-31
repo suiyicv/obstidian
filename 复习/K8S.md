@@ -1269,3 +1269,6 @@ kubectl delete pod prometheus-85d76fb498-wv55k
 ## 四.配置grafana展示数据
 
 vim grafana.yaml
+![[Pasted image 20240731143512.png]]
+访问
+
