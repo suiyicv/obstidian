@@ -1241,3 +1241,15 @@ kubectl create -f prom-config.yaml
 - ClusterRole是属于全局的，不需要指定命名空间
 - ServiceAccount必须指定命名空间
 kubectl create -f prom-rbac.yaml
+#### 3.2 配置promethues关联用户
+修改pro-deploy.yaml文件，添加关联的用户
+![[Pasted image 20240731141217.png]]
+kubectl apply -f pro-deploy.yaml
+kubectl get pod 
+![[Pasted image 20240731141255.png]]
+添加serviceAccount的pod会自动将访问API的CA证书及用户的令牌挂载到/var/run/secrets/kubernetes.io/serviceaccount/目录下
+![[Pasted image 20240731141323.png]]
+
+## 三.部署node exporter
+监控集群资源使用情况
+vim node-exporter.yaml
