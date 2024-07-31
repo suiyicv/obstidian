@@ -1286,6 +1286,9 @@ kubectl get pod
 ### 1.安装node exporter
 vim node-exporter.yaml
 ![[Pasted image 20240731141905.png|329]]
+hostNetwork: true
+最重要的两个参数，把pod的网络模式指成host模式，相当于这个node exporter直接就运行在物理上了，我们的监控服务器联系这个node exporter去采集物理服务器自身的数据
+hostPID: true 直接在物理机上面产生进程
 
 node exporter要运行在物理机上，因此指定了hostNetwork和hostPID参数
 ![[Pasted image 20240731141932.png]]
