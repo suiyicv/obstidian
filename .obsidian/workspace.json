@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/Linux基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/K8S.md"
+                "file": "复习/Linux基础.md"
               }
             }
           },
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/K8S.md",
+                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/K8S.md",
+                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,12 +170,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "77977c7d88b23e3e",
+  "active": "fa9581263d487648",
   "lastOpenFiles": [
-    "笔记插图/Pasted image 20240731094010.png",
-    "笔记插图/Pasted image 20240731093855.png",
     "复习/Docker.md",
     "复习/K8S.md",
+    "笔记插图/Pasted image 20240731094010.png",
+    "笔记插图/Pasted image 20240731093855.png",
     "笔记插图/Pasted image 20240730204521.png",
     "笔记插图/Pasted image 20240730204411.png",
     "笔记插图/Pasted image 20240730203928.png",
@@ -185,7 +184,6 @@
     "笔记插图/Pasted image 20240730202113.png",
     "笔记插图/Pasted image 20240730200821.png",
     "笔记插图/Pasted image 20240730191715.png",
-    "笔记插图/Pasted image 20240730191454.png",
     "复习/Linux基础.md",
     "复习/Openstack.md",
     "ceshi.md",
