@@ -1345,6 +1345,8 @@ kubectl get endpoints
 ![[Pasted image 20240731205530.png]]
 ### 4.更新promethues配置
 添加MySQL采集任务，更新promethues pod
+kubectl apply -f promethues-config.yaml
+![[Pasted image 20240731210121.png]]
 
 ### 5.在grafana界面添加新数据源
 导入7362模板
