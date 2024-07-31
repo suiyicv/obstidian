@@ -730,7 +730,11 @@ yum makecache fast       # 快速建立缓存
 yum repolist all                # 执行此命令时yum makecache fast此步骤自动执行
 yum install  软件名          # 安装
 yum remove 软件名         # 卸载
-
+yum search  软件名         # 搜索所有和vim相关的软件包
+yum reinstall  软件名       # 重新安装
+yum info 软件名               # 查看软件信息
+yum list   软件名              # 列出软件列表
+yum provides  /etc/mime.types           # 查询提供 /etc/mime.types文件的软件包
 
 
 
