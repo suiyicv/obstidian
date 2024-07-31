@@ -1269,6 +1269,12 @@ kubectl delete pod prometheus-85d76fb498-wv55k
 ## 四.配置grafana展示数据
 
 vim grafana.yaml
-![[Pasted image 20240731143512.png]]
+![[Pasted image 20240731143512.png|475]]
 访问
+账号admin
+密码admin
+![[Pasted image 20240731143649.png|475]]
 
+添加数据源
+![[Pasted image 20240731143938.png|425]]
+不成功可能是dns解析的问题，可以把k8s内的dnspod删除重试
