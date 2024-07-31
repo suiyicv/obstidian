@@ -1264,9 +1264,9 @@ kubectl create -f prom-config.yaml
 
 ![[Pasted image 20240731112359.png]]
 ### 3.访问授权
-不在k8s里面就算创建好了，如果在k8s里面还要建一个授权用户，然后给这个用户分配一定的权限，将来让prometheus通过这个用户能够获取到kubernetes集群中的状态数据，所以需要为其创建用户并进行授权。kubernets<span style="background:#affad1">基于RBAC</span>【基于角色的访问控制】机制实现认证授权，因此需要创建用户、角色，并将用户与角色进行关联。
-
-
+不在k8s里面就算创建好了，如果在k8s里面还要建一个授权用户，然后给这个用户分配一定的权限，将来让prometheus通过这个用户能够获取到kubernetes集群中的状态数据。
+kubernets是<span style="background:#affad1">基于RBAC</span>【基于角色的访问控制】机制实现认证授权，所谓的角色就是授权的意思，所谓的rbac的这种授权方式就是需要你先创建要给角色，然后在这个角色里面写入你要分配的权限，然后再加个用户，最后把这个用户和角色做一个绑定，这种授权方式就叫做rbac
+因此需要创建用户、角色，并将用户与角色进行关联。
 #### 3.1 创建用户/角色
 ![[Pasted image 20240731140945.png|380]]
 - ClusterRole是属于全局的，不需要指定命名空间
