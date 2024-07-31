@@ -1241,7 +1241,8 @@ prometheus默认是以拉取客户端的监控数据来实现监控的(zabbix默
 prometheus想要主动获取数据，他就要主动去找客户端要监控数据，所以这种方式不可能是实时的，所以被监控机上面如果有一些瞬时的监控数据，prometheus是搜集不到的， 所以设计了一个short-lived jobs组件，针对瞬时数据的监控可以安装pushgateway插件，安装了该插件之后，pushgateway收集数据的方式就变了，就变成主动收集，由被监控机主动向prometheus来推送数据
 
 service discovert:服务发现
-其实讲来拿Prometheus来做监控的话，其实他有两种监控数据，一种叫静态配置。就是通过给客户端安装export的方式
+其实讲来拿Prometheus来做监控的话，其实他有两种监控数据，一种叫静态配置。就是必须通过给客户端安装exporter的方式，exporter安装好之后，肯定会有个端口，然后我在Prometheus这边写上我们实现安装好的exporter的IP和端口，让Prometheus去联系exporter，第二种叫做动态配置，动态配置又称之为服务发现，
+这种方式呢，被监控机上面不需要装然和的客户端，你只需要把你被监控机上边的
 
 
 ## 二.prometheus部署
