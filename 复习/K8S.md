@@ -1203,12 +1203,15 @@ Lt：label的值小于某个值（字符串比较）
 <font color="#ff0000">什么叫节点亲缘性，什么叫pod亲缘性?</font>,<font color="#ff0000">他们之间的核心区别？</font>
 所谓的节点亲缘性，本质上就是根据节点设置的标签来做调度，然后控制我们新建的pod是运行在这个节点上，还是不运行在这个节点上
 pod亲缘性，根据pod的标签进行进行调度，通过已有的pod的标签，控制新创建的pod跟这个已有pod在同一个节点上，还是不在同一个节点上
-
+![[Pasted image 20240731185135.png|345]]
 kubectl get pod -o wide --show-lables
 ![[Pasted image 20240731094010.png]]
+podAffinity控制新建的pod和已有pod在同一个节点
+![[Pasted image 20240731185322.png|350]]
+![[Pasted image 20240731185355.png|475]]
 ### 3.pod反亲缘性podantiAffinity
-
-
+![[Pasted image 20240731185431.png|425]]
+和pod亲缘性相反
 # 4.k8s的监控-prometheus
 主要核心：正常获取到想要监控的数据
 go语言编写
