@@ -1282,4 +1282,11 @@ vim grafana.yaml
 ![[Pasted image 20240731144338.png]]
 监控数据
 ![[Pasted image 20240731144511.png]]
-五.
+## 五.监控MySQL pod
+1.创建测试MySQL服务
+2.登录MySQL, 创建监控权限用户
+3.部署MySQL-exporter
+4.更新promethues配置
+添加MySQL采集任务，更新promethues pod
+5.在grafana界面添加新数据源
+导入7362模板
