@@ -1264,8 +1264,7 @@ kubectl create -f prom-config.yaml
 
 ![[Pasted image 20240731112359.png]]
 ### 3.访问授权
-不在k8s里面就算创建好了，如果在k8s里面还要做授权
-为了让prometheus能够获取到kubernetes集群中的状态数据，需要为其创建用户并进行授权。kubernets基于RBAC【基于角色的访问控制】机制实现认证授权，因此需要创建用户、角色，并将用户与角色进行关联。
+不在k8s里面就算创建好了，如果在k8s里面还要建一个授权用户，然后给这个用户分配一定的权限，将来让prometheus通过这个用户能够获取到kubernetes集群中的状态数据，所以需要为其创建用户并进行授权。kubernets<span style="background:#affad1">基于RBAC</span>【基于角色的访问控制】机制实现认证授权，因此需要创建用户、角色，并将用户与角色进行关联。
 
 
 #### 3.1 创建用户/角色
