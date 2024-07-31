@@ -1220,7 +1220,10 @@ go语言编写
 prometheus是一个时间序列数据库
 ![[Pasted image 20240731100433.png]]
 prometheus server (最核心)
-prometheus是一个时间序列数据库(按时间点存数据)，
+prometheus是一个时间序列数据库(按时间点存数据)，prometheus server，相当于一个监控服务器的角色，存放的就是按时间点搜集过来的监控数据
+怎么查看搜集到的监控数据呢？
+zabbix本事自带web界面，然后可可以很直观的看到搜集过来的数据
+而prometheus呢，有两种方式，一方面可以通过promQL
 <font color="#ff0000">prometheus和zabbix的区别？</font>
 
 
