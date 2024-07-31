@@ -1294,6 +1294,7 @@ node exporter要运行在物理机上，因此指定了hostNetwork和hostPID参�
 ![[Pasted image 20240731141932.png]]
 ### 2.测试通过node exporter获取数据
 curl http://192.168.140.22:9100/metrics
+能获得监控数据说明node exporter部署是正常的
 ### 3.添加采集任务
 ![[Pasted image 20240731142450.png|475]]
 kubectl apply -f prom-config.yaml
@@ -1311,6 +1312,7 @@ vim grafana.yaml
 ![[Pasted image 20240731143649.png|475]]
 
 添加数据源
+目的：就是为了告诉grafana，找谁要数据并展示
 ![[Pasted image 20240731143938.png|425]]
 不成功可能是dns解析的问题，可以把k8s内的dnspod删除重试
 导入模板9276
