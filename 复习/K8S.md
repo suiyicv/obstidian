@@ -1227,8 +1227,11 @@ zabbix本事自带web界面，然后可可以很直观的看到搜集过来的�
 prometheus本事也自带web界面，但是相对来说很简陋
 <span style="background:#affad1">监控一方面是为了获取监控数据，另一方面是为了报警</span>
 单说prometheus，他自身是不支持报警功能的，如果像支持报功能，需要安装Alertmanager的插件。
-exporter:类似于zabbix的agent，对prometheus来说，要想实现监控的话，被监控机需要pro
+exporter:类似于zabbix的agent，对prometheus来说，要想实现监控的话，被监控机需要相应的exporter插件，export并不只是一个，你想监控mysql，就需要用mysql-export，你想监控主机就有和主机相关的export。
+
 <font color="#ff0000">prometheus和zabbix的区别？</font>
+zabbix客户端叫agent，prometheus客户端叫做export
+zabbix是c语言开发的，而Prometheus是go语言开发的
 
 
 ## 二.prometheus部署
