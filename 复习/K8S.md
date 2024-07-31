@@ -1223,9 +1223,11 @@ prometheus server (最核心)
 prometheus是一个时间序列数据库(按时间点存数据)，prometheus server，相当于一个监控服务器的角色，存放的就是按时间点搜集过来的监控数据
 怎么查看搜集到的监控数据呢？
 zabbix本事自带web界面，然后可可以很直观的看到搜集过来的数据
-而prometheus呢，有两种方式，一方面可以通过promQL通过类似于sql语句的方式去查询我们搜集到的监控数据，但是不直观。第二种方式，我么们可以给prometheus配一个webui——Grafana,grafana主要就是用来提供可视化展示的，并且展示的图形相当大气漂亮，支持对接很多监控软件zabbix
+而prometheus呢，有两种方式，一方面可以通过promQL通过类似于sql语句的方式去查询我们搜集到的监控数据，但是不直观。第二种方式，我么们可以给prometheus配一个webui——Grafana,grafana主要就是用来提供可视化展示的，并且展示的图形相当大气漂亮，支持对接很多监控软件zabbix,prometheus,elk等
 prometheus本事也自带web界面，但是相对来说很简陋
-
+<span style="background:#affad1">监控一方面是为了获取监控数据，另一方面是为了报警</span>
+单说prometheus，他自身是不支持报警功能的，如果像支持报功能，需要安装Alertmanager的插件。
+exporter:类似于zabbix的agent，对prometheus来说，要想实现监控的话，被监控机需要pro
 <font color="#ff0000">prometheus和zabbix的区别？</font>
 
 
