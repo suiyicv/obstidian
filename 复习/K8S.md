@@ -1325,8 +1325,7 @@ vim grafana.yaml
 ## 五.监控MySQL pod
 ![[Pasted image 20240731204824.png|475]]
 应为在集群状态下，我们需要通上图的这种架构实现mysql的监控
-promethues通过mysql-exporter能够搜集到mysql的数据，所以mysql要创建一个远程用户给mysql-exporter使用
-
+promethues通过mysql-exporter能够搜集到mysql的数据，所以mysql要创建一个远程用户给mysql-exporter使用，这个用户仅仅是为了获取监控数据用的。
 ### 1.创建测试MySQL服务
 vim mysql-deploy.yaml
 ![[Pasted image 20240731152903.png]]
@@ -1335,11 +1334,15 @@ vim mysql-deploy.yaml
 GRANT PROCESS, REPLICATION CLIENT, SELECT ON *.* TO 'martin'@'%' IDENTIFIED BY 'WWW.1.com';
 flush privileges;
 这个用户仅仅是为了获取监控数据用的
-
 ### 3.部署MySQL-exporter
 vim mysql-exporter.yaml
+根据实际情况做更改
+![[Pasted image 20240731205423.png]]
+
 ![[Pasted image 20240731153731.png]]
 ![[Pasted image 20240731153828.png]]
+kubectl get endpoints
+![[Pasted image 20240731205530.png]]
 ### 4.更新promethues配置
 添加MySQL采集任务，更新promethues pod
 
