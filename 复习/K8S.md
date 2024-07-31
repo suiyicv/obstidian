@@ -1202,8 +1202,7 @@ Lt：label的值小于某个值（字符串比较）
 <span style="background:#affad1">调度策略和节点亲缘性的调度策略是一样的</span>
 <font color="#ff0000">什么叫节点亲缘性，什么叫pod亲缘性?</font>,<font color="#ff0000">他们之间的核心区别？</font>
 所谓的节点亲缘性，本质上就是根据节点设置的标签来做调度，然后控制我们新建的pod是运行在这个节点上，还是不运行在这个节点上
-pod亲缘性，根据pod的标签进行进行调度，通过已有的pod的标签，
-
+pod亲缘性，根据pod的标签进行进行调度，通过已有的pod的标签，控制新创建的pod跟这个已有pod在同一个节点上，还是不在同一个节点上
 
 kubectl get pod -o wide --show-lables
 ![[Pasted image 20240731094010.png]]
