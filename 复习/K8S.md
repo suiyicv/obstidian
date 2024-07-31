@@ -1226,3 +1226,9 @@ prometheus部署
 kubectl create -f prom-config.yaml
 ![[Pasted image 20240731110857.png]]
 2.部署prometheus服务器及service
+![[Pasted image 20240731112513.png]]
+![[Pasted image 20240731112529.png]]
+
+![[Pasted image 20240731112359.png]]
+3.
+不在k8s里面就算创建好了，如果在k8s里面还要做授权
