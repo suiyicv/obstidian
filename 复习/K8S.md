@@ -1241,7 +1241,7 @@ kubectl create -f prom-config.yaml
 - ClusterRole是属于全局的，不需要指定命名空间
 - ServiceAccount必须指定命名空间
 kubectl create -f prom-rbac.yaml
-#### 3.2 配置promethues关联用户
+#### 3.2 配置prometheus关联用户
 修改pro-deploy.yaml文件，添加关联的用户
 ![[Pasted image 20240731141217.png]]
 kubectl apply -f pro-deploy.yaml
