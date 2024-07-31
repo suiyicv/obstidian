@@ -1347,7 +1347,8 @@ kubectl get endpoints
 添加MySQL采集任务，更新promethues pod
 kubectl apply -f promethues-config.yaml
 ![[Pasted image 20240731210121.png]]
-
+kubectl delete pod  prometheus-5vcb9dg-jrt4g
+![[Pasted image 20240731210448.png]]
 ### 5.在grafana界面添加新数据源
 导入7362模板
 ![[Pasted image 20240731155215.png|500]]
