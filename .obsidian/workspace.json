@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "77977c7d88b23e3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/K8S.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Docker.md"
+                "file": "复习/K8S.md"
               }
             }
           },
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/K8S.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,10 +171,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa9581263d487648",
+  "active": "77977c7d88b23e3e",
   "lastOpenFiles": [
-    "复习/K8S.md",
     "复习/Docker.md",
+    "复习/K8S.md",
     "笔记插图/Pasted image 20240730204521.png",
     "笔记插图/Pasted image 20240730204411.png",
     "笔记插图/Pasted image 20240730203928.png",
