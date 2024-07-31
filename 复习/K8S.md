@@ -1232,6 +1232,10 @@ exporter:类似于zabbix的agent，对prometheus来说，要想实现监控的�
 <font color="#ff0000">prometheus和zabbix的区别？</font>
 zabbix客户端叫agent，prometheus客户端叫做export
 zabbix是c语言开发的，而Prometheus是go语言开发的
+zabbix本事再带报警功能，Prometheus需要额外安装插件
+zabbix本身自带web界面，Prometheus本身也自带，单是过于简陋，需要配合grafana使用
+
+pushgateway:推送网关(插件，可有可无)
 
 
 ## 二.prometheus部署
