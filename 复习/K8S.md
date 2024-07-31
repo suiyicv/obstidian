@@ -1199,6 +1199,7 @@ Lt：label的值小于某个值（字符串比较）
 又重新调度回节点1 
 
 ### 2.pod亲缘性
-也是支持Affinity调度策略
+支持podAffinity调度策略
 什么叫节点亲缘性，什么叫pod亲缘性
 pod亲缘性，根据pod的标签进行进行调度，通过已有的pod的标签
+### 3.pod反亲缘性podantiAffinity
