@@ -1203,7 +1203,8 @@ Lt：label的值小于某个值（字符串比较）
 什么叫节点亲缘性，什么叫pod亲缘性
 pod亲缘性，根据pod的标签进行进行调度，通过已有的pod的标签
 ![[Pasted image 20240731093855.png|475]]
-
+kubectl get pod -o wide --show-lables
+![[Pasted image 20240731094010.png]]
 ### 3.pod反亲缘性podantiAffinity
 
 
