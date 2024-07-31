@@ -1278,3 +1278,7 @@ vim grafana.yaml
 添加数据源
 ![[Pasted image 20240731143938.png|425]]
 不成功可能是dns解析的问题，可以把k8s内的dnspod删除重试
+导入模板
+![[Pasted image 20240731144338.png]]
+监控数据
+![[Pasted image 20240731144511.png]]
