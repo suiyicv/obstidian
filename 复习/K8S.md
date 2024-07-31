@@ -1278,7 +1278,7 @@ vim grafana.yaml
 添加数据源
 ![[Pasted image 20240731143938.png|425]]
 不成功可能是dns解析的问题，可以把k8s内的dnspod删除重试
-导入模板
+导入模板9276
 ![[Pasted image 20240731144338.png]]
 监控数据
 ![[Pasted image 20240731144511.png]]
@@ -1297,7 +1297,9 @@ vim mysql-exporter.yaml
 ![[Pasted image 20240731153731.png]]
 ![[Pasted image 20240731153828.png]]
 ### 4.更新promethues配置
-
 添加MySQL采集任务，更新promethues pod
-5.在grafana界面添加新数据源
+
+### 5.在grafana界面添加新数据源
 导入7362模板
+![[Pasted image 20240731155215.png|500]]
+
