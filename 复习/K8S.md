@@ -1210,4 +1210,7 @@ kubectl get pod -o wide --show-lables
 
 
 # 4.k8s的监控-prometheus
+主要核心：正常获取到想要监控的数据
+## 一.prometheus核心架构
+![[Pasted image 20240731100433.png]]
 

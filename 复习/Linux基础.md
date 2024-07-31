@@ -729,6 +729,7 @@ yum clean all                    # 清空yum缓存
 yum makecache fast       # 快速建立缓存
 yum repolist all                # 执行此命令时yum makecache fast此步骤自动执行
 yum install  软件名          # 安装
+yum update 软件名          # 升级软件
 yum remove 软件名         # 卸载
 yum search  软件名         # 搜索所有和vim相关的软件包
 yum reinstall  软件名       # 重新安装
