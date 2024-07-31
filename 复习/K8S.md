@@ -1222,18 +1222,22 @@ prometheus server (最核心)
 
 ## 二.prometheus部署
 有理论需要补充
-1.使用configMap存储promethues配置文件
+### 1.使用configMap存储promethues配置文件
 ![[Pasted image 20240731110735.png]]
 kubectl create -f prom-config.yaml
 ![[Pasted image 20240731110857.png]]
-2.部署prometheus服务器及service
+### 2.部署prometheus服务器及service
 ![[Pasted image 20240731112513.png]]
 ![[Pasted image 20240731112529.png]]
 
 ![[Pasted image 20240731112359.png]]
-3.访问授权
+### 3.访问授权
 不在k8s里面就算创建好了，如果在k8s里面还要做授权
 为了让prometheus能够获取到kubernetes集群中的状态数据，需要为其创建用户并进行授权。kubernets基于RBAC【基于角色的访问控制】机制实现认证授权，因此需要创建用户、角色，并将用户与角色进行关联。
 
+
+#### 3.1 创建用户/角色
+![[Pasted image 20240731140945.png|380]]
 - ClusterRole是属于全局的，不需要指定命名空间
 - ServiceAccount必须指定命名空间
+kubectl create -f prom-rbac.yaml
