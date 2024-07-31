@@ -1220,4 +1220,9 @@ prometheus server (最核心)
 <font color="#ff0000">prometheus和zabbix的区别？</font>
 
 
-p'ro
+prometheus部署
+1.使用configMap存储promethues配置文件
+![[Pasted image 20240731110735.png]]
+kubectl create -f prom-config.yaml
+![[Pasted image 20240731110857.png]]
+2.部署prometheus服务器及service
