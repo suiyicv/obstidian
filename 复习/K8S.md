@@ -1314,7 +1314,10 @@ vim grafana.yaml
 添加数据源
 目的：就是为了告诉grafana，找谁要数据并展示
 ![[Pasted image 20240731143938.png|425]]
+![[Pasted image 20240731204222.png]]
+支持多种数据源
 不成功可能是dns解析的问题，可以把k8s内的dnspod删除重试
+
 导入模板9276
 ![[Pasted image 20240731144338.png]]
 监控数据
