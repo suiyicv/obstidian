@@ -1213,13 +1213,14 @@ podAffinity控制新建的pod和已有pod在同一个节点
 ![[Pasted image 20240731185431.png|425]]
 和pod亲缘性相反
 # 4.k8s的监控-prometheus
+现在最主流的两个监控软件prometheus和zabbix
 主要核心：正常获取到想要监控的数据
 go语言编写
 ## 一.prometheus核心架构
 prometheus是一个时间序列数据库
 ![[Pasted image 20240731100433.png]]
 prometheus server (最核心)
-
+prometheus是一个时间序列数据库(按时间点存数据)，
 <font color="#ff0000">prometheus和zabbix的区别？</font>
 
 
