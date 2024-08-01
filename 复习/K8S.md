@@ -391,7 +391,7 @@ ctr -n k8s.io image import calico_cni_v3.27.0.tar
 kubectl create -f calico.yaml 
 ![[Pasted image 20240801203351.png]]
 他主要是这三个就相当于三个路由器，路由器要想正常工作需要路由表，而路由表里面需要有路由，那他这个路由是怎么形成的，那天我们在集群里面多加了个网段，是不是路由应该会自动更新，这些该怎么实现？
-所以还有一个calico-kube-controllers
+所以还有一个calico-kube-controllers，集中控制路由下发的，这个控制器跑在哪一个节点不确定
 
 ### 5.k8s集群部署完成
 #### 5.1查看核心组件运行状态

@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "85216fb378cea7ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/K8S.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/K8S.md"
+                "file": "复习/Docker.md"
               }
             }
           },
@@ -132,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/K8S.md",
+                "file": "复习/Docker.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -149,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/K8S.md",
+                "file": "复习/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,14 +171,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "85216fb378cea7ce",
+  "active": "6c428547cac8fbce",
   "lastOpenFiles": [
-    "笔记插图/Pasted image 20240801203351.png",
-    "复习/Docker.md",
-    "笔记插图/Pasted image 20240801192728.png",
     "复习/待解决问题.md",
-    "复习/python自动化运维.md",
+    "复习/Docker.md",
     "复习/K8S.md",
+    "笔记插图/Pasted image 20240801203351.png",
+    "笔记插图/Pasted image 20240801192728.png",
+    "复习/python自动化运维.md",
     "复习/复习(不能删).md",
     "笔记插图/Pasted image 20240731210448.png",
     "笔记插图/Pasted image 20240731210121.png",
@@ -200,7 +188,6 @@
     "笔记插图/Pasted image 20240731204222.png",
     "笔记插图/Pasted image 20240731185431.png",
     "笔记插图/Pasted image 20240731185355.png",
-    "笔记插图/Pasted image 20240731185322.png",
     "复习/Linux基础.md",
     "复习/Mysql.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
