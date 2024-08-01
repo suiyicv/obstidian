@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "查",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -171,7 +172,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da34e8bee0158627",
+  "active": "9025eebb0e4eec8a",
   "lastOpenFiles": [
     "复习/python自动化运维.md",
     "复习/K8S.md",
