@@ -2,6 +2,7 @@
 https://blog.csdn.net/lwxvgdv/article/details/140465812
 pod的所有状态详解
 节点的磁盘使用率超过百分之85，k8s集群会自动给这个节点添加一个污点，这个污点删除不了，除非磁盘使用率降到百分之85一下
+docker.io/calico/cni  pod能通过dhcp获得ip跟这个cni有关
 
 # 1.Kubernetes介绍及部署
 ## 一.Kubernetes概述(<font color="#d99694">完整</font>)
