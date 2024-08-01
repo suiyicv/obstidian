@@ -511,7 +511,7 @@ yum install -y flannel
 配置flannel
 vim /etc/sysconfig/flanneld
 FLANNEL_ETCD_ENDPOINTS="http://192.168.140.22:2379"
-FLANNEL_ETCD_PREFIX="/atomic.io/network"
+FLANNEL_ETCD_PREFIX="/atomic.io/network" # 网段的信息存放在network这个目录下
 
 在etcd数据库中写入flannel网络信息
 etcdctl mk  /atomic.io/network/config '{"Network":"10.88.0.0/16"}'
