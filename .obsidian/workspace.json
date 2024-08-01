@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3cdbf46e12e43894",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/K8S.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/K8S.md"
+                "file": "复习/Docker.md"
               }
             }
           },
@@ -132,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/K8S.md",
+                "file": "复习/Docker.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -149,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/K8S.md",
+                "file": "复习/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,11 +171,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3cdbf46e12e43894",
+  "active": "082d4b21f7adc8c6",
   "lastOpenFiles": [
+    "复习/K8S.md",
     "复习/Docker.md",
     "复习/python自动化运维.md",
-    "复习/K8S.md",
     "复习/复习(不能删).md",
     "笔记插图/Pasted image 20240731210448.png",
     "笔记插图/Pasted image 20240731210121.png",
