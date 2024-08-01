@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa9581263d487648",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/Linux基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9b09c7c9fa33dc22",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -174,6 +159,8 @@
   },
   "active": "9b09c7c9fa33dc22",
   "lastOpenFiles": [
+    "复习/复习(不能删).md",
+    "复习/K8S.md",
     "笔记插图/Pasted image 20240731210448.png",
     "笔记插图/Pasted image 20240731210121.png",
     "笔记插图/Pasted image 20240731205530.png",
@@ -184,10 +171,7 @@
     "笔记插图/Pasted image 20240731185355.png",
     "笔记插图/Pasted image 20240731185322.png",
     "笔记插图/Pasted image 20240731185135.png",
-    "笔记插图/Pasted image 20240731155215.png",
-    "复习/复习(不能删).md",
     "复习/Linux基础.md",
-    "复习/K8S.md",
     "复习/Mysql.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
