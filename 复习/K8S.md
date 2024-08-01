@@ -1164,7 +1164,7 @@ kubectl taint node <节点名称> key:{NoSchedule|NoExecute|PreferNoSchedule}-
 toleration Seconds：30  容忍的超时时间
 
 
-## 十四.kubernetes调度-节点亲缘性/pod亲缘性
+## 十四.kubernetes调度-节点亲缘性/pod亲缘性(<font color="#d99694">完整</font>)
 ### 1.节点亲缘性
 本质上还是根据<span style="background:#affad1">节点上的标签</span>进行调度，但是调度策略更加的丰富
 通过调度可以说，可以实现新建的pod应该到那个节点上去，或者不该到那个节点上去
@@ -1217,7 +1217,7 @@ podAffinity控制新建的pod和已有pod在同一个节点
 ### 3.pod反亲缘性podantiAffinity
 ![[Pasted image 20240731185431.png|425]]
 和pod亲缘性相反
-# 4.k8s的监控-prometheus
+# 4.k8s的监控-prometheus(<font color="#d99694">完整</font>)
 现在最主流的两个监控软件prometheus和zabbix
 主要核心：正常获取到想要监控的数据
 go语言编写
