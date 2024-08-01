@@ -354,11 +354,12 @@ docker cp wordpres1:/wordpress.sql   ./
 在所有的服务器前端添加一个一跳板机，工作人员只能连接到跳板机，然后跳板机帮你连接到后端的服务器，就是为了加强后后端服务器的安全性
 ![[Pasted image 20240730140350.png]]
 堡垒机设置好权限，规定好那个人可以通过什么用户去管理那些后端的服务器，后端的服务器叫做资产
-<span style="background:#affad1">4A：认证，授权，账户，统计</span>
-
+<span style="background:#affad1">4A：认证，授权，账户，审计</span>
+审计就算很详细的日志记录
 ![[Pasted image 20240716160037.png]]
 ### 1.jumpserver安装使用
 #### (1)生成jumpserver需要的密钥
+/dev/urandom这个文件里面存放着大量的随机数
 ```bash
 cat /dev/urandom | tr -dc a-zA-Z0-9 | head -c 50
 B5Df26hgzQffkqPYCodUmhDhrcIl7OlJuYxBBnzpbnKQnjoc5u
@@ -377,6 +378,8 @@ docker run -tid --name=jumpserver --hostname=jumpserver \
  jumpserver/jms_all:v2.8.4 
 ```
 80端口，提供webUI，jumpserver后台管理界面  
+2222端口
+有了堡垒机之后对于这些运维人员他要登录服务器也好，登录数据库ye'hao
 默认用户名admin，密码admin
 
 ![[Pasted image 20240716192221.png]]
