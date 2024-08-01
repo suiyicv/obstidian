@@ -424,7 +424,7 @@ metadata:                   # 元数据
 	name: web
 ```
 kubectl create -f web.yaml
-k8s支持的资源类型很多，支持namespace，有状态的容器，无状态的容器，支持服务，支持存储，支持配置映射，每种资源对应一个api接口的版本
+k8s支持的资源类型很多，支持namespace，有状态的容器，无状态的容器，支持服务，支持存储，支持配置映射，<span style="background:#affad1">每种资源对应一个api接口的版本</span>
 kubectl delete -f web.yaml  # 删除这个yaml文件里描述的资源
 ### 2.pod 
 #### 2.1.pod介绍
