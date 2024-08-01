@@ -379,7 +379,7 @@ docker run -tid --name=jumpserver --hostname=jumpserver \
 ```
 80端口，提供webUI，jumpserver后台管理界面  
 2222端口
-有了堡垒机之后对于这些运维人员他要登录服务器也好，登录数据库ye'hao
+有了堡垒机之后对于这些运维人员他要登录服务器也好，登录数据库也好，做的操作都是要通过ssh连接这个堡垒机，然后jumpserver里面的ssl服务和大家熟知的ssh不太一样，他的内部增加了很多增强性的功能能，比如说它可以借助ssh去获取后端的资产信息，类似于ansible的机制，jumperver默认的ssh端口就算2222，<span style="background:#affad1">未来方便其他运维人员连接</span>
 默认用户名admin，密码admin
 
 ![[Pasted image 20240716192221.png]]
