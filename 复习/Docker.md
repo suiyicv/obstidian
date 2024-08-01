@@ -539,6 +539,7 @@ cat /run/flannel/docker
 另外一个服务器参考上述配置
 
 ### 测试容器通信
+rpm包装出来的flannel 他会把你iptables里的防火墙的数据转发链默认规则改为drop,需要改一下
 iptables -P FORWARD ACCEPT
 ![[Pasted image 20240717231324.png]]
 
