@@ -427,13 +427,10 @@ SNAT：网关、路由转发、SNAT规则
 snat依赖于物理机路由转发，snat规则和容器的网关这三方面
 DNAT：创建容器的时候通过 -p, -P；把服务发布出来，但是注意端口冲突
 #### (2)host模式
-容器会和物理机共享一个网络命名空间
-容器会和物理机共享一个IP
+容器会和物理机共享一个网络命名空间，也就是说这个模式创出来的容器网络相关的参数会和物理机的一摸一样，容器会和物理机共享一个IP
 docker run -tid --net=host centos:7
-登录上之后跟物理机一个主机名
-但是并不是同一个机器
-容易出现端口冲突
-
+登录上之后跟物理机一个主机名，主机名和物理机是一样的(主机名就是一个网络参数)<span style="background:#affad1">但是实际上并不是同一个机器</span>，容易出现端口冲突
+通过docker inspect 查看时，发现network这一个部分只显示一个网络模式是host，其他的都是空
 #### (3)container模式
 新建的容器会和已有的容器(bridge)共享同一块网卡
 docker run -tid --name=test5 --net=container:test4 centos:7
