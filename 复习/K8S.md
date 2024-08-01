@@ -374,6 +374,8 @@ source /etc/profile
 第一为了考虑网络通信的性能，第二为了考虑将来集群规模的扩展，一般我们都用<span style="background:#affad1">calico</span>这个组件，功能和flannel类似，但是使用的规模要比flannel大的多
 ### 4.部署calico打通容器网络通信
 calico基于BGP协议设计，这个协议一般用于跨省的这种大型的网络才会用这个协议
+说是部署网络，其实就是就是又在各个节点上创建一个容器，这些容器就相当于路由器一样，
+通过各个节点上的“路由器”，通过BGP网络协议把不同的物理机的网络打通
 ```bash
 vim calico.yaml 
  - name: CALICO_IPV4POOL_CIDR
@@ -387,6 +389,9 @@ ctr -n k8s.io image import calico_kube-controllers_v3.27.0.tar
 ctr -n k8s.io image import calico_cni_v3.27.0.tar 
 ```
 kubectl create -f calico.yaml 
+![[Pasted image 20240801203351.png]]
+他主要是这三个就相当于三个路由器，路由器要想正常工作需要路由表，而路由表里面需要有路由，那他这个路由是怎么形成的，那天我们在集群里面多加了个网段，是不是路由应该会自动更新，这些该怎么实现？
+所以还有一个calico-kube-controllers
 
 ### 5.k8s集群部署完成
 #### 5.1查看核心组件运行状态
