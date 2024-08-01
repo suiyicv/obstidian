@@ -436,11 +436,12 @@ docker run -tid --net=host centos:7
 
 还方便跨物理机通信，方便不同物理机内的容器通信
 <font color="#ff0000">和桥接网络相同么？</font>
-
+自然是不相同的，桥接是你和物理机在同一个网段，然后会被分配一个独立的ip,而host是指，容器和物理机共享
 
 #### (3)container模式
-新建的容器会和已有的容器(bridge)共享同一块网卡
+新建的容器会和已有的容器(bridge)共享一个ip,或者说共享同一个网络命名空间，<span style="background:#affad1">这个已有的容器只能是bridge默认模式的网络</span>
 docker run -tid --name=test5 --net=container:test4 centos:7
+<span style="background:#affad1">这个模式有什么好处呢？</span>
 减少容器之间的网络消耗
 #### (4)none模式
 容器没有自己的网络命名空间
