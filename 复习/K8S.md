@@ -84,7 +84,8 @@ apiserver拿到我们创建容器的请求之后，他肯定能够知道我们�
 调度现在就知道了有一个创建的请求需要调度
 <font color="#f79646">4.然后schedule就会按着一定的算法选择一个工作节点</font>，选择到合适的工作节点之后
 <font color="#f79646">5.然后scheduler会把这个工作节点的ip和端口告诉apiserver</font>
-说我帮你选择一个容器，apiserver拿到这个工作节点的ip等信息后，<font color="#f79646">6.apiserver又会把这些信息存放到etcd数据库里面，</font>会跟之前的创建请求形成一个对应关系
+说我帮你选择一个容器，apiserver拿到这个工作节点的ip等信息后，
+<font color="#f79646">6.apiserver又会把这些信息存放到etcd数据库里面，</font>会跟之前的创建请求形成一个对应关系
 <span style="background:#affad1">容器名xxxx 镜像名xxx (创建请求)</span><span style="background:rgba(136, 49, 204, 0.2)">--->node02</span>
 
 <font color="#f79646">7.工作节点的kubelet会不停的找apiserver去问，你这边有没有需要我真正帮你创建的容器，</font>
