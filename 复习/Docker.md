@@ -441,8 +441,9 @@ docker run -tid --net=host centos:7
 #### (3)container模式
 新建的容器会和已有的容器(bridge)共享一个ip,或者说共享同一个网络命名空间，<span style="background:#affad1">这个已有的容器只能是bridge默认模式的网络</span>
 docker run -tid --name=test5 --net=container:test4 centos:7
-<span style="background:#affad1">这个模式有什么好处呢？</span>
-减少容器之间的网络消耗
+<font color="#ff0000">这个模式有什么好处呢？</font>
+有些公司在构建自己的内部业务的时候，尤其是构建内部局域网业务的时候，就会把这个容器的模式制成这个container模式，让着多个容器共享ip ,最主要的好处就是，<font color="#ff0000">减少容器之间的网络消耗</font>
+两个不同的容器，不管你是通过ip通信还是通过别名通信，他们俩zhi'e
 #### (4)none模式
 容器没有自己的网络命名空间
 
