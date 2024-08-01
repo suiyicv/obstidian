@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -157,7 +158,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd7d2010221d431a",
+  "active": "9b09c7c9fa33dc22",
   "lastOpenFiles": [
     "复习/K8S.md",
     "复习/python自动化运维.md",
