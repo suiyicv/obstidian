@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md"
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,6 +159,25 @@
   },
   "active": "11e6c6a93e6c0d46",
   "lastOpenFiles": [
+    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+    "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
+    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
+    "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
+    "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
+    "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
+    "云计算/第二部分/5.存储/2.ceph存储组件.md",
+    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+    "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
+    "云计算/第二部分/4.负载均衡/5.负载均衡相关云产品.md",
+    "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
+    "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
+    "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
+    "云计算/第二部分/3.Redis/3.wordpress博客对接redis缓存.md",
+    "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
+    "云计算/第二部分/3.Redis/1.Redis安装.md",
+    "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
+    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
+    "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
@@ -166,11 +185,6 @@
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
-    "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
-    "云计算/第二部分/9.总结.md",
-    "复习/Docker.md",
-    "复习/K8S.md",
-    "复习/Linux基础.md",
     "笔记插图/Pasted image 20240802142622.png",
     "笔记插图/Pasted image 20240802112055.png",
     "笔记插图/Pasted image 20240802111543.png",
@@ -178,23 +192,9 @@
     "笔记插图/Pasted image 20240802102136.png",
     "笔记插图/Pasted image 20240802102035.png",
     "笔记插图/Pasted image 20240802101034.png",
-    "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
-    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
-    "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
-    "复习/python自动化运维.md",
-    "云计算/第三部分/1.虚拟化技术/3.kvm存储管理.md",
-    "云计算/第三部分/1.虚拟化技术/2.kvm网络管理.md",
-    "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
-    "复习/Mysql.md",
-    "复习/Openstack.md",
-    "复习/待解决问题.md",
     "笔记插图/Pasted image 20240801203351.png",
     "笔记插图/Pasted image 20240801192728.png",
-    "复习/复习(不能删).md",
     "笔记插图/Pasted image 20240731210448.png",
-    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
-    "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
-    "ceshi.md",
     "复习",
     "未命名.canvas",
     "计算机网络",
