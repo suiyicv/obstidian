@@ -831,6 +831,7 @@ x 解包 （x和c不能共同使用）
 C 指定解包路径（-C /opt/ 指定解包到/opt/目录下） 
 r 为打包文件追加内容
 ```bash
-tar -xvf boot.tar -C /home/       # 解包到指定路径/home/下
-tar -rvf boot.tar      /tmp/data   # 为已经打包的文件夹里面添加新内容
+tar -xvf boot.tar -C /home/           # 解包到指定路径/home/下
+tar -cvf /home/boot.tar /boot/     #指定包的存储路径
+tar -rvf boot.tar      /tmp/data      # 为已经打包的文件夹里面添加新内容
 ```
