@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考试.md",
+                "file": "复习/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试.md"
+                "file": "复习/Docker.md"
               }
             }
           },
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考试.md",
+                "file": "复习/Docker.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考试.md",
+                "file": "复习/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +158,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd7d2010221d431a",
+  "active": "11e6c6a93e6c0d46",
   "lastOpenFiles": [
+    "复习/python自动化运维.md",
+    "考试.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
@@ -183,8 +186,6 @@
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
-    "云计算/第二部分/1.Nginx/3.Nginx模块.md",
-    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "笔记插图/Pasted image 20240802142622.png",
     "笔记插图/Pasted image 20240802112055.png",
     "笔记插图/Pasted image 20240802111543.png",
