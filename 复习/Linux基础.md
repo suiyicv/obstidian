@@ -745,13 +745,15 @@ yum upgrade：与yum update不同，yum upgrade会执行系统的升级操作，
 ### 手动建立yum仓库
 createrepo是一个用于创建yum存储库的工具，它的原理如下：
 1.遍历指定目录下的RPM包：createrepo会遍历指定的目录，找到其中的RPM包文件。
-2.生成元数据信息：对于找到的RPM包，createrepo会提取它们的元数据信息，包括文件列表、依赖关系、版本号等，并将这些信息存储在一个叫做repodata的目录中。
-3.创建索引文件：createrepo会生成一个名为repomd.xml的索引文件，其中包含了存储库的元数据信息，以便yum工具能够快速地定位和访问存储库中的软件包。
+2.生成元数据信息：对于找到的RPM包，createrepo会提取它们的元数据信息，包括文件列表、依赖关系、版本号等，<span style="background:#affad1">并将这些信息存储在一个叫做repodata的目录中。</span>
+3.创建索引文件：createrepo会生成一个名为<span style="background:#affad1">repomd.xml的索引文件</span>，其中包含了存储库的元数据信息，以便yum工具能够快速地定位和访问存储库中的软件包。
 4.完成存储库创建：一旦元数据信息和索引文件生成完毕，createrepo就会将其存储在指定目录下，完成存储库的创建过程。
 总的来说，createrepo的原理就是通过提取RPM包的元数据信息，并生成索引文件，从而创建一个符合yum存储库标准的目录结构，使得该目录可以被yum工具正确识别和访问。
+```bash
 mkdir /zijian                                                   创建存放软件的目录
 cp /mnt/cdrom/Packages/wire* /zijian/       给目录添加软件包
 createrepo /zijian                                         
+```
 将目录制作为yum软件仓库,根据当前软件包记录，形成元数据，让仓库可用。                   
 ![[Pasted image 20240802101034.png]]
 vim /etc/yum.repos.d/zijian.repo
@@ -760,14 +762,17 @@ yum makecache fast                             建立元数据缓存
 yum repolist                                           列出可用仓库信息
 ![[Pasted image 20240802102136.png|450]]
 如果这个仓库需要又新添加了新的软件包
+```bash
 createrepo /zijian        # 重新建立元数据 
 yum makecache fast  # 建立元数据缓存
 yum repolist all           # 列出可用仓库信息
-
-网络yum源
+```
+### 配置网络yum源
 两种方式
 1.直接下载yum配置文件
+```bash
 wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos7_base.repo
+```
 2.配置yum文件
 ```bash
 1.虚拟机联网 
@@ -780,3 +785,4 @@ enabled=1
 gpgcheck=1 
 gpgkey=https://mirrors.163.com/centos/7.9.2009/os/x86_64/RPM-GPG-KEY-CentOS-7
 ```
+/var/run/yum.pid 已被锁定，删除文件就可以了
