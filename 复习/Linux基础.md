@@ -757,11 +757,13 @@ createrepo /zijian
 ![[Pasted image 20240802101034.png]]
 vim /etc/yum.repos.d/zijian.repo
 yum makecache fast                             建立元数据缓存
+![[Pasted image 20240802102035.png|450]]
 yum repolist                                           列出可用仓库信息
+![[Pasted image 20240802102136.png|450]]
 如果这个仓库需要又新添加了新的软件包
-createrepo /zijian # 重新建立元数据 
-yum makecache fast #建立元数据缓存，如果给已存在的仓库增加软件包需要输入yum makecache fast建立缓存及元数据。或者yum clean all清理缓存。 
-yum repolist all #列出可用仓库信息
+createrepo /zijian        # 重新建立元数据 
+yum makecache fast  # 建立元数据缓存
+yum repolist all           # 列出可用仓库信息
 
 
 
