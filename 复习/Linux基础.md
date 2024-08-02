@@ -866,6 +866,8 @@ systemctl restart NetworkManager
 二者的区别
 方式一 更加专注于 ens33 这个特定的接口，如果 ens33 当前是断开状态，这种方式可以确保它被重新激活。
 方式二 则会影响到所有由 NetworkManager 管理的网络接口，可能会引起更广泛的网络重置。
+systemctl restart network                  # 适用于Centos7版本 
+systemctl restart NetworkManager  # 适用于Centos8以上版本
 ### nmcli命令管理网络
 nmcli [ OPTIONS ] OBJECT COMMAND
 ![[Pasted image 20240802142622.png]]
