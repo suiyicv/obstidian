@@ -853,3 +853,13 @@ tar -jxvf /tmp/boot.tar.bz2 -C /home/     # 解包并解压缩
 (2)nmtui
 (3)修改配置文件
 (4)nmcli
+重启网卡的方式
+一
+nmcli connection reload ens33
+nmcli connection up ens33 
+二
+nmcli connection reload ens33 
+systemctl restart NetworkManager
+二者的区别
+方式一 更加专注于 ens33 这个特定的接口，如果 ens33 当前是断开状态，这种方式可以确保它被重新激活。
+方式二 则会影响到所有由 NetworkManager 管理的网络接口，可能会引起更广泛的网络重置。
