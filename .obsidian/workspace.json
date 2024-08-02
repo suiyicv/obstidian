@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/python自动化运维.md",
+                "file": "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -97,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/python自动化运维.md"
+                "file": "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md"
               }
             }
           },
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/python自动化运维.md",
+                "file": "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/python自动化运维.md",
+                "file": "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +159,10 @@
   },
   "active": "38684ed4da5a4d26",
   "lastOpenFiles": [
+    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
+    "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
+    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+    "复习/python自动化运维.md",
     "云计算/第三部分/1.虚拟化技术/3.kvm存储管理.md",
     "云计算/第三部分/1.虚拟化技术/2.kvm网络管理.md",
     "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
@@ -171,7 +174,6 @@
     "复习/K8S.md",
     "笔记插图/Pasted image 20240801203351.png",
     "笔记插图/Pasted image 20240801192728.png",
-    "复习/python自动化运维.md",
     "复习/复习(不能删).md",
     "笔记插图/Pasted image 20240731210448.png",
     "笔记插图/Pasted image 20240731210121.png",
@@ -194,9 +196,6 @@
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "().md",
     "云计算/第一部分/Git/1.Git 版本控制器.md",
-    "Excalidraw/Drawing 2024-07-16 16.01.04.excalidraw.md",
-    "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
-    "云计算/第三部分/1.虚拟化技术/4.vmware企业版.md",
     "未命名.canvas",
     "计算机网络",
     "云计算/未命名",
