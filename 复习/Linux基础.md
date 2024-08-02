@@ -845,3 +845,9 @@ tar 选项 新建打包文件名 被打包的文件1 被打包的文件2 选项�
 tar -zcvf /opt/boot.tar.gz /boot/              # 打包并压缩的新文件名称自定义
 tar -jxvf /tmp/boot.tar.bz2 -C /home/     # 解包并解压缩
 ```
+
+## 6.网络管理
+常用命令ifconfig ip ping tcpdump traceroute arp
+### 修改网络信息
+(1)图形化修改
+(2)nmtui
