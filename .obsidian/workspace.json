@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8471cc8d818555e8",
+        "id": "ad8037dca3a33200",
         "type": "tabs",
         "children": [
           {
-            "id": "082d4b21f7adc8c6",
+            "id": "38684ed4da5a4d26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/待解决问题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c428547cac8fbce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/python自动化运维.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Docker.md"
+                "file": "复习/python自动化运维.md"
               }
             }
           },
@@ -120,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/python自动化运维.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Docker.md",
+                "file": "复习/python自动化运维.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +158,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c428547cac8fbce",
+  "active": "38684ed4da5a4d26",
   "lastOpenFiles": [
+    "云计算/第三部分/1.虚拟化技术/3.kvm存储管理.md",
+    "云计算/第三部分/1.虚拟化技术/2.kvm网络管理.md",
+    "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
+    "复习/Linux基础.md",
+    "复习/Mysql.md",
+    "复习/Openstack.md",
     "复习/待解决问题.md",
     "复习/Docker.md",
     "复习/K8S.md",
@@ -188,11 +181,8 @@
     "笔记插图/Pasted image 20240731204222.png",
     "笔记插图/Pasted image 20240731185431.png",
     "笔记插图/Pasted image 20240731185355.png",
-    "复习/Linux基础.md",
-    "复习/Mysql.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
-    "复习/Openstack.md",
     "ceshi.md",
     "考试.md",
     "测试机.md",
@@ -207,8 +197,6 @@
     "Excalidraw/Drawing 2024-07-16 16.01.04.excalidraw.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第三部分/1.虚拟化技术/4.vmware企业版.md",
-    "网络.md",
-    "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
     "未命名.canvas",
     "计算机网络",
     "云计算/未命名",
