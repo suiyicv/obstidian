@@ -725,6 +725,7 @@ yum是linux操作系统中最常见的软件安装工具，名为（Yellowdog Up
 /etc/yum.conf           yum的配置文件，一般保持默认
 /etc/yum.repos.d/     yum源文件目录
 ![[Pasted image 20240729154827.png]]
+
 yum clean all                    # 清空yum缓存
 yum makecache fast       # 快速建立缓存
 yum repolist all                # 执行此命令时yum makecache fast此步骤自动执行
