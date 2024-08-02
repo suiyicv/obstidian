@@ -851,3 +851,5 @@ tar -jxvf /tmp/boot.tar.bz2 -C /home/     # 解包并解压缩
 ### 修改网络信息
 (1)图形化修改
 (2)nmtui
+(3)修改配置文件
+(4)nmcli
