@@ -791,6 +791,16 @@ gpgkey=https://mirrors.163.com/centos/7.9.2009/os/x86_64/RPM-GPG-KEY-CentOS-7
 
 ### 归档文件
 1.打包和压缩
-压缩：将大文件压缩至更小，方便存储                               压缩工具：gzip,bzip2,xz
-打包：linux操作系统中，为了更好的保存文件，可以先将多文件，或目录进行打包，成为一个文件，在做后续管理（linux系统中不能对目录进行压缩）
+压缩：将大文件压缩至更小，方便存储                               <span style="background:#affad1">压缩工具：gzip,bzip2,xz</span>
+打包：linux操作系统中，为了更好的保存文件，可以先将多文件，或目录进行打包，成为一个文件，在做后续管理（linux系统中不能对目录进行压缩） <span style="background:#affad1">tar</span>
 文件归档就称为 <span style="background:#affad1">打包并压缩</span>
+
+压缩：
+linux系统中文件可以压缩，目录不能被压缩
+gzip 1  压缩
+gzip -d 解压
+![[Pasted image 20240802111412.png]]
+ bzip2 -k 1  
+![[Pasted image 20240802111543.png]]
+-k 会保留源文件
+
