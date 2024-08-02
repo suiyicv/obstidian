@@ -797,10 +797,16 @@ gpgkey=https://mirrors.163.com/centos/7.9.2009/os/x86_64/RPM-GPG-KEY-CentOS-7
 
 压缩：
 linux系统中文件可以压缩，目录不能被压缩
-gzip 1  压缩
-gzip -d 解压
-![[Pasted image 20240802111412.png]]
- bzip2 -k 1  
-![[Pasted image 20240802111543.png]]
+gzip 1     压缩
+gzip -d   解压
+![[Pasted image 20240802111412.png|550]]
+bzip2  -k 1  
+bzip2 -d  1   
+![[Pasted image 20240802111543.png|550]]
+-k 会保留源文件
+xz  1
+xz -k 2
+![[Pasted image 20240802112055.png|550]]
+xz  -d  1 
 -k 会保留源文件
 
