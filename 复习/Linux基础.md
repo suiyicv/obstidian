@@ -764,5 +764,19 @@ createrepo /zijian        # 重新建立元数据
 yum makecache fast  # 建立元数据缓存
 yum repolist all           # 列出可用仓库信息
 
-
-
+网络yum源
+两种方式
+1.直接下载yum配置文件
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.cloud.tencent.com/repo/centos7_base.repo
+2.配置yum文件
+```bash
+1.虚拟机联网 
+2.找到网络上的开源镜像站地址 https://mirrors.163.com/centos/7.9.2009/os/x86_64/ 
+3.配置yum源文件 
+[163] 
+name=163 
+baseurl=https://mirrors.163.com/centos/7.9.2009/os/x86_64/ 
+enabled=1 
+gpgcheck=1 
+gpgkey=https://mirrors.163.com/centos/7.9.2009/os/x86_64/RPM-GPG-KEY-CentOS-7
+```
