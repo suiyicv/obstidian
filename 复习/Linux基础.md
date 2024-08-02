@@ -788,3 +788,9 @@ gpgkey=https://mirrors.163.com/centos/7.9.2009/os/x86_64/RPM-GPG-KEY-CentOS-7
 ```
 /var/run/yum.pid 已被锁定，删除文件就可以了
 
+
+### 归档文件
+1.打包和压缩
+压缩：将大文件压缩至更小，方便存储                               压缩工具：gzip,bzip2,xz
+打包：linux操作系统中，为了更好的保存文件，可以先将多文件，或目录进行打包，成为一个文件，在做后续管理（linux系统中不能对目录进行压缩）
+文件归档就称为 <span style="background:#affad1">打包并压缩</span>
