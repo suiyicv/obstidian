@@ -737,8 +737,9 @@ yum info 软件名               # 查看软件信息
 yum list   软件名              # 列出软件列表
 yum provides  /etc/mime.types           # 查询提供 /etc/mime.types文件的软件包
 
-
-
+yum update和yum upgrade是两个常用的Linux命令，它们用于更新系统中已安装的软件包。<font color="#ff0000">它们之间的区别在于：</font>
+yum update：这个命令会更新系统中已安装的软件包到最新可用版本，但不会升级到新的发行版。它只会更新已安装软件包的版本，而不会安装新的软件包或删除已有的软件包。 
+yum upgrade：与yum update不同，yum upgrade会执行系统的升级操作，包括安装新的软件包、删除旧的软件包以及升级已安装软件包的版本。它会将系统升级到新的发行版，而不仅仅是更新已有软件包的版本。 总的来说，yum update和yum upgrade的功能都是一样的，都是将需要更新的package更新到源中的最新版。唯一不同的是，yum upgrade会删除旧版本的package，而yum update则会保留(obsoletes=0)。
 
 
 
