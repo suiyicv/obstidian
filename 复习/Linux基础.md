@@ -835,3 +835,5 @@ tar -xvf boot.tar -C /home/           # 解包到指定路径/home/下
 tar -cvf /home/boot.tar /boot/     #指定包的存储路径
 tar -rvf boot.tar      /tmp/data      # 为已经打包的文件夹里面添加新内容
 ```
+
+打包并压缩
