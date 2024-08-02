@@ -849,6 +849,9 @@ tar -jxvf /tmp/boot.tar.bz2 -C /home/     # 解包并解压缩
 ## 6.网络管理
 常用命令ifconfig ip ping tcpdump traceroute arp
 ### 修改网络信息
+route -n                          查询网关
+cat /etc/reslov.conf        查询DNS地址,通过查看该文件的nameserver字段来查看dns地址
+
 (1)图形化修改
 (2)nmtui
 (3)修改配置文件
@@ -863,3 +866,4 @@ systemctl restart NetworkManager
 二者的区别
 方式一 更加专注于 ens33 这个特定的接口，如果 ens33 当前是断开状态，这种方式可以确保它被重新激活。
 方式二 则会影响到所有由 NetworkManager 管理的网络接口，可能会引起更广泛的网络重置。
+### nmcli命令管理网络
