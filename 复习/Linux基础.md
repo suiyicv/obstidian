@@ -836,4 +836,12 @@ tar -cvf /home/boot.tar /boot/     #指定包的存储路径
 tar -rvf boot.tar      /tmp/data      # 为已经打包的文件夹里面添加新内容
 ```
 
-打包并压缩
+#### 打包并压缩
+tar 选项 新建打包文件名 被打包的文件1 被打包的文件2 选项： 
+```bash
+-z gzip 
+-j bzip2 
+-J xz
+tar -zcvf /opt/boot.tar.gz /boot/              # 打包并压缩的新文件名称自定义
+tar -jxvf /tmp/boot.tar.bz2 -C /home/     # 解包并解压缩
+```
