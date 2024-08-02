@@ -751,6 +751,10 @@ createrepo是一个用于创建yum存储库的工具，它的原理如下：
 4.完成存储库创建：一旦元数据信息和索引文件生成完毕，createrepo就会将其存储在指定目录下，完成存储库的创建过程。
 总的来说，createrepo的原理就是通过提取RPM包的元数据信息，并生成索引文件，从而创建一个符合yum存储库标准的目录结构，使得该目录可以被yum工具正确识别和访问。
 
+ cp /mnt/cdrom/Packages/wire* /zijian/
+ createrepo /zijian
+![[Pasted image 20240802101034.png]]
+
 
 
 
