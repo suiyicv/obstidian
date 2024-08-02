@@ -742,8 +742,7 @@ yum update：这个命令会更新系统中已安装的软件包到最新可用�
 yum upgrade：与yum update不同，yum upgrade会执行系统的升级操作，包括安装新的软件包、删除旧的软件包以及升级已安装软件包的版本。它会将系统升级到新的发行版，而不仅仅是更新已有软件包的版本。 
 总的来说，yum update和yum upgrade的功能都是一样的，都是将需要更新的package更新到源中的最新版。唯一不同的是，yum upgrade会删除旧版本的package，而yum update则会保留(obsoletes=0)。
 
-手动建立yum仓库
-
+### 手动建立yum仓库
 createrepo是一个用于创建yum存储库的工具，它的原理如下：
 1.遍历指定目录下的RPM包：createrepo会遍历指定的目录，找到其中的RPM包文件。
 2.生成元数据信息：对于找到的RPM包，createrepo会提取它们的元数据信息，包括文件列表、依赖关系、版本号等，并将这些信息存储在一个叫做repodata的目录中。
