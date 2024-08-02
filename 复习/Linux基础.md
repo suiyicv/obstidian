@@ -786,3 +786,4 @@ gpgcheck=1
 gpgkey=https://mirrors.163.com/centos/7.9.2009/os/x86_64/RPM-GPG-KEY-CentOS-7
 ```
 /var/run/yum.pid 已被锁定，删除文件就可以了
+
