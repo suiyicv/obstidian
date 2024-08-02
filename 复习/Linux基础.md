@@ -795,18 +795,38 @@ gpgkey=https://mirrors.163.com/centos/7.9.2009/os/x86_64/RPM-GPG-KEY-CentOS-7
 打包：linux操作系统中，为了更好的保存文件，可以先将多文件，或目录进行打包，成为一个文件，在做后续管理（linux系统中不能对目录进行压缩） <span style="background:#affad1">tar</span>
 文件归档就称为 <span style="background:#affad1">打包并压缩</span>
 
-压缩：
+#### 压缩：
 linux系统中文件可以压缩，目录不能被压缩
+```bash
 gzip 1     压缩
 gzip -d   解压
+gzip保留源文件的方法
+gzip -c file1 > file1.gz
+```
 ![[Pasted image 20240802111412.png|550]]
+```bash
 bzip2  -k 1  
 bzip2 -d  1   
-![[Pasted image 20240802111543.png|550]]
 -k 会保留源文件
+```
+![[Pasted image 20240802111543.png|550]]
+
+```bash
 xz  1
 xz -k 2
-![[Pasted image 20240802112055.png|550]]
 xz  -d  1 
 -k 会保留源文件
+```
+![[Pasted image 20240802112055.png|550]]
+
+#### 打包
+语法： tar 选项 新建打包文件名 被打包的文件1 被打包的文件2
+选项： 
+c 打包 
+v 显示过程（可选） 
+f 指定文件名 
+t 查看打包文件内容 
+x 解包 （x和c不能共同使用） 
+C 指定解包路径（-C /opt/ 指定解包到/opt/目录下） 
+r 为打包文件追加内容
 
