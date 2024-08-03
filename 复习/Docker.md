@@ -738,6 +738,18 @@ WORKDIR /data
 指定容器运行的用户
 USER 用户名
 用户改了影响权限，haproxy镜像就算用了普通用户启动的
+```bash
+vim dockerfile.txt
+FROM centos:7
+COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
+RUN yum -y install httpd
+CMD httpd -D FOREGROUND
+RUN useradd admin
+USER admin 
+```
+这样子写，构建成镜像做成容器后，容器启动不起来，原因就是权限不够
+应为这个dockerfile里面写的是，下载一个apache
+
 ### 3.练习
 编写tomcat镜像
 
