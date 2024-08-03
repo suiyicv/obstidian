@@ -1188,6 +1188,7 @@ docker-compose up -d
 docker ps -a
 ![[Pasted image 20240723094003.png]]
 注意命名规则：当前目录_services名称_数字
+
 ### 3.docker-compose常用的指令
 #### 3.1整体结构
 ```yaml
