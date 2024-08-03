@@ -1009,19 +1009,8 @@ docker logout harbor.linux.com
 ### 5.harbor核心组件
 单个harbor很容易成为单点故障
 ![[Pasted image 20240722150812.png|650]]
-core services
-提供web ui
-令牌token
-与registry交互获取镜像的元数据信息在webUI上展示
- - ui
- - token 给用户生成token令牌持续保存登录状态
- - webhook(钩子函数) 和 registry做交互，获取镜像的元数据信息在webUI上展示
-registry(最核心)
-负责镜像的上传下载
-Log collector
-采集日志
-Job service (高可用组件)
-负责在多个harbor仓库间同步数据
+
+
 Proxy
 使用nginx对后端所有组件进行反向代理
 
@@ -1034,7 +1023,10 @@ Database
 <span style="background:#affad1">core service ,</span>提供三个作用，第一个作用就是提供一个webui 第二个作用就是给用生成token令牌的，通过用户名密码等webui后，能一直持续保证这个登录状态，镜像上传完成后，<font color="#ff0000">我们一样可以在这个webui上查看镜像的信息，这些信息是怎么显示到这个webui上的呢？</font>
 第三个作用，就是由coreservice这个核心组件里面的webhook(钩子函数) 和 registry做交互来获取镜像的元数据信息，并且在webui上展示的
 <span style="background:#affad1">logcollector</span>,采集日志
-job service,harbor仓库你要做高可用，它自带了一种方案，就跟我们之前讲的数据库的主从复制一样，我们是一个harbor是单点故障，那我们可以弄两套harbor,non
+<span style="background:#affad1">job service</span>,harbor仓库你要做高可用，它自带了一种方案，就跟我们之前讲的数据库的主从复制一样，我们是一个harbor是单点故障，那我们可以弄两套harbor,弄两套harbor容易，但是要想真正起到高可用的作用，这两个harbor之间的数据需要是同步一致的(在web界面上支持一个复制管理的功能，这个就相当于是主从复制的功能)，将来可以在多个harbor之间做主从复制来同步数据，他们在做数据同步的时候，主要用的核心组件就是jobservice
+<span style="background:#affad1">proxy</span>,做反向代理的，为后的webui，跟镜像的上传下载做反向代理的，会有一个nginx的容器与其对应
+<span style="background:#affad1">database</span>，
+
 ### 6.harbor高可用设计方案
 核心思想
 禁用其自带的数据库，配置连接第三方的库， 保证多个harbor间的数据同步
