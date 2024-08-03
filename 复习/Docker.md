@@ -1164,21 +1164,16 @@ docker run -tid --name=harbor_haproxy -p 443:9443 -v /opt/work/haproxy.cfg:/usr/
 curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose 
 mv docker-compose /usr/local/bin/ 
 chmod a+x /usr/local/bin/docker-compose
+docker-compose version                                 # 查看docker-compose版本
 ```
 docker compose和docker的一个区别
 用docker compose一样可以创建容器查看容器删除容器，一样可以干这些容器的常规操作
 ，但是我们是docker-compose是一个容器编排工具，所谓的编排就是指，他需要一个文件
 叫做docker-compose.yaml,我们可以按照特定的语法，在这儿文件中规定好我们要创建的容器的名字，用的什么进项，需要传递什么参数，环境变量等。
 然后我们可以运行一个叫做docker-compose up -d 的命令，这个命令会在你的当前目录下，去找这个叫docker-compose.yaml的文件，找不到会报错，找到之后，就会按照这个文件里面的描述，把我们需要的容器批量的全部创建出来
-他对应的还有一个指令叫做docker-compose down,这个命令的作用也是会在你当前的目录下找一个叫做docker-compose。
-
-
-查看docker-compose版本
-docker-compose version 
-批量操作容器
-docker-compose.yml
-docker-compose up -d
-docker-compose down  
+他对应的还有一个指令叫做docker-compose down,这个命令的作用也是会在你当前的目录下找一个叫做docker-compose.yaml的文件，把这个文件里面所描述的所有容器，先全部stop停掉，然后再全部删掉
+<font color="#ff0000">为什么说docker-compose是单机版的容器编排工具呢？</font>
+这是应为，docker-compose不能跨机器编排，
 k8s也是一个容器编排工具
 多个不同机器上的docker统一编排，就需要集群版的容器编排工具<span style="background:#affad1">k8s</span>
 ### 2.docker-compose使用流程
