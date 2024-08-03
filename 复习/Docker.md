@@ -900,6 +900,7 @@ mv docker-compose /usr/local/bin/
 docker-compose version
 ![[Pasted image 20240722190736.png]]
 #### 3.3安装harbor
+解压完就算安装好了
 ```bash
 mkdir /work
 tar xf harbor-offline-installer-v2.2.2.tgz -C /work/
