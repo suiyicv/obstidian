@@ -1030,7 +1030,9 @@ Database
 	harbor-db：关系型数据库，存放harbor仓库上数据；默认是postgreSQL/pgSQL
 
 
-core service ,提供三个作用，第一个作用就是提供一个webui 第二个作用就是给用生成token令牌的，通过用户名密码等webui后，能一直持续保证这个登录状态，第三个作用就是 提供一个webhook(钩子函数) 和 registry做交互，获取镜像的元数据信息在webUI上展示，任何一个镜像仓库最核心的功能就俩，一个上传一个下载，我们构建仓库早期的方案用的就是registry,我们的harbor部署bao
+<span style="background:#affad1">registry</span>,任何一个镜像仓库最核心的功能就俩，一个上传一个下载，我们构建仓库早期的方案用的就是registry,我们的harbor部署好之后也是可以上传下载镜像的，这个功能就是由registry完成的，
+<span style="background:#affad1">core service ,</span>提供三个作用，第一个作用就是提供一个webui 第二个作用就是给用生成token令牌的，通过用户名密码等webui后，能一直持续保证这个登录状态，镜像上传完成后，<font color="#ff0000">我们一样可以在这个webui上查看镜像的信息，这些信息是怎么显示到这个webui上的呢？</font>
+第三个作用就是这个就是由coreservice这个核心组件里面的webhook(钩子函数) 和 registry做交互来获取镜像的元数据信息的
 
 ### 6.harbor高可用设计方案
 核心思想
