@@ -1140,17 +1140,20 @@ scp -r /work/harbor/ root@192.168.183.10:/work/harbor/
 ```
 #### 6.7配置haproxy做harbor仓库的负载均衡
 vim /opt/work/haproxy.cfg
+我们在做调度的时候按理说是七层调度，<font color="#ff0000">mode类型因该写http,但我们建议写tcp,为什么呢？</font>
+要写http也可以，但是麻烦在后端的两个harbor走的都是https协议，他走https协议就需要证书密钥，前端使用hproxy做负载均衡的时候，还要把那个证书密钥往haproxy
 ```bash
 frontend harbor
    bind 0.0.0.0:9443
    mode tcp
    use_backend harbor_server
 backend harbor_server
-   mode tcp
+   mode tcp 
    balance roundrobin
    server harbor01 192.168.183.10:443
    server harbor02 192.168.183.20:443
 ```
+
 docker run -tid --name=harbor_haproxy -p 443:9443 -v /opt/work/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg --restart=always haproxy:latest 
 客户端测试通过haproxy访问仓库 
 
