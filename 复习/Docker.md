@@ -712,6 +712,17 @@ EXPOSE 80/TCP
 VOLUME 目录
 RUN mkdir /data
 VOLUME /data
+```bash
+vim dockerfile.txt
+FROM centos:7
+COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
+RUN yum -y install httpd                                  # 这样子写是不对的，
+CMD httpd -D FOREGROUND
+RUN mkdir /data
+VOLUME /data
+```
+你这个镜像里面定义了一个volume，就像查看镜像详情的时候，可以看到volume的关键字
+
 
 #### -ENV
 定义环境变量
