@@ -1165,6 +1165,13 @@ curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compo
 mv docker-compose /usr/local/bin/ 
 chmod a+x /usr/local/bin/docker-compose
 ```
+docker compose和docker的一个区别
+用docker compose一样可以创建容器查看容器删除容器，一样可以干这些容器的常规操作
+，但是我们是docker-compose是一个容器编排工具，所谓的编排就是指，他需要一个文件
+叫做docker-compose.yaml,我们可以按照特定的yu'fa
+
+
+
 查看docker-compose版本
 docker-compose version 
 批量操作容器
@@ -1242,4 +1249,5 @@ networks_mode: 'host'             # 定义容器网络模式
 ```
 ### 4.配置nginx负载均衡案例
 nginx tomcat tomcat
+
 
