@@ -665,7 +665,11 @@ CMD ['HTTPD','-D','FOREGROUNG']推荐
 vim dockerfile.txt
 FROM centos:7
 COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
-RUN yum -y install net-tools
+RUN yum -y install httpd
+CMD systemctl start httpd # 这样子写是不对的，这样子生成的镜像容器启动的时候就是挂的
+这是应为你的容器想一直处于up状态，你的容器里面必须要有一个持续的进程存在，但是这个启动服务的命令，启动完了就结束了
+所以服务启动要写成前台启动
+CMD http -D FOREGROUNG
 ```
 
 #### -ENTRYPOINT
