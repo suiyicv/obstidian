@@ -1051,7 +1051,7 @@ docker run -tid --name=harbor_pgsql -e POSTGRES_PASSWORD=redhat -e PGDATA=/var/l
 配置数据库
 docker exec -ti harbor_pgsql bash
 psql -h 127.0.0.1 -p 5432 -U postgres
-create user harbor with password 'redhat';
+create user harbor with password 'redhat';  # 给harbor仓库使用
 create database harbor;
 create database harbor_clair;
 create database harbor_notary_server;
@@ -1060,7 +1060,7 @@ grant all on database harbor to harbor;
 grant all on database harbor_clair to harbor;
 grant all on database harbor_notary_server to harbor;
 grant all on database harbor_notary_signer to harbor;
-修改pgSQL的配置文件，允许远程主机(harbor仓库)连接
+pgsql默认只支持本地连接，所以要修改pgSQL的配置文件，允许远程主机(harbor仓库)连接
 cd /var/lib/postgresql/data/pgdata
 echo "host all all all trust" >> pg_hba.conf 
 
