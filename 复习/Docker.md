@@ -650,9 +650,10 @@ FROM 镜像名称
 指定定制命令
 RUN 命令   &&  命令   &&  命令
 注意：首先你要确保你的基础镜像里面有这个命令，他才能执行成功
-尽量少些run，如果将来你定制镜像的时候，如果一些操作shi
+尽量少些run，如果将来你定制镜像的时候，如果一些操作是有关联的，尽量写在一行
+镜像是个分层的文件系统，你在多些一行run，镜像生成的时候就会多加一层文件系统
 #### -CMD
-定义容器创建时自动执行的命令
+定义容器创建时自动执行的命令，一般系统级别的镜像里面默认的都是bash，应用级别的镜像里面的指令都是启动服务的
 注意事项
 前台启动服务的指令
 创建容器时，不要自己指定命令，会覆盖CMD
@@ -660,6 +661,12 @@ RUN 命令   &&  命令   &&  命令
 CMD 命令
 CMD http -D FOREGROUNG
 CMD ['HTTPD','-D','FOREGROUNG']推荐
+```
+vim dockerfile.txt
+FROM centos:7
+COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
+RUN yum -y install net-tools
+```
 
 #### -ENTRYPOINT
 定义容器创建时，自动执行的命令
