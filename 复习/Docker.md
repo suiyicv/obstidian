@@ -622,7 +622,7 @@ docker image inspect centos:7
 docker tag 555308ffc1d7 suiyi:1003
 
 ## 九.Dockerfile定制镜像
-dockefile就是给我们提供了一些指令，将来你要干什么活用什么指令，然后按照自己的需求，去做ding'xiang
+dockefile就是给我们提供了一些指令，将来你要干什么活用什么指令，然后按照自己的需求，去做定向就行了
 ### 1.Dockerfile使用教程
 
 #### (1)编写dockerfile
