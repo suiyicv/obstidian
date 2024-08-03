@@ -1134,7 +1134,6 @@ external_redis:
 scp /usr/local/bin/docker-compose root@192.168.183.20:/usr/local/bin/docker-compose
 docker-compose version
 scp -r /opt/ssl* root@192.168.183.10:/opt/ssl
-scp -r /work/harbor/ root@192.168.183.10:/work/
 scp ~/prepare.tar root@192.168.183.10:~/
 docker load -i prepare.tar
 scp -r /work/harbor/ root@192.168.183.10:/work/harbor/
