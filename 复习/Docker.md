@@ -1032,8 +1032,9 @@ Database
 
 <span style="background:#affad1">registry</span>,任何一个镜像仓库最核心的功能就俩，一个上传一个下载，我们构建仓库早期的方案用的就是registry,我们的harbor部署好之后也是可以上传下载镜像的，这个功能就是由registry完成的，
 <span style="background:#affad1">core service ,</span>提供三个作用，第一个作用就是提供一个webui 第二个作用就是给用生成token令牌的，通过用户名密码等webui后，能一直持续保证这个登录状态，镜像上传完成后，<font color="#ff0000">我们一样可以在这个webui上查看镜像的信息，这些信息是怎么显示到这个webui上的呢？</font>
-第三个作用就是这个就是由coreservice这个核心组件里面的webhook(钩子函数) 和 registry做交互来获取镜像的元数据信息的
-
+第三个作用，就是由coreservice这个核心组件里面的webhook(钩子函数) 和 registry做交互来获取镜像的元数据信息，并且在webui上展示的
+<span style="background:#affad1">logcollector</span>,采集日志
+job service,harbor仓库你要做高可用，它自带了一种方案，就跟我们之前讲的数据库的主从复制一样，我们是一个harbor是单点故障，那我们可以弄两套harbor,non
 ### 6.harbor高可用设计方案
 核心思想
 禁用其自带的数据库，配置连接第三方的库， 保证多个harbor间的数据同步
