@@ -703,7 +703,7 @@ ADD jdk-xzxxx.tar.gz  /tmp                                         # 相当于 t
 说明容器服务端口,并不会自动发不出来，如果想自动发不出来，还需要-p -P 
 EXPOSE 端口 端口  
 注意：
--P随机发布端口时，dockerfile中必须有EXPOSE指令，ru
+-P随机发布端口时，dockerfile中必须有EXPOSE指令，如果没有的话就算创建容器的时候用了-P，也不会有任何效果
 EXPOSE 80/TCP
 
 #### -VOLUME
