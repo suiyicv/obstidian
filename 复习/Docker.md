@@ -734,7 +734,7 @@ ENV 环境变量名称 值
 #### -WORKDIR
 定义当前目录
 WORKDIR /data
--USER
+#### -USER
 指定容器运行的用户
 USER 用户名
 
