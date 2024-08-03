@@ -688,7 +688,17 @@ COPY 源文件 目的文件
 ADD 源文件目的文件
 支持本地文件，还支持远程的url 相当于wget
 拷贝压缩包的化，压缩包会自动解压，只支持本地的压缩文件
-
+```bash
+vim dockerfile.txt
+FROM centos:7
+COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
+RUN yum -y install httpd
+CMD systemctl start httpd                                         # 这样子写是不对的，
+CMD ping baidu.com
+ADD file01 /tmp/file01
+ADD http://nginx.org/download/nginx-1.27.0.tar.gz
+ADD jdk-xzxxx.tar.gz  /tmp                                         # 相当于 tar xf xxx -C /tmp
+```
 #### -EXPOSE
 说明容器服务端口
 EXPOSE 端口 端口
