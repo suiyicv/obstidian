@@ -748,7 +748,7 @@ RUN useradd admin
 USER admin 
 ```
 这样子写，构建成镜像做成容器后，容器启动不起来，原因就是权限不够
-应为这个dockerfile里面写的是，下载一个apache
+应为这个dockerfile里面写的是，下载一个apache 启动apache apache默认端口80，普通用户是没有权限用1024以下的端口的
 
 ### 3.练习
 编写tomcat镜像
