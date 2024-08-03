@@ -1024,9 +1024,10 @@ Database
 <span style="background:#affad1">job service</span>,harbor仓库你要做高可用，它自带了一种方案，就跟我们之前讲的数据库的主从复制一样，我们是一个harbor是单点故障，那我们可以弄两套harbor,弄两套harbor容易，但是要想真正起到高可用的作用，这两个harbor之间的数据需要是同步一致的(在web界面上支持一个复制管理的功能，这个就相当于是主从复制的功能)，将来可以在多个harbor之间做主从复制来同步数据，他们在做数据同步的时候，主要用的核心组件就是jobservice
 <span style="background:#affad1">proxy</span>,做反向代理的，为后的webui，跟镜像的上传下载做反向代理的，会有一个nginx的容器与其对应
 <span style="background:#affad1">database</span>，高可用的核心，主要更改的就是这个数据库
-harbor主要用的数据库有俩，一个是redis,主要是用来存放前端用户产生的令牌，第二个叫harbor-db，一个关系型数据库，存放harbor仓库上数据，比如我们创建的用户密码，还有我们在harbor里创建的项目，给项目分配的权限等，这些数据都是要存到后端的关系型数据库里面的；默认是postgreSQL/pgSQL
+harbor主要用的数据库有俩，一个是redis,主要是用来存放前端用户产生的令牌，第二个叫harbor-db，一个关系型数据库，存放harbor仓库上数据，比如我们创建的用户密码，还有我们在harbor里创建的项目，给项目分配的权限等，这些数据都是要存到后端的关系型数据库里面的；harbor底层是不支持MySQL的，默认是postgreSQL/pgSQL
 ### 6.harbor高可用设计方案
 核心思想
+三个步骤
 禁用其自带的数据库，配置连接第三方的库， 保证多个harbor间的数据同步
 ![[Pasted image 20240722205030.png|475]]
 192.168.183.10 harbor仓库  
