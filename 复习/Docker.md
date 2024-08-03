@@ -1201,6 +1201,50 @@ services:                                           # 要创建的容器
 networks:                                         # 定义容器网络信息 自定义网络 （不常用）
 volumes:                                          # 指定要创建的数据卷信息，持久化存储  （不常用）      
 ```
+
+
+---
+### 主机目录挂载
+当你使用主机目录挂载时，你实际上是将主机上的某个目录映射到容器内的一个目录。这意味着容器内的数据实际上存储在主机的一个特定目录中。例如：
+
+```
+1services:
+2  web:
+3    image: nginx:latest
+4    volumes:
+5      - ./html:/usr/share/nginx/html
+6      - ./logs:/var/log/nginx
+```
+
+这里，`./html` 和 `./logs` 是主机上的目录，它们分别被挂载到容器内的 `/usr/share/nginx/html` 和 `/var/log/nginx` 目录。这意味着，无论容器是否被删除或重建，只要这些主机目录没有被删除，其中的数据就会一直存在。
+### 命名卷
+命名卷是由 Docker 管理的一种持久化的存储方式，它不是主机上的某个具体目录。命名卷可以被多个容器共享，并且数据会持续保留，即使容器被删除。命名卷可以看作是 Docker 内部的一个数据存储区域，它与具体的主机目录无关。
+
+```
+1services:
+2  web:
+3    image: nginx:latest
+4    volumes:
+5      - html_data:/usr/share/nginx/html
+6      - log_data:/var/log/nginx
+7  db:
+8    image: postgres:latest
+9    volumes:
+10      - db_data:/var/lib/postgresql/data
+11volumes:
+12  html_data:
+13  log_data:
+14  db_data:
+```
+
+这里，`html_data`, `log_data`, 和 `db_data` 都是命名卷。它们被定义在 `docker-compose.yml` 文件的顶级 `volumes:` 下。这些命名卷由 Docker 管理，并且数据不会因为容器的删除而丢失。
+### 总结
+**主机目录挂载**：数据存储在主机的某个具体目录中。
+**命名卷**：数据存储在 Docker 内部，与主机目录无关。
+
+
+---
+
 #### 3.2常用容器选项
 ```bash title:常用选项
 image: 镜像名称
