@@ -700,10 +700,10 @@ ADD http://nginx.org/download/nginx-1.27.0.tar.gz
 ADD jdk-xzxxx.tar.gz  /tmp                                         # 相当于 tar xf xxx -C /tmp
 ```
 #### -EXPOSE
-说明容器服务端口
-EXPOSE 端口 端口
+说明容器服务端口,并不会自动发不出来，如果想自动发不出来，还需要-p -P 
+EXPOSE 端口 端口  
 注意：
--P随机发布端口时，dockerfile中必须有EXPOSE指令
+-P随机发布端口时，dockerfile中必须有EXPOSE指令，ru
 EXPOSE 80/TCP
 
 #### -VOLUME
