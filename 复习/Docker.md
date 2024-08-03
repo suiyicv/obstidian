@@ -621,7 +621,7 @@ docker image inspect centos:7
 #### (8)更改镜像名称
 docker tag 555308ffc1d7 suiyi:1003
 
-## 九.Dockerfile定制镜像
+## 九.Dockerfile定制镜像(<font color="#d99694">完整</font>)
 dockefile就是给我们提供了一些指令，将来你要干什么活用什么指令，然后按照自己的需求，去做定向就行了
 ### 1.Dockerfile使用教程
 
@@ -645,7 +645,6 @@ ifconfig
 镜像不存在，构建镜像时自动下载镜像
 建议尽量选择小容量的镜像 /debian/ubuntu
 FROM 镜像名称
-
 #### -RUN
 指定定制命令
 RUN 命令   &&  命令   &&  命令
@@ -677,12 +676,10 @@ CMD http -D FOREGROUNG
 ENTRYPOINT ['HTTPD','-D','FOREGROUNG']
 CMD写的指令会被启动容器的时候的指定命令给覆盖；ENTRYPOINT不会被覆盖
 ENTRYPOINT 在复杂的场景会有特殊的应用，定制相对复杂的镜像的时候，写脚本通过copy复制到容器里面去，通过ENTRYPOINT执行脚本
-
 #### -COPY 
 复制文件
 COPY 源文件 目的文件
 只能复制本地文件
-
 #### -ADD
 复制文件
 ADD 源文件目的文件
@@ -705,7 +702,6 @@ EXPOSE 端口 端口
 注意：
 -P随机发布端口时，dockerfile中必须有EXPOSE指令，如果没有的话就算创建容器的时候用了-P，也不会有任何效果
 EXPOSE 80/TCP
-
 #### -VOLUME
 定义持久化存储的目录
 创建容器的时候不使用-v明确指定目录，会自动生成匿名卷
@@ -726,11 +722,9 @@ VOLUME /data
 这个字段显示跟下的data目录应该做持久化，但是后面还带了个括号，正常情况下我们docker run -v 物理机目录:容器目录 选定了物理机目录之后就会挂载在物理机的这个目录下，如果创建容器的时候你不写-v 就是应为有这个字段，他也会自动的做持久化，会自动生成一个匿名卷，那这个匿名卷来做持久化 “{ }” 这个就算匿名卷的意思
 自动生成的匿名卷在
 ![[Pasted image 20240803105611.png]]
-
 #### -ENV
 定义环境变量
 ENV 环境变量名称 值
-
 #### -WORKDIR
 定义当前目录
 WORKDIR /data
@@ -752,7 +746,6 @@ USER admin
 
 ### 3.练习
 编写tomcat镜像
-
 ## 十.微服务项目的部署
 192.168.183.10
 微服务项目部署要按顺序
