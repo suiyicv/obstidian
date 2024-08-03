@@ -660,24 +660,23 @@ RUN 命令   &&  命令   &&  命令
 一个dockerfile只能有一条CMD指令
 CMD 命令
 CMD http -D FOREGROUNG
-CMD ['HTTPD','-D','FOREGROUNG']推荐
+CMD ['HTTPD','-D','FOREGROUNG']推荐这种写法
 ```
 vim dockerfile.txt
 FROM centos:7
 COPY CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
 RUN yum -y install httpd
-CMD systemctl start httpd # 这样子写是不对的，这样子生成的镜像容器启动的时候就是挂的
-这是应为你的容器想一直处于up状态，你的容器里面必须要有一个持续的进程存在，但是这个启动服务的命令，启动完了就结束了
+CMD systemctl start httpd # 这样子写是不对的，
 所以服务启动要写成前台启动
 CMD http -D FOREGROUNG
 ```
-
+用CMD systemctl start httpd这样子生成的镜像容器启动的时候就是挂的。这是应为你的容器想一直处于up状态，你的容器里面必须要有一个持续的进程存在，但是这个启动服务的命令，启动完了就结束了
 #### -ENTRYPOINT
+作用和cmd一样的
 定义容器创建时，自动执行的命令
 ENTRYPOINT ['HTTPD','-D','FOREGROUNG']
-CMD写的指令会被覆盖；ENTRYPOINT不会被覆盖
-ENTRYPOINT 在复杂的场景会有特殊的应用
-定制相对复杂的镜像的时候，写脚本通过ENTRYPOINT执行脚本
+CMD写的指令会被启动容器的时候的指定命令给覆盖；ENTRYPOINT不会被覆盖
+ENTRYPOINT 在复杂的场景会有特殊的应用，定制相对复杂的镜像的时候，写脚本通过copy复制到容器里面去，通过ENTRYPOINT执行脚本
 
 #### -COPY 
 复制文件
