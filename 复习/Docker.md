@@ -722,6 +722,8 @@ RUN mkdir /data
 VOLUME /data
 ```
 你这个镜像里面定义了一个volume，就像查看镜像详情的时候，可以看到volume的关键字
+![[Pasted image 20240803104858.png]]
+这个字段显示跟下的data目录应该做持久化，但是后面还带了个括号，正常情况下我们docker run -v 物理机目录:容器目录 选定了物理机mu'l
 
 
 #### -ENV
