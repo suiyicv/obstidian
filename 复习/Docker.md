@@ -1192,16 +1192,16 @@ docker ps -a
 ### 3.docker-compose常用的指令
 #### 3.1整体结构
 ```yaml
-version: '3'
-services:
-    服务名称:
+version: '3'                                        # 指定docker-compose和docker对接的版本
+services:                                           # 要创建的容器
+    服务名称:                           
          容器选项:
     服务名称:
          容器选项:   
-networks: 定义容器网络信息
-volumes: 定义数据卷
+networks:                                         # 定义容器网络信息 自定义网络 （不常用）
+volumes:                                          # 指定要创建的数据卷信息，持久化存储  （不常用）      
 ```
-#### 3.2常用选项
+#### 3.2常用容器选项
 ```bash title:常用选项
 image: 镜像名称
 volumes: 
