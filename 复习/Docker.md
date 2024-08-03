@@ -1015,7 +1015,7 @@ core services
 与registry交互获取镜像的元数据信息在webUI上展示
  - ui
  - token 给用户生成token令牌持续保存登录状态
- - webhook(钩子函数) 和 registry做交互
+ - webhook(钩子函数) 和 registry做交互，获取镜像的元数据信息在webUI上展示
 registry(最核心)
 负责镜像的上传下载
 Log collector
@@ -1028,6 +1028,8 @@ Proxy
 Database
 	redis：存储前端用户产生的令牌
 	harbor-db：关系型数据库，存放harbor仓库上数据；默认是postgreSQL/pgSQL
+
+
 
 
 ### 6.harbor高可用设计方案
