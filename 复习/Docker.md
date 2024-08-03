@@ -879,7 +879,7 @@ docker logs websocket
 
 
 
-## 十一.基于harbor镜像仓库
+## 十一.基于harbor镜像仓库(<font color="#d99694">完整</font>)
 存放镜像的位置
 ### 1.仓库的类型
 公有仓库           私有仓库:企业级的应用
@@ -1141,7 +1141,7 @@ scp -r /work/harbor/ root@192.168.183.10:/work/harbor/
 #### 6.7配置haproxy做harbor仓库的负载均衡
 vim /opt/work/haproxy.cfg
 我们在做调度的时候按理说是七层调度，<font color="#ff0000">mode类型因该写http,但我们建议写tcp,为什么呢？</font>
-要写http也可以，但是麻烦在后端的两个harbor走的都是https协议，他走https协议就需要证书密钥，前端使用hproxy做负载均衡的时候，还要把那个证书密钥往haproxy
+要写http也可以，但是麻烦在后端的两个harbor走的都是https协议，他走https协议就需要证书密钥，前端使用hproxy做负载均衡的时候，还要把那个证书密钥往haproxy服务器里面copy一份，要不然调度不过去，所以为了省事我们直接写tcp,但是我们端口可以写443，但是！！！普通用户不能用小于1024的端口所以要改一下，可以改成9443
 ```bash
 frontend harbor
    bind 0.0.0.0:9443
