@@ -1033,7 +1033,8 @@ harbor主要用的数据库有俩，一个是redis,主要是用来存放前端�
 192.168.183.10 harbor仓库  
 192.168.183.20 harbor仓库  
 192.168.183.30 后端数据库、存储
-
+从高可用的角度来说，个人用个人的数据库，没法同步数据，但是harbor支持连接外部数据库，
+因此从数据库的角度来讲，在harbor启动之前我们在外面单搞一个redis,一个pgsql数据库,所有harbor服务器的缓存数据都放到这个redis里，所有的数据都存放到同一个pgsql数据库里面
 #### 6.1配置nfs作为harbor的数据目录
 yum -y install nfs-utils
 vim /etc/exports
