@@ -737,7 +737,7 @@ WORKDIR /data
 #### -USER
 指定容器运行的用户
 USER 用户名
-
+用户改了影响权限，haproxy镜像就算用了普通用户启动的
 ### 3.练习
 编写tomcat镜像
 
