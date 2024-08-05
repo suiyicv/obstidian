@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/2.Docker.md",
+                "file": "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md"
+                "file": "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
+                "file": "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
+                "file": "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +171,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "11e6c6a93e6c0d46",
+  "active": "c0eee9a3d9c653b2",
   "lastOpenFiles": [
     "复习/2.Docker.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
