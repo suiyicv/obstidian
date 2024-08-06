@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "44b07374b613cf94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/2.Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -172,8 +184,10 @@
   },
   "active": "11e6c6a93e6c0d46",
   "lastOpenFiles": [
-    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
+    "复习/2.Docker.md",
     "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
+    "复习/1.K8S.md",
+    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "笔记插图/Pasted image 20240805210005.png",
     "笔记插图/Pasted image 20240805204626.png",
     "笔记插图/Pasted image 20240805203007.png",
@@ -182,7 +196,6 @@
     "笔记插图/Pasted image 20240805185816.png",
     "笔记插图/Pasted image 20240805185423.png",
     "笔记插图/Pasted image 20240805184638.png",
-    "复习/2.Docker.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "复习/简历.md",
     "笔记插图/Pasted image 20240805164948.png",
@@ -190,7 +203,6 @@
     "复习/待解决问题.md",
     "复习/4.虚拟化.md",
     "复习/3.Openstack.md",
-    "复习/1.K8S.md",
     "复习/Mysql.md",
     "复习/Linux基础.md",
     "复习/python自动化运维.md",
