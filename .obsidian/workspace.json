@@ -184,8 +184,9 @@
   },
   "active": "1f3039cf117a2bbf",
   "lastOpenFiles": [
-    "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
     "云计算/第二部分/5.存储/2.ceph存储组件.md",
+    "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
+    "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/简历.md",
     "复习/2.Docker.md",
@@ -219,7 +220,6 @@
     "复习/Mysql.md",
     "复习/Linux基础.md",
     "复习/python自动化运维.md",
-    "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
     "复习",
     "未命名.canvas",
     "计算机网络",
