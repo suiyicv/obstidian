@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "云计算/第二部分/5.存储/2.ceph存储组件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f3039cf117a2bbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
                 "mode": "source",
                 "source": false
@@ -109,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md"
+                "file": "云计算/第二部分/5.存储/2.ceph存储组件.md"
               }
             }
           },
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/5.存储/2.ceph存储组件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/5.存储/2.ceph存储组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +184,10 @@
   },
   "active": "146213baa9a9701d",
   "lastOpenFiles": [
-    "复习/2.Docker.md",
     "复习/简历.md",
+    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+    "云计算/第二部分/5.存储/2.ceph存储组件.md",
+    "复习/2.Docker.md",
     "复习/4.虚拟化.md",
     "复习/3.Openstack.md",
     "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
@@ -206,8 +220,6 @@
     "复习/python自动化运维.md",
     "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
     "复习/复习(不能删).md",
-    "考试.md",
-    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "复习",
     "未命名.canvas",
     "计算机网络",
