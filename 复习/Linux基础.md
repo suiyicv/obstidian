@@ -918,4 +918,18 @@ find /A -maxdepth 2 -name "*.txt"  最多两层目录
 find /A -name "*.txt" -exec rm -rf {} \;  # 大括号表示删除所有 
 
 ```
-grep guo
+grep 过滤内容
+```bash
+不同字符，正则表达式
+
+```
+
+在正则表达式
+```bash 
+由一类特殊字符组成的表达式，匹配一类具有相同特征的文本
+grep "r..t" /etc/passwd  # . 就代表某一个字符
+grep "\." /etc/passwd 
+[rkt]     # 在我们写的范围内任写其一
+grep   "[rkt]"  /etc/pa
+
+```
