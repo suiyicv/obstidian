@@ -940,5 +940,13 @@ grep   "[rkt]"  /etc/passwd
 * 前一个字符出现0次或多次
 ab* a,ab,abbb
 [0-9]* 8 88  45345
-.* renyi
+.* 任意字符
+
+？ 代表前一个字符出现一次或0次 可有可无有
+ab? a ab 
++  出现一次或多次
+\{3\}  前一个字符精确出现三次 ,要加转义
+
 ```
+https://flowus.cn/share/3bc7f27e-686a-4b1f-9521-8c271ea99331?code=HBHJBX
+【FlowUs 息流】SHELL脚本

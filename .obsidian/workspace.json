@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/网络.md",
+                "file": "复习/Mysql.md",
                 "mode": "source",
                 "source": false
               }
@@ -185,8 +185,9 @@
   },
   "active": "430ffb6b84a5b0a7",
   "lastOpenFiles": [
-    "复习/复习(不能删).md",
+    "复习/Mysql.md",
     "复习/网络.md",
+    "复习/复习(不能删).md",
     "复习/Linux基础.md",
     "复习/shell.md",
     "复习/简历.md",
@@ -220,7 +221,6 @@
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "复习/1.K8S.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
-    "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "复习",
     "未命名.canvas",
     "计算机网络",
