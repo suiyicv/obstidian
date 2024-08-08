@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "23be76c97085cec5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/Linux基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -173,10 +185,16 @@
   },
   "active": "430ffb6b84a5b0a7",
   "lastOpenFiles": [
+    "复习/Linux基础.md",
+    "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
+    "笔记插图/Pasted image 20240808205302.png",
+    "笔记插图/Pasted image 20240808205256.png",
+    "笔记插图/Pasted image 20240808205207.png",
+    "笔记插图/Pasted image 20240808205151.png",
+    "笔记插图/Pasted image 20240808205148.png",
     "云计算/第三部分/1.虚拟化技术/2.kvm网络管理.md",
     "云计算/第三部分/1.虚拟化技术/3.kvm存储管理.md",
     "复习/4.虚拟化.md",
-    "复习/Linux基础.md",
     "复习/Mysql.md",
     "复习/网络.md",
     "复习/复习(不能删).md",
@@ -191,7 +209,6 @@
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/3.Openstack.md",
-    "云计算/第三部分/1.虚拟化技术/1.虚拟化技术概述.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
@@ -201,14 +218,8 @@
     "笔记插图/Pasted image 20240807171106.png",
     "笔记插图/Pasted image 20240807170936.png",
     "笔记插图/Pasted image 20240807170900.png",
-    "笔记插图/Pasted image 20240807170818.png",
-    "笔记插图/Pasted image 20240807160230.png",
-    "笔记插图/Pasted image 20240807135545.png",
-    "笔记插图/Pasted image 20240807132344.png",
-    "笔记插图/Pasted image 20240807130837.png",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "复习/1.K8S.md",
-    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "复习",
     "未命名.canvas",
     "计算机网络",
