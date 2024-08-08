@@ -10,8 +10,8 @@ shanchujilu="/root/wwh"
 delete_time=$(date  '+%Y-%m-%d %H:%M:%S')
 for file in "$wenjian"/*; do
 	if [-f "$file"]; then
-	 rm "$file"
-	 echo "file '$file' deleted at : '$delete_time'   " >> "$shanchujilu"
+	 rm  -f "$file"
+	 echo "file: '$file' deleted at : '$delete_time'   " >> "$shanchujilu"
 	 fi
 done
 echo "所有的文件已经删除"
