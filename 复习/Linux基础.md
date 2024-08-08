@@ -899,4 +899,17 @@ rm -rf /opt/\*
 ```
 
 find 查找文件
-find /data/ 
+```bash
+find /data/ -name "*.txt"  # 区分大小写
+find /data/ -iname "*.txt"  # 不区分大小写
+按类型查找
+find /dev/ -type b
+按文件大小查
+find /etc/ -size +1M  # + 代表大于的意思
+按文件的修改时间
+find /etc/ -mtime +7  # + 表示七天前
+按创建时间
+find /etc/ -ctime  -10  # - 十天之内
+
+
+```
