@@ -936,6 +936,7 @@ grep "\." /etc/passwd
 [[:space:]]   #  任意单个空白
 grep   "[rkt]"  /etc/passwd
 
+前一个字符
 匹配连续出现的次数
 * 前一个字符出现0次或多次
 ab* a,ab,abbb
@@ -946,7 +947,13 @@ ab* a,ab,abbb
 ab? a ab 
 +  出现一次或多次
 \{3\}  前一个字符精确出现三次 ,要加转义
+{2，5} 表示一个区间
+{2,}  可以是两次多了不限
 
 ```
 https://flowus.cn/share/3bc7f27e-686a-4b1f-9521-8c271ea99331?code=HBHJBX
 【FlowUs 息流】SHELL脚本
+https://flowus.cn/share/eec0938b-2644-4213-a3be-b2be5d62b345?code=HBHJBX
+【FlowUs 息流】LINUX
+
+
