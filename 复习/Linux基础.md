@@ -910,6 +910,12 @@ find /etc/ -size +1M  # + 代表大于的意思
 find /etc/ -mtime +7  # + 表示七天前
 按创建时间
 find /etc/ -ctime  -10  # - 十天之内
+-a 和 -o 或
+find /A -maxdepth 2 -name "*.txt"  最多两层目录
 
+找出文件在对文件做后续的操作
+
+find /A -name "*.txt" -exec rm -rf {} \;  # 大括号表示删除所有 
 
 ```
+grep guo
