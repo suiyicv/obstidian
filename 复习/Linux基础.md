@@ -873,3 +873,4 @@ nmcli [ OPTIONS ] OBJECT COMMAND
 ![[Pasted image 20240802142622.png]]
 device叫网络接口，是物理设备，网卡 connection是连接，偏重于逻辑设置，网卡配置文件
 一个device(ens33)可以有多个connection(配置文件)，但同一时间一个device只能启用其中一个connection。这样的好处是针对一个网络接口，我们可以设置多个网络连接，比如静态IP和动态IP的获取方式，
+
