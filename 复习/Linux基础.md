@@ -874,3 +874,28 @@ nmcli [ OPTIONS ] OBJECT COMMAND
 device叫网络接口，是物理设备，网卡 connection是连接，偏重于逻辑设置，网卡配置文件
 一个device(ens33)可以有多个connection(配置文件)，但同一时间一个device只能启用其中一个connection。这样的好处是针对一个网络接口，我们可以设置多个网络连接，比如静态IP和动态IP的获取方式，
 
+查看网卡配置
+nmcli connection show
+删除网卡
+nmcli con delete ens33
+添加网卡
+mcli connection add ifname ens33 con-name ens33 type ethernet
+配置网络参数
+![[Pasted image 20240808144105.png]]
+重新加载配置
+nmcli connection reload
+nmcli connection up ens33
+
+
+### vmware网络工作模式
+tcpdump -i ens33 -nn icmp 
+-i     使用指定的网络接口送出数据包 
+-nn 不要将 IP 地址转换为域名，也不要将协议和端口号转换为它们对应的服务名称
+
+### 多网卡绑定
+绑定模式
+- loadbalance     负载均衡模式
+- activebackup   主备模式
+多网卡绑定
+创建虚拟网卡
+nmcli connection add type team ifname team1 con-name team1 config '{"runner":{"name":"loadbalance"}}'
