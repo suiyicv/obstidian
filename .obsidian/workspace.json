@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/Mysql.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "430ffb6b84a5b0a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/1.虚拟化技术概述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23be76c97085cec5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/简历.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/1.虚拟化技术概述.md"
+                "file": "复习/简历.md"
               }
             }
           },
@@ -131,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/1.虚拟化技术概述.md",
+                "file": "复习/简历.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -148,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/1.虚拟化技术概述.md",
+                "file": "复习/简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,29 +157,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "430ffb6b84a5b0a7",
+  "active": "6c781587434889d1",
   "lastOpenFiles": [
+    "复习/复习(不能删).md",
+    "复习/Mysql.md",
+    "复习/简历.md",
+    "复习/Linux基础.md",
+    "复习/4.虚拟化技术概述.md",
+    "复习/4.虚拟化.md",
     "笔记插图/Pasted image 20240808210423.png",
     "笔记插图/Pasted image 20240808210338.png",
     "笔记插图/Pasted image 20240808210245.png",
     "笔记插图/Pasted image 20240808210024.png",
     "笔记插图/Pasted image 20240808205901.png",
     "笔记插图/Pasted image 20240808205748.png",
-    "复习/Linux基础.md",
-    "复习/1.虚拟化技术概述.md",
     "笔记插图/Pasted image 20240808205302.png",
     "笔记插图/Pasted image 20240808205256.png",
     "笔记插图/Pasted image 20240808205207.png",
     "笔记插图/Pasted image 20240808205151.png",
-    "笔记插图/Pasted image 20240808205148.png",
     "云计算/第三部分/1.虚拟化技术/2.kvm网络管理.md",
     "云计算/第三部分/1.虚拟化技术/3.kvm存储管理.md",
-    "复习/4.虚拟化.md",
-    "复习/Mysql.md",
     "复习/网络.md",
-    "复习/复习(不能删).md",
     "复习/shell.md",
-    "复习/简历.md",
     "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
