@@ -899,3 +899,10 @@ tcpdump -i ens33 -nn icmp
 多网卡绑定
 创建虚拟网卡
 nmcli connection add type team ifname team1 con-name team1 config '{"runner":{"name":"loadbalance"}}'
+添加物理网卡
+[root@localhost ~]# nmcli connection add type team-slave ifname ens33 con-name team1-ens33 master team1 
+[root@localhost ~]# nmcli connection add type team-slave ifname ens36 con-name team1-ens36 master team1 
+配置地址
+![[Pasted image 20240808144512.png]]
+查看虚拟网卡的状态
+teamdctl team1 state

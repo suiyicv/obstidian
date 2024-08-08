@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1f3039cf117a2bbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/Linux基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Linux基础.md"
+                "file": "复习/简历.md"
               }
             }
           },
@@ -120,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/简历.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,11 +158,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f3039cf117a2bbf",
+  "active": "eee873a3191ef41a",
   "lastOpenFiles": [
+    "复习/Linux基础.md",
+    "复习/简历.md",
+    "笔记插图/Pasted image 20240808144512.png",
     "笔记插图/Pasted image 20240808144105.png",
     "复习/2.Docker.md",
-    "复习/简历.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/5.存储/4.ceph存储使用流程.md",
     "云计算/第二部分/5.存储/2.ceph存储组件.md",
@@ -200,15 +189,12 @@
     "笔记插图/Pasted image 20240807130837.png",
     "云计算/第三部分/1.虚拟化技术/3.kvm存储管理.md",
     "云计算/第三部分/1.虚拟化技术/2.kvm网络管理.md",
-    "笔记插图/Pasted image 20240806195151.png",
-    "笔记插图/Pasted image 20240806194737.png",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "复习/1.K8S.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "复习/待解决问题.md",
     "复习/Mysql.md",
-    "复习/Linux基础.md",
     "复习",
     "未命名.canvas",
     "计算机网络",
