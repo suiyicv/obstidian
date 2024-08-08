@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6c781587434889d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "430ffb6b84a5b0a7",
             "type": "leaf",
             "state": {
@@ -109,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Linux基础.md"
+                "file": "复习/shell.md"
               }
             }
           },
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/shell.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,12 +182,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "430ffb6b84a5b0a7",
+  "active": "6c781587434889d1",
   "lastOpenFiles": [
     "复习/复习(不能删).md",
+    "复习/Linux基础.md",
     "复习/shell.md",
     "复习/简历.md",
-    "复习/Linux基础.md",
     "笔记插图/Pasted image 20240808144512.png",
     "笔记插图/Pasted image 20240808144105.png",
     "复习/2.Docker.md",
