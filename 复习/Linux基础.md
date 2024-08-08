@@ -887,22 +887,5 @@ nmcli connection reload
 nmcli connection up ens33
 
 
-### vmware网络工作模式
-tcpdump -i ens33 -nn icmp 
--i     使用指定的网络接口送出数据包 
--nn 不要将 IP 地址转换为域名，也不要将协议和端口号转换为它们对应的服务名称
-
-### 多网卡绑定
-绑定模式
-- loadbalance     负载均衡模式
-- activebackup   主备模式
-多网卡绑定
-创建虚拟网卡
-nmcli connection add type team ifname team1 con-name team1 config '{"runner":{"name":"loadbalance"}}'
-添加物理网卡
-[root@localhost ~]# nmcli connection add type team-slave ifname ens33 con-name team1-ens33 master team1 
-[root@localhost ~]# nmcli connection add type team-slave ifname ens36 con-name team1-ens36 master team1 
-配置地址
-![[Pasted image 20240808144512.png]]
-查看虚拟网卡的状态
-teamdctl team1 state
+## 7.很不熟悉的一部分
+转义符的使用
