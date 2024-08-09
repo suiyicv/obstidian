@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b440fd3dc66f4951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/3.Openstack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "864060661a38652a",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -108,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md"
+                "file": "复习/3.Openstack.md"
               }
             }
           },
@@ -118,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
+                "file": "复习/3.Openstack.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
+                "file": "复习/3.Openstack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,8 +182,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a93a947d9d5dc99",
+  "active": "b440fd3dc66f4951",
   "lastOpenFiles": [
+    "云计算/第二部分/7.自动化工具/1.ansible.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
@@ -184,7 +199,6 @@
     "复习/2.Docker.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
-    "云计算/第二部分/7.自动化工具/1.ansible.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "云计算/第二部分/3.Redis/3.wordpress博客对接redis缓存.md",
     "复习/复习计划.md",
