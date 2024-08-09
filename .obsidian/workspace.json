@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
+                "file": "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ece8e797ceb16a18",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://blog.csdn.net/u010198709/article/details/139487968?spm=1001.2014.3001.5501"
               }
             }
           },
@@ -109,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md"
+                "file": "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md"
               }
             }
           },
@@ -119,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
+                "file": "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
+                "file": "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,6 +181,8 @@
   },
   "active": "6c781587434889d1",
   "lastOpenFiles": [
+    "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
+    "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "复习/2.Docker.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
@@ -180,7 +192,6 @@
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
-    "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "云计算/第二部分/3.Redis/3.wordpress博客对接redis缓存.md",
     "复习/复习计划.md",
@@ -196,7 +207,6 @@
     "复习/简历.md",
     "复习/复习(不能删).md",
     "复习/Mysql.md",
-    "复习/Linux基础.md",
     "笔记插图/Pasted image 20240808210423.png",
     "笔记插图/Pasted image 20240808210338.png",
     "笔记插图/Pasted image 20240808210245.png",
