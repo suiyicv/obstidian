@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aab063a1d95cd2e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
                 "mode": "source",
                 "source": false
@@ -119,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md"
+              }
             }
           },
           {
@@ -128,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -144,6 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,11 +192,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ece8e797ceb16a18",
+  "active": "aab063a1d95cd2e3",
   "lastOpenFiles": [
+    "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
-    "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "复习/2.Docker.md",
