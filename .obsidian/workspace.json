@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
+                "file": "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
                 "mode": "source",
                 "source": false
               }
@@ -178,8 +178,8 @@
   },
   "active": "ece8e797ceb16a18",
   "lastOpenFiles": [
-    "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
+    "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
