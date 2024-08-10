@@ -1002,3 +1002,6 @@ Linux内核的主要组件有：系统调用接口、进程管理、内存管理
 # 11.linux 常用服务
 【有道云笔记】2.基础服务应用
 https://note.youdao.com/s/TT3rczzP
+
+12.strace
+[【调试技巧】strace神器的使用方法详解与实践_strace参数详解-CSDN博客](https://blog.csdn.net/qq_16933601/article/details/117248806)
