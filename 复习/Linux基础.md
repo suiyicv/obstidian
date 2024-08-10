@@ -1003,5 +1003,9 @@ Linux内核的主要组件有：系统调用接口、进程管理、内存管理
 【有道云笔记】2.基础服务应用
 https://note.youdao.com/s/TT3rczzP
 
-12.strace
+# 12.strace
 [【调试技巧】strace神器的使用方法详解与实践_strace参数详解-CSDN博客](https://blog.csdn.net/qq_16933601/article/details/117248806)
+
+[较详细的 gdb 入门教程 - Zesty_Fox - 博客园 (cnblogs.com)](https://www.cnblogs.com/acceptedzhs/p/13161213.html)
+
+[主流服务器品牌的基本硬件配置_查一下戴尔、ibm、惠普的服务器型号和常见的配置。-CSDN博客](https://blog.csdn.net/u013558123/article/details/136896294)
