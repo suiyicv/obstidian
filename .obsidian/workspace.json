@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b05e34f68e8d49ce",
+        "id": "d650bb978814354c",
         "type": "tabs",
         "children": [
           {
-            "id": "4a93a947d9d5dc99",
+            "id": "45463f93dc232853",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b440fd3dc66f4951",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/3.Openstack.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "864060661a38652a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/2.Docker.md",
+                "file": "复习/Linux基础.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -122,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/3.Openstack.md"
+                "file": "复习/Linux基础.md"
               }
             }
           },
@@ -132,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/3.Openstack.md",
+                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -149,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/3.Openstack.md",
+                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,9 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b440fd3dc66f4951",
+  "active": "45463f93dc232853",
   "lastOpenFiles": [
+    "复习/2.Docker.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
+    "复习/3.Openstack.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
@@ -196,7 +172,6 @@
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
-    "复习/2.Docker.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
@@ -209,7 +184,6 @@
     "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
-    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "笔记插图/Pasted image 20240808210423.png",
     "笔记插图/Pasted image 20240808210338.png",
     "笔记插图/Pasted image 20240808210245.png",
