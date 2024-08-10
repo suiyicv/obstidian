@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Linux基础.md"
+                "file": "复习/复习计划.md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/复习计划.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/复习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +171,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "45463f93dc232853",
+  "active": "7e95c08682f0b67a",
   "lastOpenFiles": [
-    "复习/复习计划.md",
     "复习/Linux基础.md",
+    "复习/复习计划.md",
     "复习/2.Docker.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "复习/3.Openstack.md",
