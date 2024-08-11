@@ -20,27 +20,17 @@
             }
           },
           {
-            "id": "b6842cb30ab48afa",
+            "id": "73d05e0272962b99",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723345030275"
-              }
-            }
-          },
-          {
-            "id": "da1cf1cd20493f7a",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723345030275#/90C4ACE1D6BD40A6964B913D22C004A2"
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723345030275#/C7B3B8F8DEAC493590C41FFFF0C79C44"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da1cf1cd20493f7a",
+  "active": "73d05e0272962b99",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/待解决问题.md",
