@@ -30,12 +30,24 @@
             }
           },
           {
-            "id": "00e8bc03108236eb",
+            "id": "d0d8562355501aab",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723340002221#/59A0032B525E46F3A6739288490E8212"
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723340002221#/3C003384E4F74F04BD27F4C88816F924"
+              }
+            }
+          },
+          {
+            "id": "4c5a358109597bb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/待解决问题.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -90,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -175,8 +186,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "00e8bc03108236eb",
+  "active": "d0d8562355501aab",
   "lastOpenFiles": [
+    "复习/待解决问题.md",
     "复习/Linux基础.md",
     "复习/复习计划.md",
     "笔记插图/Pasted image 20240810160927.png",
