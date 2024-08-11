@@ -13,29 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/面试题/麒麟软件.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c547e44cde692373",
+            "id": "7e4fe873ce098d8d",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723364235145"
+                "url": "https://note.youdao.com/mindmap/"
               }
             }
           },
           {
-            "id": "9b2941f1839d2abb",
+            "id": "7dc48794dfcc709c",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723364235145#/48249256F9BF4BA6B1A0C0B1DE8A119F"
+                "file": "复习/待解决问题.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -58,21 +60,9 @@
                 "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723359042584#/85AC8CF8627D4174B79AFA9065EDBEE5"
               }
             }
-          },
-          {
-            "id": "998ab2d6e632d7e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -149,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,7 +147,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -177,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,14 +196,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "998ab2d6e632d7e7",
+  "active": "7e4fe873ce098d8d",
   "lastOpenFiles": [
-    "复习/Linux基础.md",
+    "复习/待解决问题.md",
     "复习/面试题/麒麟软件.md",
+    "复习/Linux基础.md",
     "笔记插图/Pasted image 20240811155634.png",
     "笔记插图/Pasted image 20240811155554.png",
     "复习/面试题",
-    "复习/待解决问题.md",
     "复习/复习计划.md",
     "笔记插图/Pasted image 20240810160927.png",
     "笔记插图/Pasted image 20240810160152.png",
