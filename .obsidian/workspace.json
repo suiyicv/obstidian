@@ -20,6 +20,26 @@
             }
           },
           {
+            "id": "b626d3fbbc39c59b",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723363855461"
+              }
+            }
+          },
+          {
+            "id": "ab413283f1cf8a74",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723363855461#/48249256F9BF4BA6B1A0C0B1DE8A119F"
+              }
+            }
+          },
+          {
             "id": "bea300897b50b66a",
             "type": "leaf",
             "state": {
@@ -52,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -140,7 +158,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -157,7 +174,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,12 +207,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "998ab2d6e632d7e7",
+  "active": "ab413283f1cf8a74",
   "lastOpenFiles": [
+    "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "笔记插图/Pasted image 20240811155634.png",
     "笔记插图/Pasted image 20240811155554.png",
-    "复习/Linux基础.md",
     "复习/面试题",
     "复习/待解决问题.md",
     "复习/复习计划.md",
