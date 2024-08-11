@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d650bb978814354c",
+        "id": "ecd35f35f4bddfc2",
         "type": "tabs",
         "children": [
           {
-            "id": "7dd04800fc00cd79",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723359042584#/85AC8CF8627D4174B79AFA9065EDBEE5"
-              }
-            }
-          },
-          {
-            "id": "6b371afeca9a34d9",
+            "id": "eafa5cd99a302605",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
+                "file": "复习/Linux基础.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0a1b578e8501036e",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://flowus.cn/share/b67d258f-f4a3-49c5-be76-9e47e9d8e6b5"
               }
             }
           }
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -106,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md"
-              }
+              "state": {}
             }
           },
           {
@@ -117,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,7 +132,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,8 +165,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6b371afeca9a34d9",
+  "active": "0a1b578e8501036e",
   "lastOpenFiles": [
+    "复习/Linux基础.md",
+    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
@@ -180,7 +179,6 @@
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
-    "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "复习/shell.md",
     "复习/待解决问题.md",
@@ -193,7 +191,6 @@
     "复习/2.Docker.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "复习/3.Openstack.md",
-    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
