@@ -886,7 +886,8 @@ mcli connection add ifname ens33 con-name ens33 type ethernet
 nmcli connection reload
 nmcli connection up ens33
 
-
+【有道云笔记】4.网络参数配置
+https://note.youdao.com/s/5F3n5qEc
 ## 7.很不熟悉的一部分
 
 ```bash
