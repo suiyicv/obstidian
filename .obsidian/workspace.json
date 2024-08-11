@@ -8,50 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45463f93dc232853",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e4fe873ce098d8d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/mindmap/"
-              }
-            }
-          },
-          {
-            "id": "7dc48794dfcc709c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/待解决问题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bea300897b50b66a",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723359042584"
-              }
-            }
-          },
-          {
             "id": "7dd04800fc00cd79",
             "type": "leaf",
             "state": {
@@ -60,41 +16,8 @@
                 "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723359042584#/85AC8CF8627D4174B79AFA9065EDBEE5"
               }
             }
-          },
-          {
-            "id": "706d2e2923a7d3f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/Linux基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a506fca206e43ee0",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723365759208"
-              }
-            }
-          },
-          {
-            "id": "56a6b7b2c4f5a42a",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723365759208#/7D56BA7A738F4E50ADFF532FABA6BBC6"
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,10 +150,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "56a6b7b2c4f5a42a",
+  "active": "7dd04800fc00cd79",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
+    "复习/shell.md",
     "复习/待解决问题.md",
     "笔记插图/Pasted image 20240811155634.png",
     "笔记插图/Pasted image 20240811155554.png",
