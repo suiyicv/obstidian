@@ -72,9 +72,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a506fca206e43ee0",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723365759208"
+              }
+            }
+          },
+          {
+            "id": "56a6b7b2c4f5a42a",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723365759208#/7D56BA7A738F4E50ADFF532FABA6BBC6"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -207,7 +227,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7e4fe873ce098d8d",
+  "active": "56a6b7b2c4f5a42a",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
