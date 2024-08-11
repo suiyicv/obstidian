@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md"
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,6 +170,7 @@
   },
   "active": "6b371afeca9a34d9",
   "lastOpenFiles": [
+    "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "复习/shell.md",
@@ -196,7 +197,6 @@
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
-    "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "云计算/第二部分/3.Redis/3.wordpress博客对接redis缓存.md",
     "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
