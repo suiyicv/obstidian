@@ -16,8 +16,21 @@
                 "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723359042584#/85AC8CF8627D4174B79AFA9065EDBEE5"
               }
             }
+          },
+          {
+            "id": "6b371afeca9a34d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md"
+              }
             }
           },
           {
@@ -102,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,6 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,7 +168,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7dd04800fc00cd79",
+  "active": "6b371afeca9a34d9",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
