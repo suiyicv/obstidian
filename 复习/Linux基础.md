@@ -1010,3 +1010,5 @@ https://note.youdao.com/s/TT3rczzP
 [较详细的 gdb 入门教程 - Zesty_Fox - 博客园 (cnblogs.com)](https://www.cnblogs.com/acceptedzhs/p/13161213.html)
 
 [主流服务器品牌的基本硬件配置_查一下戴尔、ibm、惠普的服务器型号和常见的配置。-CSDN博客](https://blog.csdn.net/u013558123/article/details/136896294)
+# 13.端口号
+[【默认端口】市面上各种中间件、软件、服务的默认端口汇总_常见的中间件,服务,软件端口号-CSDN博客](https://blog.csdn.net/xzb5566/article/details/116938507#:~:text=%E6%9C%AC%E6%96%87%E5%88%97%E4%B8%BE%E4%BA%86%E5%A4%9A%E7%A7%8D%E5%B8%B8,%E7%BB%9F%E9%85%8D%E7%BD%AE%E8%87%B3%E5%85%B3%E9%87%8D%E8%A6%81%E3%80%82)
