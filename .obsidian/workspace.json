@@ -18,8 +18,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e8818dc2b16eb46",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723356737913"
+              }
+            }
+          },
+          {
+            "id": "5228a4f259246342",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723356737913#/4F35578F106F43258972145273E7CC79"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -95,9 +117,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/Linux基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -106,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,10 +175,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "45463f93dc232853",
+  "active": "5228a4f259246342",
   "lastOpenFiles": [
-    "复习/Linux基础.md",
     "复习/待解决问题.md",
+    "复习/Linux基础.md",
     "复习/复习计划.md",
     "笔记插图/Pasted image 20240810160927.png",
     "笔记插图/Pasted image 20240810160152.png",
