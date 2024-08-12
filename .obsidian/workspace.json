@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +148,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -167,7 +164,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,11 +197,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "067283e4e941f403",
+  "active": "015bdb5085b6f921",
   "lastOpenFiles": [
-    "笔记插图/Pasted image 20240812145501.png",
-    "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
+    "复习/面试题/麒麟软件.md",
+    "笔记插图/Pasted image 20240812145501.png",
     "笔记插图/Pasted image 20240812104247.png",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
@@ -239,7 +235,6 @@
     "笔记插图/Pasted image 20240808210338.png",
     "笔记插图/Pasted image 20240808210245.png",
     "笔记插图/Pasted image 20240808210024.png",
-    "笔记插图/Pasted image 20240808205901.png",
     "复习",
     "未命名.canvas",
     "计算机网络",
