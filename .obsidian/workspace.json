@@ -50,29 +50,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bb3c8f43897829d2",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://kylinos.cn/about/news/266.html"
-              }
-            }
-          },
-          {
-            "id": "0a1b578e8501036e",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://flowus.cn/share/b67d258f-f4a3-49c5-be76-9e47e9d8e6b5"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -207,9 +187,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb3c8f43897829d2",
+  "active": "ecbf9c52b19d7c33",
   "lastOpenFiles": [
     "复习/面试题/麒麟软件.md",
+    "笔记插图/Pasted image 20240812152329.png",
     "复习/Linux基础.md",
     "笔记插图/Pasted image 20240812145501.png",
     "笔记插图/Pasted image 20240812104247.png",
@@ -244,7 +225,6 @@
     "笔记插图/Pasted image 20240808210423.png",
     "笔记插图/Pasted image 20240808210338.png",
     "笔记插图/Pasted image 20240808210245.png",
-    "笔记插图/Pasted image 20240808210024.png",
     "复习",
     "未命名.canvas",
     "计算机网络",
