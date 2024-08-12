@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fed2fa5ba6abdc0a",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://blog.csdn.net/u013558123/article/details/136896294"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/Linux基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -120,7 +128,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +144,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,10 +177,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7fe394e4b493251e",
+  "active": "fed2fa5ba6abdc0a",
   "lastOpenFiles": [
-    "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
+    "复习/面试题/麒麟软件.md",
     "笔记插图/Pasted image 20240812152329.png",
     "笔记插图/Pasted image 20240812145501.png",
     "笔记插图/Pasted image 20240812104247.png",
