@@ -20,6 +20,26 @@
             }
           },
           {
+            "id": "015bdb5085b6f921",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723428144344"
+              }
+            }
+          },
+          {
+            "id": "ecbf9c52b19d7c33",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723428144344#/96124276C0EB4959A08DB4DD640AB1AA"
+              }
+            }
+          },
+          {
             "id": "0a1b578e8501036e",
             "type": "leaf",
             "state": {
@@ -30,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +185,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0a1b578e8501036e",
+  "active": "ecbf9c52b19d7c33",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
