@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -149,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/面试题/麒麟软件.md"
+              }
             }
           },
           {
@@ -158,6 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -174,6 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +211,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ad047848e35457e",
+  "active": "067283e4e941f403",
   "lastOpenFiles": [
     "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
