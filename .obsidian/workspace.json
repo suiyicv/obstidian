@@ -52,12 +52,12 @@
             }
           },
           {
-            "id": "c8f6ec8ef49259e9",
+            "id": "d69bc3ac9fe6d4cb",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://kylinos.cn/about/news/266.html"
+                "url": "https://blog.csdn.net/ljsant/article/details/128661892"
               }
             }
           },
@@ -207,7 +207,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c8f6ec8ef49259e9",
+  "active": "d69bc3ac9fe6d4cb",
   "lastOpenFiles": [
     "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
