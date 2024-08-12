@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "74490eda79a3357f",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://blog.csdn.net/qq_16933601/article/details/117248806"
+              }
+            }
+          },
+          {
             "id": "015bdb5085b6f921",
             "type": "leaf",
             "state": {
@@ -38,21 +48,9 @@
                 "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723428144344#/96124276C0EB4959A08DB4DD640AB1AA"
               }
             }
-          },
-          {
-            "id": "067283e4e941f403",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -140,7 +136,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -157,7 +152,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,11 +185,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "067283e4e941f403",
+  "active": "74490eda79a3357f",
   "lastOpenFiles": [
     "复习/面试题/麒麟软件.md",
-    "笔记插图/Pasted image 20240812152329.png",
     "复习/Linux基础.md",
+    "笔记插图/Pasted image 20240812152329.png",
     "笔记插图/Pasted image 20240812145501.png",
     "笔记插图/Pasted image 20240812104247.png",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
