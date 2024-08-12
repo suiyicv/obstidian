@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eafa5cd99a302605",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7fe394e4b493251e",
             "type": "leaf",
             "state": {
@@ -32,17 +20,19 @@
             }
           },
           {
-            "id": "fed2fa5ba6abdc0a",
+            "id": "21a9afdc76a46694",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://blog.csdn.net/u013558123/article/details/136896294"
+                "file": "复习/面试题/麒麟软件.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -119,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/面试题/麒麟软件.md"
+              }
             }
           },
           {
@@ -128,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -144,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,10 +170,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fed2fa5ba6abdc0a",
+  "active": "21a9afdc76a46694",
   "lastOpenFiles": [
-    "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
+    "复习/Linux基础.md",
+    "复习/实体服务器.md",
+    "笔记插图/Pasted image 20240812185852.png",
+    "笔记插图/Pasted image 20240812185828.png",
+    "笔记插图/Pasted image 20240812185739.png",
+    "笔记插图/Pasted image 20240812185642.png",
+    "笔记插图/Pasted image 20240812185616.png",
     "笔记插图/Pasted image 20240812152329.png",
     "笔记插图/Pasted image 20240812145501.png",
     "笔记插图/Pasted image 20240812104247.png",
@@ -201,8 +200,6 @@
     "笔记插图/Pasted image 20240811155554.png",
     "复习/面试题",
     "复习/复习计划.md",
-    "笔记插图/Pasted image 20240810160927.png",
-    "笔记插图/Pasted image 20240810160152.png",
     "复习/2.Docker.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
     "复习/3.Openstack.md",
@@ -211,10 +208,6 @@
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/3.Redis/3.wordpress博客对接redis缓存.md",
-    "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
-    "笔记插图/Pasted image 20240808210423.png",
-    "笔记插图/Pasted image 20240808210338.png",
-    "笔记插图/Pasted image 20240808210245.png",
     "复习",
     "未命名.canvas",
     "计算机网络",
