@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md"
+                "file": "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+                "file": "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +172,10 @@
   },
   "active": "7fe394e4b493251e",
   "lastOpenFiles": [
+    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
+    "笔记插图/Pasted image 20240812200659.png",
     "笔记插图/Pasted image 20240812200125.png",
     "复习/实体服务器.md",
-    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "笔记插图/Pasted image 20240812195159.png",
     "笔记插图/Pasted image 20240812194813.png",
     "笔记插图/Pasted image 20240812194747.png",
@@ -183,8 +184,6 @@
     "笔记插图/Pasted image 20240812194206.png",
     "笔记插图/Pasted image 20240812194044.png",
     "笔记插图/Pasted image 20240812193851.png",
-    "笔记插图/Pasted image 20240812193738.png",
-    "笔记插图/Pasted image 20240812193322.png",
     "复习/4.虚拟化技术概述.md",
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
@@ -193,7 +192,7 @@
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "云计算/第二部分/5.存储/3.ceph-mimic版本部署.md",
-    "云计算/第二部分/5.存储/2.ceph存储组件.md",
+    "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
