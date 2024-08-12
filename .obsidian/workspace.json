@@ -40,6 +40,18 @@
             }
           },
           {
+            "id": "067283e4e941f403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/面试题/麒麟软件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0a1b578e8501036e",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/面试题/麒麟软件.md"
+              }
             }
           },
           {
@@ -136,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +201,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ecbf9c52b19d7c33",
+  "active": "067283e4e941f403",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
