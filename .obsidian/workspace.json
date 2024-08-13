@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "568a5d8adc01ea32",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723529490836"
-              }
-            }
-          },
-          {
             "id": "f13d81aa08c9eca6",
             "type": "leaf",
             "state": {
@@ -40,7 +30,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
