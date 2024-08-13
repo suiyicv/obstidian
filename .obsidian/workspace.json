@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
+                "file": "复习/2.Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md"
+                "file": "复习/2.Docker.md"
               }
             }
           },
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
+                "file": "复习/2.Docker.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
+                "file": "复习/2.Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,6 +173,7 @@
   },
   "active": "f13d81aa08c9eca6",
   "lastOpenFiles": [
+    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "复习/Linux基础.md",
     "复习/1.K8S.md",
@@ -200,7 +202,6 @@
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/实体服务器.md",
     "复习/4.虚拟化技术概述.md",
-    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "复习/shell.md",
