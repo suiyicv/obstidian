@@ -20,6 +20,26 @@
             }
           },
           {
+            "id": "813dd68f4487ae3d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723549944437"
+              }
+            }
+          },
+          {
+            "id": "f88f1d8fe20edfe2",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723549944437#/2FFB23FB4C8E49A78B590D6161764867"
+              }
+            }
+          },
+          {
             "id": "f13d81aa08c9eca6",
             "type": "leaf",
             "state": {
@@ -30,21 +50,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "397c89f4ee01197f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/2.Docker.md"
-              }
+              "state": {}
             }
           },
           {
@@ -132,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/2.Docker.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -149,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/2.Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,11 +187,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f13d81aa08c9eca6",
+  "active": "f88f1d8fe20edfe2",
   "lastOpenFiles": [
-    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
-    "复习/2.Docker.md",
     "复习/Linux基础.md",
+    "复习/2.Docker.md",
+    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "笔记插图/Pasted image 20240813190657.png",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
