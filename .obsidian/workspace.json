@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "c5bf5e2ca6a09474",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://blog.csdn.net/xzb5566/article/details/116938507"
+              }
+            }
+          },
+          {
             "id": "bf8ad9293192a206",
             "type": "leaf",
             "state": {
@@ -172,8 +182,8 @@
   },
   "active": "fb5c7fcd532eede3",
   "lastOpenFiles": [
-    "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
+    "复习/面试题/麒麟软件.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "复习/待解决问题.md",
     "笔记插图/Pasted image 20240813093728.png",
