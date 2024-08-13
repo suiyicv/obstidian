@@ -1015,3 +1015,5 @@ https://note.youdao.com/s/TT3rczzP
 
 # 14.chrony时间同步
 
+[Linux服务器时间同步chrony详解+案例-CSDN博客](https://blog.csdn.net/qq_43437874/article/details/110651605)
+

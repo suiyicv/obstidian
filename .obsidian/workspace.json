@@ -30,9 +30,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8f64a049136b44d1",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723512805715"
+              }
+            }
+          },
+          {
+            "id": "1977f0be4a311344",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723512805715#/EF7CE10AA6C94708BFD979FB82ED6BBA"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/Linux基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -120,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,8 +187,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb5c7fcd532eede3",
+  "active": "1977f0be4a311344",
   "lastOpenFiles": [
+    "复习/Linux基础.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "复习/待解决问题.md",
@@ -197,7 +214,6 @@
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/实体服务器.md",
     "复习/4.虚拟化技术概述.md",
-    "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
