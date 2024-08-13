@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "397c89f4ee01197f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/2.Docker.md"
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md"
               }
             }
           },
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/2.Docker.md",
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/2.Docker.md",
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,12 +183,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f13d81aa08c9eca6",
+  "active": "397c89f4ee01197f",
   "lastOpenFiles": [
+    "复习/2.Docker.md",
     "复习/Linux基础.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "笔记插图/Pasted image 20240813190657.png",
-    "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "复习/1.K8S.md",
