@@ -32,22 +32,14 @@
             }
           },
           {
-            "id": "8f64a049136b44d1",
+            "id": "2c1166415f7bf80b",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723512805715"
-              }
-            }
-          },
-          {
-            "id": "71d69d02554b6333",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723512805715#/5C650D7BE26D419AB8A2E84D6D23D1D0"
+                "file": "复习/待解决问题.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -193,11 +185,11 @@
   },
   "active": "fb5c7fcd532eede3",
   "lastOpenFiles": [
+    "复习/待解决问题.md",
     "复习/Linux基础.md",
     "笔记插图/Pasted image 20240813093728.png",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
-    "复习/待解决问题.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
     "笔记插图/Pasted image 20240812214417.png",
     "笔记插图/Pasted image 20240812214124.png",
