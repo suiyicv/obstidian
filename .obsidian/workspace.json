@@ -23,9 +23,11 @@
             "id": "f13d81aa08c9eca6",
             "type": "leaf",
             "state": {
-              "type": "surfing-view",
+              "type": "markdown",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723529490836#/2FFB23FB4C8E49A78B590D6161764867"
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -80,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -107,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md"
+              }
             }
           },
           {
@@ -116,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -132,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
