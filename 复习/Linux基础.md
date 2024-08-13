@@ -1018,6 +1018,7 @@ https://note.youdao.com/s/TT3rczzP
 # 14.chrony时间同步
 
 [Linux服务器时间同步chrony详解+案例-CSDN博客](https://blog.csdn.net/qq_43437874/article/details/110651605)
+
 # 15.ftp
 
 [ftp主动模式和被动模式的区别_ftp主动传输和被动传输的区别-CSDN博客](https://blog.csdn.net/ludan_xia/article/details/105705473)

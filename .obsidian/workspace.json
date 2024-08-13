@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "3b45ff32cee72fca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/面试题/麒麟软件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f13d81aa08c9eca6",
             "type": "leaf",
             "state": {
@@ -172,14 +184,14 @@
   },
   "active": "fb5c7fcd532eede3",
   "lastOpenFiles": [
-    "复习/2.Docker.md",
+    "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
+    "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "笔记插图/Pasted image 20240813190657.png",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "复习/1.K8S.md",
-    "复习/面试题/麒麟软件.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "复习/待解决问题.md",
     "笔记插图/Pasted image 20240813093728.png",
