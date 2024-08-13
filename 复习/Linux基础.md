@@ -1021,3 +1021,5 @@ https://note.youdao.com/s/TT3rczzP
 # 15.ftp
 
 [ftp主动模式和被动模式的区别_ftp主动传输和被动传输的区别-CSDN博客](https://blog.csdn.net/ludan_xia/article/details/105705473)
+
+# 16.pxe
