@@ -1023,3 +1023,22 @@ https://note.youdao.com/s/TT3rczzP
 [ftp主动模式和被动模式的区别_ftp主动传输和被动传输的区别-CSDN博客](https://blog.csdn.net/ludan_xia/article/details/105705473)
 
 # 16.pxe
+部署ftp服务提供系统安装源
+cp -r /mnt/* /var/ftp/centos7.6/ &
+部署tftp服务
+共享内核、初始化镜像文件 、菜单文件
+cp  /mnt/isolinux/*    /var/lib/tftpboot/
+mkdir /var/lib/tftpboot/centos7.6
+
+共享pxelinux.0文件
+
+编辑菜单文件
+
+
+启动tftp服务
+
+
+配置DHCP服务
+
+
+共享ks文件到ftp的共享目录下
