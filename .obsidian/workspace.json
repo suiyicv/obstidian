@@ -44,6 +44,26 @@
             }
           },
           {
+            "id": "e4d554a3866acea4",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723598647602"
+              }
+            }
+          },
+          {
+            "id": "41953377949b16ce",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723598647602#/2FFB23FB4C8E49A78B590D6161764867"
+              }
+            }
+          },
+          {
             "id": "3b45ff32cee72fca",
             "type": "leaf",
             "state": {
@@ -66,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -143,9 +163,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/Linux基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -154,7 +172,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -171,7 +188,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,13 +221,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "289fbef10d6b4faa",
+  "active": "41953377949b16ce",
   "lastOpenFiles": [
-    "复习/1.K8S.md",
+    "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
+    "复习/1.K8S.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
     "复习/shell.md",
-    "复习/Linux基础.md",
     "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
