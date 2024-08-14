@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
+                "file": "复习/Linux基础.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a3c81461429fcd4",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723617532930"
+              }
+            }
+          },
+          {
+            "id": "5cdb5da167e24dd5",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723617532930#/3C003384E4F74F04BD27F4C88816F924"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "资源限制",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -106,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +174,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3acedf79254cc081",
+  "active": "5cdb5da167e24dd5",
   "lastOpenFiles": [
     "复习/Linux基础.md",
+    "云计算/第二部分/1.Nginx/1.Nginx基础.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/Mysql.md",
@@ -195,7 +213,6 @@
     "云计算/第二部分/6.集群中间件/3.Elk日志分析.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "复习/面试题",
-    "复习/复习计划.md",
     "复习",
     "未命名.canvas",
     "计算机网络",
