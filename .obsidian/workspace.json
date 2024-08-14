@@ -42,6 +42,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4cc56194928adb3d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/mindmap/"
+              }
+            }
           }
         ]
       }
@@ -184,10 +194,10 @@
   },
   "active": "fb5c7fcd532eede3",
   "lastOpenFiles": [
+    "复习/面试题/麒麟软件.md",
     "复习/1.K8S.md",
     "复习/shell.md",
     "复习/Linux基础.md",
-    "复习/面试题/麒麟软件.md",
     "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
