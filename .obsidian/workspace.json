@@ -18,29 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "984a348ab0025077",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723613745484"
-              }
-            }
-          },
-          {
-            "id": "1d1a89b8d15efe70",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723613745484#/33EDFF5FB97445DFB9E2897726EE5C62"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/Linux基础.md"
+              }
             }
           },
           {
@@ -126,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -142,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +158,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d1a89b8d15efe70",
+  "active": "3acedf79254cc081",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/Mysql.md",
