@@ -20,22 +20,22 @@
             }
           },
           {
-            "id": "e5cb17f4d8ca882c",
+            "id": "58994e97aaa9ef82",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723619612609"
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723620006220"
               }
             }
           },
           {
-            "id": "457b0599c62ddc7b",
+            "id": "0503ebc6806f07c7",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723619612609#/AB3FBF8A2D4A45D4AC6DAFD632291F7F"
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723620006220#/C7B3B8F8DEAC493590C41FFFF0C79C44"
               }
             }
           }
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 203.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -174,7 +175,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "457b0599c62ddc7b",
+  "active": "0503ebc6806f07c7",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
