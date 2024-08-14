@@ -18,12 +18,24 @@
             }
           },
           {
-            "id": "be1bdf54bdf4f2ba",
+            "id": "3acedf79254cc081",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/Linux基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc354037c828d147",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723602998994"
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723602998994#/2FFB23FB4C8E49A78B590D6161764867"
               }
             }
           },
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/Linux基础.md"
+              }
             }
           },
           {
@@ -134,6 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -150,6 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +199,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d1772d75942c819a",
+  "active": "3acedf79254cc081",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/Mysql.md",
