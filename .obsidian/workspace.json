@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -219,7 +219,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "28f74f04bf47c22b",
+  "active": "cb8b4de6065ef133",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
