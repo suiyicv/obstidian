@@ -18,8 +18,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "910c09fb647e9d7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/面试题/麒麟软件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c288339195979104",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/mindmap/"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 203.5,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -95,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/Linux基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -106,7 +128,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +144,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +177,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3acedf79254cc081",
+  "active": "c288339195979104",
   "lastOpenFiles": [
+    "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
@@ -166,7 +187,6 @@
     "复习/Mysql.md",
     "复习/shell.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
-    "复习/面试题/麒麟软件.md",
     "复习/1.K8S.md",
     "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
