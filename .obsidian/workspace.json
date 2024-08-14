@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/Linux基础.md"
+                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
