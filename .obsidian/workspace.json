@@ -13,110 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
+                "file": "复习/shell.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "c4323fa29f5b969e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/1.K8S.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "289fbef10d6b4faa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/Linux基础.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fb2ead0ff09cd9f",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723600950536"
-              }
-            }
-          },
-          {
-            "id": "6bb0d12867b15cf2",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723600950536#/7D56BA7A738F4E50ADFF532FABA6BBC6"
-              }
-            }
-          },
-          {
-            "id": "8fd0d91ca4af88f7",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://blog.csdn.net/xzb5566/article/details/116938507"
-              }
-            }
-          },
-          {
-            "id": "e4d554a3866acea4",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723598647602"
-              }
-            }
-          },
-          {
-            "id": "41953377949b16ce",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723598647602#/2FFB23FB4C8E49A78B590D6161764867"
-              }
-            }
-          },
-          {
-            "id": "3b45ff32cee72fca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/面试题/麒麟软件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cc56194928adb3d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/mindmap/"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -193,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/shell.md"
+              }
             }
           },
           {
@@ -202,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/shell.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -218,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,12 +157,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6bb0d12867b15cf2",
+  "active": "fb5c7fcd532eede3",
   "lastOpenFiles": [
+    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "复习/1.K8S.md",
-    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
     "复习/shell.md",
     "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
