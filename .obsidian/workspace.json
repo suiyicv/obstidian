@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bdb1c3cf05a8cb0",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://blog.csdn.net/xzb5566/article/details/116938507"
-              }
-            }
-          },
-          {
             "id": "3acedf79254cc081",
             "type": "leaf",
             "state": {
@@ -30,37 +20,27 @@
             }
           },
           {
-            "id": "fc354037c828d147",
+            "id": "4e5689258359f38f",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723602998994#/2FFB23FB4C8E49A78B590D6161764867"
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723612927939"
               }
             }
           },
           {
-            "id": "d1772d75942c819a",
+            "id": "1b6eb46b35bdb5ab",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723602998994#/96124276C0EB4959A08DB4DD640AB1AA"
-              }
-            }
-          },
-          {
-            "id": "fc64518beeb08316",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723602998994#/768616B2FD794C69B4E9A1151C6408A0"
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723612927939#/90C4ACE1D6BD40A6964B913D22C004A2"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,9 +117,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "复习/Linux基础.md"
-              }
+              "state": {}
             }
           },
           {
@@ -148,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -165,7 +142,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +175,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3acedf79254cc081",
+  "active": "1b6eb46b35bdb5ab",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/Mysql.md",
