@@ -20,6 +20,36 @@
             }
           },
           {
+            "id": "b9db0e0645361396",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723625742501"
+              }
+            }
+          },
+          {
+            "id": "f88884a489858c5d",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723625492403"
+              }
+            }
+          },
+          {
+            "id": "ce71d9643d837b0c",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723625492403#/EF7CE10AA6C94708BFD979FB82ED6BBA"
+              }
+            }
+          },
+          {
             "id": "32e66ac45f535549",
             "type": "leaf",
             "state": {
@@ -54,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -141,7 +169,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -158,7 +185,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,11 +218,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36e9461c60051d02",
+  "active": "b9db0e0645361396",
   "lastOpenFiles": [
-    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/Linux基础.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
+    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
     "复习/Mysql.md",
     "复习/shell.md",
