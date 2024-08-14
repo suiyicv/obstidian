@@ -30,61 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "27d90c4a5ba6c241",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723632313126"
-              }
-            }
-          },
-          {
-            "id": "28f74f04bf47c22b",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723632313126#/2FFB23FB4C8E49A78B590D6161764867"
-              }
-            }
-          },
-          {
-            "id": "b2dcffcb88e65b3a",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=0f2552edbb6a30987eb2159b1b817b99&type=notebook&_time=1723632313126#/4F35578F106F43258972145273E7CC79"
-              }
-            }
-          },
-          {
-            "id": "cb8b4de6065ef133",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://blog.csdn.net/fuhanghang/article/details/129175961"
-              }
-            }
-          },
-          {
-            "id": "b69a9d67ef6cc745",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/面试题/麒麟软件.md"
+              }
             }
           },
           {
@@ -170,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -186,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/面试题/麒麟软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,11 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb8b4de6065ef133",
+  "active": "3acedf79254cc081",
   "lastOpenFiles": [
     "复习/Linux基础.md",
-    "复习/面试题/麒麟软件.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
+    "复习/面试题/麒麟软件.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
