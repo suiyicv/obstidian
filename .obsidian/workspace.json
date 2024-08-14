@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "b68d74d550df83b5",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723628136342"
-              }
-            }
-          },
-          {
             "id": "d9b848545eaddb41",
             "type": "leaf",
             "state": {
@@ -38,29 +28,9 @@
                 "url": "https://note.youdao.com/ynoteshare/index.html?id=fb15a7f4d6d89ced9ced988b8320b972&type=notebook&_time=1723628136342#/48249256F9BF4BA6B1A0C0B1DE8A119F"
               }
             }
-          },
-          {
-            "id": "5482f87345195eb9",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723627133175"
-              }
-            }
-          },
-          {
-            "id": "c288339195979104",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/mindmap/"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +166,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c288339195979104",
+  "active": "d9b848545eaddb41",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
