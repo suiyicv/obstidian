@@ -18,29 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8a3c81461429fcd4",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723617532930"
-              }
-            }
-          },
-          {
-            "id": "5cdb5da167e24dd5",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723617532930#/3C003384E4F74F04BD27F4C88816F924"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/Linux基础.md"
+              }
             }
           },
           {
@@ -125,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +157,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5cdb5da167e24dd5",
+  "active": "3acedf79254cc081",
   "lastOpenFiles": [
     "复习/Linux基础.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
