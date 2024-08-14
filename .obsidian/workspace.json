@@ -71,8 +71,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,11 +117,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 203.5,
+    "width": 232.5,
     "collapsed": true
   },
   "right": {
@@ -149,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/Linux基础.md"
+              }
             }
           },
           {
@@ -158,6 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/Linux基础.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -174,6 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/Linux基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,7 +210,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c288339195979104",
+  "active": "da34e8bee0158627",
   "lastOpenFiles": [
     "复习/面试题/麒麟软件.md",
     "复习/Linux基础.md",
