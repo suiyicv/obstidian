@@ -13,29 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "复习/shell.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "6a9b93ee7bef6a05",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723554781233"
-              }
-            }
-          },
-          {
-            "id": "23eed277ee5ab1bf",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=afde0696e05047f032d1d1956bdc9c7f&type=notebook&_time=1723554781233#/5C650D7BE26D419AB8A2E84D6D23D1D0"
               }
             }
           },
@@ -50,19 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8875559662c16a69",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/mindmap/"
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e37766720e77e728",
@@ -139,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "复习/shell.md"
+              }
             }
           },
           {
@@ -148,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "复习/shell.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "复习/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,11 +169,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8875559662c16a69",
+  "active": "fb5c7fcd532eede3",
   "lastOpenFiles": [
+    "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "复习/2.Docker.md",
-    "复习/Linux基础.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "笔记插图/Pasted image 20240813190657.png",
