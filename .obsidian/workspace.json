@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77fd41073c727d42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72c41718f90a9a57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md"
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
               }
             }
           },
@@ -118,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
+                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,26 +194,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3acedf79254cc081",
+  "active": "72c41718f90a9a57",
   "lastOpenFiles": [
+    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
+    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+    "云计算/第二部分/7.自动化工具/3.jenkins.md",
+    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
-    "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
-    "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/Mysql.md",
     "复习/shell.md",
-    "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
     "复习/1.K8S.md",
     "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "云计算/第二部分/6.集群中间件/1.zookeeper分布式协调者.md",
     "笔记插图/Pasted image 20240813190657.png",
-    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "复习/待解决问题.md",
     "笔记插图/Pasted image 20240813093728.png",
