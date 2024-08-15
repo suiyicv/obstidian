@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "62e559a911e30e5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/2.Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "080e7d214e2b3b0b",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e37766720e77e728",
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md"
+                "file": "复习/2.Docker.md"
               }
             }
           },
@@ -143,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
+                "file": "复习/2.Docker.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -160,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
+                "file": "复习/2.Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,11 +207,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "72c41718f90a9a57",
+  "active": "62e559a911e30e5c",
   "lastOpenFiles": [
+    "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
-    "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
