@@ -18,78 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "77fd41073c727d42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b9fe12f22ff68fef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "72c41718f90a9a57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/7.自动化工具/3.jenkins.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62e559a911e30e5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/2.Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c59ba03fc2652db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/待解决问题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "080e7d214e2b3b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -230,7 +158,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3acedf79254cc081",
+  "active": "bd7d2010221d431a",
   "lastOpenFiles": [
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
