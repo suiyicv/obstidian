@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "686639b43ff4c1e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "复习/1.K8S.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md"
+                "file": "复习/1.K8S.md"
               }
             }
           },
@@ -118,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "复习/1.K8S.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+                "file": "复习/1.K8S.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,9 +181,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3acedf79254cc081",
+  "active": "686639b43ff4c1e4",
   "lastOpenFiles": [
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+    "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "复习/1.K8S.md",
@@ -189,7 +203,6 @@
     "复习/2.Docker.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
-    "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
