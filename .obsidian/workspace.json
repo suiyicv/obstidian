@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/1.K8S.md"
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md"
               }
             }
           },
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/1.K8S.md",
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/1.K8S.md",
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,13 +180,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "686639b43ff4c1e4",
+  "active": "3acedf79254cc081",
   "lastOpenFiles": [
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+    "复习/1.K8S.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
-    "复习/1.K8S.md",
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
     "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
