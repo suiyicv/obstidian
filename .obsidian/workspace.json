@@ -64,19 +64,9 @@
                 "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723794638980"
               }
             }
-          },
-          {
-            "id": "eae650cbd5384677",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723794638980#/7D434ACD039B45E887554414E86D3F08"
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -209,7 +199,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eae650cbd5384677",
+  "active": "49cf54f1126d1ea5",
   "lastOpenFiles": [
     "复习/网络.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
