@@ -20,53 +20,15 @@
             }
           },
           {
-            "id": "9673cb4e8a15062c",
+            "id": "a2aa2eca84b58ad3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/2.Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7778aac4e450e9e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1f648b43543d2125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/网络.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49cf54f1126d1ea5",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723794638980"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,12 +161,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "49cf54f1126d1ea5",
+  "active": "a2aa2eca84b58ad3",
   "lastOpenFiles": [
-    "复习/网络.md",
-    "云计算/第二部分/7.自动化工具/1.ansible.md",
-    "复习/2.Docker.md",
     "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
+    "云计算/第二部分/7.自动化工具/1.ansible.md",
+    "复习/网络.md",
+    "复习/2.Docker.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "复习/Linux基础.md",
     "复习/4.虚拟化技术概述.md",
