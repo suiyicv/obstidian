@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+                "file": "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/2.Docker.md"
+                "file": "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md"
               }
             }
           },
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/2.Docker.md",
+                "file": "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/2.Docker.md",
+                "file": "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +180,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9673cb4e8a15062c",
+  "active": "e08e48c6e8fb878f",
   "lastOpenFiles": [
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/7.自动化工具/1.ansible.md",
