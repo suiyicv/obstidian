@@ -20,91 +20,19 @@
             }
           },
           {
-            "id": "717ced28fec59b7d",
+            "id": "e08e48c6e8fb878f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eeeea205aeeb2236",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94cbb6e2f3c9176c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c132bc91b0503ce0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/1.K8S.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ad50d1def8c458c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0063768e990f91c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0db91b4f088c069f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md"
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md"
               }
             }
           },
@@ -191,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -208,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+                "file": "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,20 +169,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "94cbb6e2f3c9176c",
+  "active": "e08e48c6e8fb878f",
   "lastOpenFiles": [
-    "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
-    "复习/1.K8S.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
+    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+    "复习/1.K8S.md",
+    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+    "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
+    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+    "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
-    "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
-    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
-    "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "复习/待解决问题.md",
@@ -268,7 +197,6 @@
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "复习/Mysql.md",
     "复习/shell.md",
-    "云计算/第二部分/6.集群中间件/2.kafka消息队列.md",
     "笔记插图/Pasted image 20240813190657.png",
     "笔记插图/Pasted image 20240813093728.png",
     "笔记插图/Pasted image 20240812214417.png",
