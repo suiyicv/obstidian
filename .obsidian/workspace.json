@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "686639b43ff4c1e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "复习/1.K8S.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9673cb4e8a15062c",
             "type": "leaf",
             "state": {
@@ -44,34 +32,14 @@
             }
           },
           {
-            "id": "6031823e6e740c72",
+            "id": "7778aac4e450e9e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/Linux基础.md",
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "015153f74f1e86b1",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723777930230"
-              }
-            }
-          },
-          {
-            "id": "979fb0175d098271",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723777930230#/59A0032B525E46F3A6739288490E8212"
               }
             }
           }
@@ -153,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/2.Docker.md"
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md"
               }
             }
           },
@@ -163,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "复习/2.Docker.md",
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -180,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "复习/2.Docker.md",
+                "file": "云计算/第二部分/7.自动化工具/1.ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,12 +181,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9673cb4e8a15062c",
+  "active": "7778aac4e450e9e6",
   "lastOpenFiles": [
-    "复习/Linux基础.md",
-    "复习/2.Docker.md",
-    "复习/4.虚拟化技术概述.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
+    "云计算/第二部分/7.自动化工具/1.ansible.md",
+    "复习/2.Docker.md",
+    "复习/Linux基础.md",
+    "复习/4.虚拟化技术概述.md",
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
@@ -241,7 +209,6 @@
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
     "复习/面试题/麒麟软件.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
-    "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
     "笔记插图/Pasted image 20240813190657.png",
     "笔记插图/Pasted image 20240813093728.png",
     "笔记插图/Pasted image 20240812214417.png",
