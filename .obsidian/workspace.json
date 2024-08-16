@@ -44,14 +44,34 @@
             }
           },
           {
-            "id": "a4610a6c89f05f41",
+            "id": "6031823e6e740c72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "复习/4.虚拟化技术概述.md",
+                "file": "复习/Linux基础.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "015153f74f1e86b1",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723777930230"
+              }
+            }
+          },
+          {
+            "id": "979fb0175d098271",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://note.youdao.com/ynoteshare/index.html?id=7ddd9fbb86b00eb282f66a3bccb58589&type=notebook&_time=1723777930230#/59A0032B525E46F3A6739288490E8212"
               }
             }
           }
@@ -179,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +216,9 @@
   },
   "active": "9673cb4e8a15062c",
   "lastOpenFiles": [
-    "复习/4.虚拟化技术概述.md",
+    "复习/Linux基础.md",
     "复习/2.Docker.md",
+    "复习/4.虚拟化技术概述.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
@@ -217,7 +239,6 @@
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "复习/待解决问题.md",
     "云计算/第二部分/7.自动化工具/3.jenkins.md",
-    "复习/Linux基础.md",
     "复习/面试题/麒麟软件.md",
     "云计算/第二部分/5.存储/2.分布式文件系统--ceph存储组件.md",
     "云计算/第二部分/5.存储/1.NAS和SAN存储.md",
