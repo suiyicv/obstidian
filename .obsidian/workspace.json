@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
+                "file": "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
                 "mode": "source",
                 "source": false
               }
@@ -220,12 +220,13 @@
   },
   "active": "94cbb6e2f3c9176c",
   "lastOpenFiles": [
+    "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
+    "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
     "云计算/第二部分/1.Nginx/3.Nginx模块.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
-    "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
     "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
     "云计算/第二部分/6.集群中间件/4.zabbix监控服务器部署.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
@@ -255,7 +256,6 @@
     "笔记插图/Pasted image 20240812213312.png",
     "笔记插图/Pasted image 20240812212741.png",
     "笔记插图/Pasted image 20240812212711.png",
-    "云计算/第二部分/4.负载均衡/5.负载均衡相关云产品.md",
     "复习/面试题",
     "复习",
     "未命名.canvas",
