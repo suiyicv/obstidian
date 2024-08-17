@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "f9cc915e638271d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/2.Tomcat/5.面试.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d03ae198066108a7",
             "type": "leaf",
             "state": {
@@ -66,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,7 +139,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -170,7 +155,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,14 +188,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1937f9b713b2935b",
+  "active": "d03ae198066108a7",
   "lastOpenFiles": [
+    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+    "云计算/第二部分/2.Tomcat/5.面试.md",
     "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
     "云计算/第二部分/4.负载均衡/3.haproxy负载均衡.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
-    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
-    "云计算/第二部分/2.Tomcat/5.面试.md",
     "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
     "云计算/第二部分/1.Nginx/7.面试题.md",
