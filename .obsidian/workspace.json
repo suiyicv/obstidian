@@ -172,8 +172,9 @@
   },
   "active": "e08e48c6e8fb878f",
   "lastOpenFiles": [
-    "云计算/第二部分/3.Redis/1.Redis安装.md",
     "云计算/第二部分/3.Redis/5.面试.md",
+    "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
+    "云计算/第二部分/3.Redis/1.Redis安装.md",
     "云计算/第二部分/2.Tomcat/5.面试.md",
     "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
@@ -197,7 +198,6 @@
     "复习/4.虚拟化技术概述.md",
     "复习/1.K8S.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
-    "云计算/第二部分/4.负载均衡/2.keepalived结合LVS配合使用.md",
     "笔记插图/Pasted image 20240813190657.png",
     "笔记插图/Pasted image 20240813093728.png",
     "笔记插图/Pasted image 20240812214417.png",
