@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/2.Tomcat/5.面试.md",
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "ee80d0e8d8839d09",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://blog.csdn.net/weixin_43122090/article/details/103651678"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md"
+              }
             }
           },
           {
@@ -115,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -131,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "云计算/第二部分/3.Redis/1.Redis安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +157,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee80d0e8d8839d09",
+  "active": "e08e48c6e8fb878f",
   "lastOpenFiles": [
     "云计算/第二部分/2.Tomcat/5.面试.md",
     "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
