@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b953fcc3d45c966",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "云计算/第二部分/1.Nginx/1.Nginx基础.md",
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/5.nginx平滑升级.md"
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md"
               }
             }
           },
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
+                "file": "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,13 +159,15 @@
   },
   "active": "e08e48c6e8fb878f",
   "lastOpenFiles": [
-    "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
-    "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
-    "云计算/第二部分/1.Nginx/7.面试题.md",
-    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
+    "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "云计算/第二部分/1.Nginx/1.Nginx基础.md",
-    "云计算/第二部分/1.Nginx/3.Nginx模块.md",
+    "云计算/第二部分/1.Nginx/7.面试题.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
+    "云计算/第二部分/1.Nginx/3.Nginx模块.md",
+    "云计算/第二部分/1.Nginx/6.LNMP平台搭建.md",
+    "云计算/第二部分/1.Nginx/5.nginx平滑升级.md",
+    "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/2.Tomcat/5.面试.md",
     "云计算/第二部分/3.Redis/1.Redis安装.md",
     "云计算/第二部分/8.Iptables防火墙/1.iptables防火墙.md",
@@ -189,8 +179,6 @@
     "复习/4.虚拟化技术概述.md",
     "云计算/第二部分/2.Tomcat/4.Tomacat 多实例部署.md",
     "云计算/第二部分/2.Tomcat/3.Tomacat 配置文件.md",
-    "云计算/第二部分/2.Tomcat/1.Tomcat安装.md",
-    "云计算/第二部分/2.Tomcat/2.Tomcat java项目部署.md",
     "复习/1.K8S.md",
     "云计算/第二部分/4.负载均衡/1.lvs负载均衡.md",
     "云计算/第二部分/4.负载均衡/4.keepalived高可用集群.md",
