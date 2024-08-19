@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "云计算/第二部分/3.Redis/2.Redis配置文件解析.md"
+                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md"
               }
             }
           },
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
+                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
+                "file": "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,10 +182,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "464abe7efba32ba5",
+  "active": "e08e48c6e8fb878f",
   "lastOpenFiles": [
-    "云计算/第二部分/3.Redis/5.面试.md",
     "云计算/第二部分/3.Redis/2.Redis配置文件解析.md",
+    "云计算/第二部分/3.Redis/5.面试.md",
     "云计算/第二部分/3.Redis/4.redis常见部署架构.md",
     "云计算/第二部分/1.Nginx/4.nginx反向代理负载均衡.md",
     "云计算/第二部分/1.Nginx/2.Nginx配置web服务.md",
